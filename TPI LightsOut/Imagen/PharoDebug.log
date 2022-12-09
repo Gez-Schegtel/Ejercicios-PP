@@ -1,0 +1,5454 @@
+THERE_BE_DRAGONS_HERE
+#adaptToNumber:andSend: was sent to nil
+21 November 2022 5:20:43.210204 pm
+
+VM: Win32 - X64 - 6.2 - CoInterpreter VMMaker.oscog-eem.2509 uuid: 91e81f64-95de-4914-a960-8f842be3a194 Sep 13 2019
+StackToRegisterMappingCogit VMMaker.oscog-eem.2509 uuid: 91e81f64-95de-4914-a960-8f842be3a194 Sep 13 2019
+VM: 201907031441-pharo Guille@DESKTOP-MG6660L:projects/vm7/opensmalltalk-vm Date: Wed Jul 3 16:41:39 2019 CommitHash: 4e4c5b5a0 Plugins: 201907031441-pharo Guille@DESKTOP-MG6660L:projects/vm7/opensmalltalk-vm
+
+Image: Pharo7.0.5 [Build information: Pharo-7.0.5+build.177.sha.fd8c156d959653f52be6fd7f8c71edf8cfb8fe90 (64 Bit)]
+
+UndefinedObject(Object)>>doesNotUnderstand: #adaptToNumber:andSend:
+	Receiver: nil
+	Arguments and temporary variables: 
+		aMessage: 	adaptToNumber: 80 andSend: #*
+		exception: 	MessageNotUnderstood: receiver of "adaptToNumber:andSend:" is nil
+		resumeValue: 	nil
+	Receiver's instance variables: 
+nil
+
+UndefinedObject(Object)>>adaptToInteger:andSend:
+	Receiver: nil
+	Arguments and temporary variables: 
+		rcvr: 	80
+		selector: 	#*
+	Receiver's instance variables: 
+nil
+
+SmallInteger(Integer)>>*
+	Receiver: 80
+	Arguments and temporary variables: 
+		aNumber: 	nil
+	Receiver's instance variables: 
+80
+
+SmallInteger>>*
+	Receiver: 80
+	Arguments and temporary variables: 
+		aNumber: 	nil
+	Receiver's instance variables: 
+80
+
+Tablero>>crearTablero
+	Receiver: a Tablero(1040863488)
+	Arguments and temporary variables: 
+		luz: 	a Luz(665589504)
+		lado: 	80
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (50@40)
+		owner: 	nil
+		submorphs: 	#()
+		fullBounds: 	nil
+		color: 	Color blue
+		extension: 	a MorphExtension (321008896)
+		borderWidth: 	1
+		borderColor: 	Color black
+		celdas: 	nil
+		tamaño: 	nil
+		contadorDeClicks: 	nil
+		modoJuego: 	nil
+		cambiarLuz: 	nil
+
+
+LightsOut>>initialize
+	Receiver: a LightsOut
+	Arguments and temporary variables: 
+		opcion: 	1
+	Receiver's instance variables: 
+a LightsOut
+
+LightsOut class(Behavior)>>new
+	Receiver: LightsOut
+	Arguments and temporary variables: 
+THERE_BE_DRAGONS_HERE
+#adaptToNumber:andSend: was sent to nil
+21 November 2022 5:27:12.658204 pm
+
+VM: Win32 - X64 - 6.2 - CoInterpreter VMMaker.oscog-eem.2509 uuid: 91e81f64-95de-4914-a960-8f842be3a194 Sep 13 2019
+StackToRegisterMappingCogit VMMaker.oscog-eem.2509 uuid: 91e81f64-95de-4914-a960-8f842be3a194 Sep 13 2019
+VM: 201907031441-pharo Guille@DESKTOP-MG6660L:projects/vm7/opensmalltalk-vm Date: Wed Jul 3 16:41:39 2019 CommitHash: 4e4c5b5a0 Plugins: 201907031441-pharo Guille@DESKTOP-MG6660L:projects/vm7/opensmalltalk-vm
+
+Image: Pharo7.0.5 [Build information: Pharo-7.0.5+build.177.sha.fd8c156d959653f52be6fd7f8c71edf8cfb8fe90 (64 Bit)]
+
+UndefinedObject(Object)>>doesNotUnderstand: #adaptToNumber:andSend:
+	Receiver: nil
+	Arguments and temporary variables: 
+		aMessage: 	adaptToNumber: 80 andSend: #*
+		exception: 	MessageNotUnderstood: receiver of "adaptToNumber:andSend:" is nil
+		resumeValue: 	nil
+	Receiver's instance variables: 
+nil
+
+UndefinedObject(Object)>>adaptToInteger:andSend:
+	Receiver: nil
+	Arguments and temporary variables: 
+		rcvr: 	80
+		selector: 	#*
+	Receiver's instance variables: 
+nil
+
+SmallInteger(Integer)>>*
+	Receiver: 80
+	Arguments and temporary variables: 
+		aNumber: 	nil
+	Receiver's instance variables: 
+80
+
+SmallInteger>>*
+	Receiver: 80
+	Arguments and temporary variables: 
+		aNumber: 	nil
+	Receiver's instance variables: 
+80
+
+Tablero>>crearTablero
+	Receiver: a Tablero(317292288)
+	Arguments and temporary variables: 
+		luz: 	a Luz(9159424)
+		lado: 	80
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (50@40)
+		owner: 	nil
+		submorphs: 	#()
+		fullBounds: 	nil
+		color: 	Color blue
+		extension: 	a MorphExtension (397895936)
+		borderWidth: 	1
+		borderColor: 	Color black
+		celdas: 	nil
+		tamaño: 	nil
+		contadorDeClicks: 	nil
+		modoJuego: 	1
+		cambiarLuz: 	nil
+
+
+LightsOut>>initialize
+	Receiver: a LightsOut
+	Arguments and temporary variables: 
+		opcion: 	1
+	Receiver's instance variables: 
+a LightsOut
+
+LightsOut class(Behavior)>>new
+	Receiver: LightsOut
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		superclass: 	Object
+		methodDict: 	a MethodDictionary(#initialize->LightsOut>>#initialize )
+		format: 	0
+		layout: 	a FixedLayout
+		organization: 	a ClassOrganization
+		subclasses: 	nil
+		name: 	#LightsOut
+		classPool: 	a Dictionary(#Juego->a Partida #Table->a Tablero(317292288) #Ventana...etc...
+		sharedPools: 	an OrderedCollection()
+		environment: 	a SystemDictionary(lots of globals)
+		category: 	#'Lights Out'
+
+
+UndefinedObject>>DoIt
+	Receiver: nil
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+nil
+
+OpalCompiler>>evaluate
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		value: 	nil
+	Receiver's instance variables: 
+		ast: 	DoIt
+	^ LightsOut new
+		source: 	a ReadStream
+		context: 	nil
+		receiver: 	nil
+		compilationContext: 	a CompilationContext
+		compilationContextClass: 	nil
+
+
+RubSmalltalkEditor>>evaluate:andDo:
+	Receiver: a RubSmalltalkEditor
+	Arguments and temporary variables: 
+		aStream: 	a ReadStream
+		aBlock: 	[ :result | aBlock value: result ]
+		result: 	nil
+		rcvr: 	nil
+		ctxt: 	nil
+	Receiver's instance variables: 
+		defaultKeymappingIndex: 	an IdentityDictionary(#command->#(#noop: #cursorHome: #...etc...
+		textArea: 	a RubEditingArea(325157120)
+		selectorChooser: 	nil
+		notificationStrategy: 	a GLMPopperNotificationStrategy
+
+
+RubSmalltalkEditor>>highlightEvaluateAndDo:
+	Receiver: a RubSmalltalkEditor
+	Arguments and temporary variables: 
+THERE_BE_DRAGONS_HERE
+#adaptToNumber:andSend: was sent to nil
+21 November 2022 5:27:24.436204 pm
+
+VM: Win32 - X64 - 6.2 - CoInterpreter VMMaker.oscog-eem.2509 uuid: 91e81f64-95de-4914-a960-8f842be3a194 Sep 13 2019
+StackToRegisterMappingCogit VMMaker.oscog-eem.2509 uuid: 91e81f64-95de-4914-a960-8f842be3a194 Sep 13 2019
+VM: 201907031441-pharo Guille@DESKTOP-MG6660L:projects/vm7/opensmalltalk-vm Date: Wed Jul 3 16:41:39 2019 CommitHash: 4e4c5b5a0 Plugins: 201907031441-pharo Guille@DESKTOP-MG6660L:projects/vm7/opensmalltalk-vm
+
+Image: Pharo7.0.5 [Build information: Pharo-7.0.5+build.177.sha.fd8c156d959653f52be6fd7f8c71edf8cfb8fe90 (64 Bit)]
+
+UndefinedObject(Object)>>doesNotUnderstand: #adaptToNumber:andSend:
+	Receiver: nil
+	Arguments and temporary variables: 
+		aMessage: 	adaptToNumber: 80 andSend: #*
+		exception: 	MessageNotUnderstood: receiver of "adaptToNumber:andSend:" is nil
+		resumeValue: 	nil
+	Receiver's instance variables: 
+nil
+
+UndefinedObject(Object)>>adaptToInteger:andSend:
+	Receiver: nil
+	Arguments and temporary variables: 
+		rcvr: 	80
+		selector: 	#*
+	Receiver's instance variables: 
+nil
+
+SmallInteger(Integer)>>*
+	Receiver: 80
+	Arguments and temporary variables: 
+		aNumber: 	nil
+	Receiver's instance variables: 
+80
+
+SmallInteger>>*
+	Receiver: 80
+	Arguments and temporary variables: 
+		aNumber: 	nil
+	Receiver's instance variables: 
+80
+
+Tablero>>crearTablero
+	Receiver: a Tablero(563131648)
+	Arguments and temporary variables: 
+		luz: 	a Luz(593708800)
+		lado: 	80
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (50@40)
+		owner: 	nil
+		submorphs: 	#()
+		fullBounds: 	nil
+		color: 	Color blue
+		extension: 	a MorphExtension (184795904)
+		borderWidth: 	1
+		borderColor: 	Color black
+		celdas: 	nil
+		tamaño: 	nil
+		contadorDeClicks: 	nil
+		modoJuego: 	nil
+		cambiarLuz: 	nil
+
+
+LightsOut>>initialize
+	Receiver: a LightsOut
+	Arguments and temporary variables: 
+		opcion: 	nil
+	Receiver's instance variables: 
+a LightsOut
+
+LightsOut class(Behavior)>>new
+	Receiver: LightsOut
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		superclass: 	Object
+		methodDict: 	a MethodDictionary(#initialize->LightsOut>>#initialize )
+		format: 	0
+		layout: 	a FixedLayout
+		organization: 	a ClassOrganization
+		subclasses: 	nil
+		name: 	#LightsOut
+		classPool: 	a Dictionary(#Juego->a Partida #Table->a Tablero(563131648) #Ventana...etc...
+		sharedPools: 	an OrderedCollection()
+		environment: 	a SystemDictionary(lots of globals)
+		category: 	#'Lights Out'
+
+
+UndefinedObject>>DoIt
+	Receiver: nil
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+nil
+
+OpalCompiler>>evaluate
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		value: 	nil
+	Receiver's instance variables: 
+		ast: 	DoIt
+	^ LightsOut new
+		source: 	a ReadStream
+		context: 	nil
+		receiver: 	nil
+		compilationContext: 	a CompilationContext
+		compilationContextClass: 	nil
+
+
+RubSmalltalkEditor>>evaluate:andDo:
+	Receiver: a RubSmalltalkEditor
+	Arguments and temporary variables: 
+		aStream: 	a ReadStream
+		aBlock: 	[ :result | aBlock value: result ]
+		result: 	nil
+		rcvr: 	nil
+		ctxt: 	nil
+	Receiver's instance variables: 
+		defaultKeymappingIndex: 	an IdentityDictionary(#command->#(#noop: #cursorHome: #...etc...
+		textArea: 	a RubEditingArea(325157120)
+		selectorChooser: 	nil
+		notificationStrategy: 	a GLMPopperNotificationStrategy
+
+
+RubSmalltalkEditor>>highlightEvaluateAndDo:
+	Receiver: a RubSmalltalkEditor
+	Arguments and temporary variables: 
+		aBlock: 	[ :result | text selection: result ]
+	Receiver's instance variables: 
+		defaultKeymappingIndex: 	an IdentityDictionary(#command->#(#noop: #cursorHome: #...etc...
+		textArea: 	a RubEditingArea(325157120)
+		selectorChooser: 	nil
+		notificationStrategy: 	a GLMPopperNotificationStrategy
+
+
+[ textMorph textArea editor highlightEvaluateAndDo: ann action.
+textMorph shoutStyler style: textMorph text ] in [ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate:
+	Receiver: a GLMMorphicPharoScriptRenderer
+	Arguments and temporary variables: 
+		ann: 	a GLMHighlightAndEvaluate
+	Receiver's instance variables: 
+		renderer: 	a GLMMorphicRenderer
+		textMorph: 	a RubScrolledTextMorph(780877056)
+		textModel: 	a GLMRubricSmalltalkTextModel
+
+
+RubEditingArea(RubAbstractTextArea)>>handleEdit:
+	Receiver: a RubEditingArea(325157120)
+	Arguments and temporary variables: 
+		editBlock: 	[ textMorph textArea editor highlightEvaluateAndDo: ann action.
+text...etc...
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (580@31)
+		owner: 	a TransformWithLayoutMorph(644111104)
+		submorphs: 	an Array(a RubPrimarySelectionMorph(1057178880) a RubCursor(80323916...etc...
+		fullBounds: 	(0@0) corner: (580@31)
+		color: 	Color transparent
+		extension: 	a MorphExtension (959022848) [other:  (announcer -> an Announcer) (k...etc...
+		model: 	a GLMRubricSmalltalkTextModel
+		paragraph: 	a RubShoutStylerDecorator
+		editor: 	a RubSmalltalkEditor
+		scrollPane: 	a RubTextScrollPane(114020096)
+		editingState: 	a RubEditingState
+		textStyle: 	a TextStyle Source Code Pro
+		textColor: 	Color black
+		margins: 	a Margin top: 6 left: 6 bottom: 6 right: 6
+		readOnly: 	false
+		menuAllowed: 	nil
+		editingMode: 	a RubSmalltalkScriptingMode
+		cursor: 	a RubCursor(803239168)
+		segments: 	an OrderedCollection(a RubHighlightSegmentMorph(362251008))
+		getMenuPolicy: 	nil
+		mouseDownPoint: 	nil
+		wrapped: 	true
+		editorClass: 	RubSmalltalkEditor
+
+
+[ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate:
+	Receiver: a GLMMorphicPharoScriptRenderer
+	Arguments and temporary variables: 
+		ann: 	a GLMHighlightAndEvaluate
+	Receiver's instance variables: 
+		renderer: 	a GLMMorphicRenderer
+		textMorph: 	a RubScrolledTextMorph(780877056)
+		textModel: 	a GLMRubricSmalltalkTextModel
+
+
+WorldState>>runStepMethodsIn:
+	Receiver: a WorldState
+	Arguments and temporary variables: 
+THERE_BE_DRAGONS_HERE
+#adaptToNumber:andSend: was sent to nil
+21 November 2022 5:27:33.249204 pm
+
+VM: Win32 - X64 - 6.2 - CoInterpreter VMMaker.oscog-eem.2509 uuid: 91e81f64-95de-4914-a960-8f842be3a194 Sep 13 2019
+StackToRegisterMappingCogit VMMaker.oscog-eem.2509 uuid: 91e81f64-95de-4914-a960-8f842be3a194 Sep 13 2019
+VM: 201907031441-pharo Guille@DESKTOP-MG6660L:projects/vm7/opensmalltalk-vm Date: Wed Jul 3 16:41:39 2019 CommitHash: 4e4c5b5a0 Plugins: 201907031441-pharo Guille@DESKTOP-MG6660L:projects/vm7/opensmalltalk-vm
+
+Image: Pharo7.0.5 [Build information: Pharo-7.0.5+build.177.sha.fd8c156d959653f52be6fd7f8c71edf8cfb8fe90 (64 Bit)]
+
+UndefinedObject(Object)>>doesNotUnderstand: #adaptToNumber:andSend:
+	Receiver: nil
+	Arguments and temporary variables: 
+		aMessage: 	adaptToNumber: 80 andSend: #*
+		exception: 	MessageNotUnderstood: receiver of "adaptToNumber:andSend:" is nil
+		resumeValue: 	nil
+	Receiver's instance variables: 
+nil
+
+UndefinedObject(Object)>>adaptToInteger:andSend:
+	Receiver: nil
+	Arguments and temporary variables: 
+		rcvr: 	80
+		selector: 	#*
+	Receiver's instance variables: 
+nil
+
+SmallInteger(Integer)>>*
+	Receiver: 80
+	Arguments and temporary variables: 
+		aNumber: 	nil
+	Receiver's instance variables: 
+80
+
+SmallInteger>>*
+	Receiver: 80
+	Arguments and temporary variables: 
+		aNumber: 	nil
+	Receiver's instance variables: 
+80
+
+Tablero>>crearTablero
+	Receiver: a Tablero(349757184)
+	Arguments and temporary variables: 
+		luz: 	a Luz(710011648)
+		lado: 	80
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (50@40)
+		owner: 	nil
+		submorphs: 	#()
+		fullBounds: 	nil
+		color: 	Color blue
+		extension: 	a MorphExtension (673415424)
+		borderWidth: 	1
+		borderColor: 	Color black
+		celdas: 	nil
+		tamaño: 	nil
+		contadorDeClicks: 	nil
+		modoJuego: 	nil
+		cambiarLuz: 	nil
+
+
+LightsOut>>initialize
+	Receiver: a LightsOut
+	Arguments and temporary variables: 
+		opcion: 	1
+	Receiver's instance variables: 
+a LightsOut
+
+LightsOut class(Behavior)>>new
+	Receiver: LightsOut
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		superclass: 	Object
+		methodDict: 	a MethodDictionary(#initialize->LightsOut>>#initialize )
+		format: 	0
+		layout: 	a FixedLayout
+		organization: 	a ClassOrganization
+		subclasses: 	nil
+		name: 	#LightsOut
+		classPool: 	a Dictionary(#Juego->a Partida #Table->a Tablero(349757184) #Ventana...etc...
+		sharedPools: 	an OrderedCollection()
+		environment: 	a SystemDictionary(lots of globals)
+		category: 	#'Lights Out'
+
+
+UndefinedObject>>DoIt
+	Receiver: nil
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+nil
+
+OpalCompiler>>evaluate
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		value: 	nil
+	Receiver's instance variables: 
+		ast: 	DoIt
+	^ LightsOut new
+		source: 	a ReadStream
+		context: 	nil
+		receiver: 	nil
+		compilationContext: 	a CompilationContext
+		compilationContextClass: 	nil
+
+
+RubSmalltalkEditor>>evaluate:andDo:
+	Receiver: a RubSmalltalkEditor
+	Arguments and temporary variables: 
+		aStream: 	a ReadStream
+		aBlock: 	[ :result | aBlock value: result ]
+		result: 	nil
+		rcvr: 	nil
+		ctxt: 	nil
+	Receiver's instance variables: 
+		defaultKeymappingIndex: 	an IdentityDictionary(#command->#(#noop: #cursorHome: #...etc...
+		textArea: 	a RubEditingArea(325157120)
+		selectorChooser: 	nil
+		notificationStrategy: 	a GLMPopperNotificationStrategy
+
+
+RubSmalltalkEditor>>highlightEvaluateAndDo:
+	Receiver: a RubSmalltalkEditor
+	Arguments and temporary variables: 
+		aBlock: 	[ :result | text selection: result ]
+	Receiver's instance variables: 
+		defaultKeymappingIndex: 	an IdentityDictionary(#command->#(#noop: #cursorHome: #...etc...
+		textArea: 	a RubEditingArea(325157120)
+		selectorChooser: 	nil
+		notificationStrategy: 	a GLMPopperNotificationStrategy
+
+
+[ textMorph textArea editor highlightEvaluateAndDo: ann action.
+textMorph shoutStyler style: textMorph text ] in [ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate:
+	Receiver: a GLMMorphicPharoScriptRenderer
+	Arguments and temporary variables: 
+		ann: 	a GLMHighlightAndEvaluate
+	Receiver's instance variables: 
+		renderer: 	a GLMMorphicRenderer
+		textMorph: 	a RubScrolledTextMorph(780877056)
+		textModel: 	a GLMRubricSmalltalkTextModel
+
+
+RubEditingArea(RubAbstractTextArea)>>handleEdit:
+	Receiver: a RubEditingArea(325157120)
+	Arguments and temporary variables: 
+		editBlock: 	[ textMorph textArea editor highlightEvaluateAndDo: ann action.
+text...etc...
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (580@31)
+		owner: 	a TransformWithLayoutMorph(644111104)
+		submorphs: 	an Array(a RubPrimarySelectionMorph(1057178880) a RubCursor(80323916...etc...
+		fullBounds: 	(0@0) corner: (580@31)
+		color: 	Color transparent
+		extension: 	a MorphExtension (959022848) [other:  (announcer -> an Announcer) (k...etc...
+		model: 	a GLMRubricSmalltalkTextModel
+		paragraph: 	a RubShoutStylerDecorator
+		editor: 	a RubSmalltalkEditor
+		scrollPane: 	a RubTextScrollPane(114020096)
+		editingState: 	a RubEditingState
+		textStyle: 	a TextStyle Source Code Pro
+		textColor: 	Color black
+		margins: 	a Margin top: 6 left: 6 bottom: 6 right: 6
+		readOnly: 	false
+		menuAllowed: 	nil
+		editingMode: 	a RubSmalltalkScriptingMode
+		cursor: 	a RubCursor(803239168)
+		segments: 	an OrderedCollection(a RubHighlightSegmentMorph(10380544))
+		getMenuPolicy: 	nil
+		mouseDownPoint: 	(186@140)
+		wrapped: 	true
+		editorClass: 	RubSmalltalkEditor
+
+
+[ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate:
+	Receiver: a GLMMorphicPharoScriptRenderer
+	Arguments and temporary variables: 
+		ann: 	a GLMHighlightAndEvaluate
+	Receiver's instance variables: 
+		renderer: 	a GLMMorphicRenderer
+		textMorph: 	a RubScrolledTextMorph(780877056)
+		textModel: 	a GLMRubricSmalltalkTextModel
+
+
+WorldState>>runStepMethodsIn:
+	Receiver: a WorldState
+	Arguments and temporary variables: 
+		aWorld: 	a WorldMorph(703126016) [world]
+		queue: 	WaitfreeQueue with 0 items
+		nextInQueue: 	[ textMorph textArea
+	handleEdit: [ textMorph textArea editor high...etc...
+	Receiver's instance variables: 
+		hands: 	an Array(a HandMorph(523392256))
+		viewBox: 	(0@0) corner: (1536@793)
+		canvas: 	a FormCanvas on: DisplayScreen(1536x793x32)
+		damageRecorder: 	a DamageRecorder
+		stepList: 	a Heap(StepMessage(#stepAt: -> a GLMSystemWindow(999734528) named: Pl...etc...
+		lastStepTime: 	876042
+		lastStepMessage: 	nil
+		lastCycleTime: 	876039
+		alarms: 	a Heap(MorphicAlarm(#hideShow -> a RubCursor(803239168)))
+		lastAlarmTime: 	876042
+		menuBuilder: 	a PragmaMenuBuilder ( nil ) 
+		activeHand: 	a HandMorph(523392256)
+		currentCursor: 	((CursorWithMask
+	extent: (16@16)
+	depthTHERE_BE_DRAGONS_HERE
+#adaptToNumber:andSend: was sent to nil
+21 November 2022 5:27:53.987204 pm
+
+VM: Win32 - X64 - 6.2 - CoInterpreter VMMaker.oscog-eem.2509 uuid: 91e81f64-95de-4914-a960-8f842be3a194 Sep 13 2019
+StackToRegisterMappingCogit VMMaker.oscog-eem.2509 uuid: 91e81f64-95de-4914-a960-8f842be3a194 Sep 13 2019
+VM: 201907031441-pharo Guille@DESKTOP-MG6660L:projects/vm7/opensmalltalk-vm Date: Wed Jul 3 16:41:39 2019 CommitHash: 4e4c5b5a0 Plugins: 201907031441-pharo Guille@DESKTOP-MG6660L:projects/vm7/opensmalltalk-vm
+
+Image: Pharo7.0.5 [Build information: Pharo-7.0.5+build.177.sha.fd8c156d959653f52be6fd7f8c71edf8cfb8fe90 (64 Bit)]
+
+UndefinedObject(Object)>>doesNotUnderstand: #adaptToNumber:andSend:
+	Receiver: nil
+	Arguments and temporary variables: 
+		aMessage: 	adaptToNumber: 80 andSend: #*
+		exception: 	MessageNotUnderstood: receiver of "adaptToNumber:andSend:" is nil
+		resumeValue: 	nil
+	Receiver's instance variables: 
+nil
+
+UndefinedObject(Object)>>adaptToInteger:andSend:
+	Receiver: nil
+	Arguments and temporary variables: 
+		rcvr: 	80
+		selector: 	#*
+	Receiver's instance variables: 
+nil
+
+SmallInteger(Integer)>>*
+	Receiver: 80
+	Arguments and temporary variables: 
+		aNumber: 	nil
+	Receiver's instance variables: 
+80
+
+SmallInteger>>*
+	Receiver: 80
+	Arguments and temporary variables: 
+		aNumber: 	nil
+	Receiver's instance variables: 
+80
+
+Tablero>>crearTablero
+	Receiver: a Tablero(198547200)
+	Arguments and temporary variables: 
+		luz: 	a Luz(867480832)
+		lado: 	80
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (50@40)
+		owner: 	nil
+		submorphs: 	#()
+		fullBounds: 	nil
+		color: 	Color blue
+		extension: 	a MorphExtension (487621888)
+		borderWidth: 	1
+		borderColor: 	Color black
+		celdas: 	nil
+		tamaño: 	nil
+		contadorDeClicks: 	nil
+		modoJuego: 	nil
+		cambiarLuz: 	nil
+
+
+LightsOut>>initialize
+	Receiver: a LightsOut
+	Arguments and temporary variables: 
+		opcion: 	1
+	Receiver's instance variables: 
+a LightsOut
+
+LightsOut class(Behavior)>>new
+	Receiver: LightsOut
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		superclass: 	Object
+		methodDict: 	a MethodDictionary(#initialize->LightsOut>>#initialize )
+		format: 	0
+		layout: 	a FixedLayout
+		organization: 	a ClassOrganization
+		subclasses: 	nil
+		name: 	#LightsOut
+		classPool: 	a Dictionary(#Juego->a Partida #Table->a Tablero(198547200) #Ventana...etc...
+		sharedPools: 	an OrderedCollection()
+		environment: 	a SystemDictionary(lots of globals)
+		category: 	#'Lights Out'
+
+
+UndefinedObject>>DoIt
+	Receiver: nil
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+nil
+
+OpalCompiler>>evaluate
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		value: 	nil
+	Receiver's instance variables: 
+		ast: 	DoIt
+	^ LightsOut new
+		source: 	a ReadStream
+		context: 	nil
+		receiver: 	nil
+		compilationContext: 	a CompilationContext
+		compilationContextClass: 	nil
+
+
+RubSmalltalkEditor>>evaluate:andDo:
+	Receiver: a RubSmalltalkEditor
+	Arguments and temporary variables: 
+		aStream: 	a ReadStream
+		aBlock: 	[ :result | aBlock value: result ]
+		result: 	nil
+		rcvr: 	nil
+		ctxt: 	nil
+	Receiver's instance variables: 
+		defaultKeymappingIndex: 	an IdentityDictionary(#command->#(#noop: #cursorHome: #...etc...
+		textArea: 	a RubEditingArea(325157120)
+		selectorChooser: 	nil
+		notificationStrategy: 	a GLMPopperNotificationStrategy
+
+
+RubSmalltalkEditor>>highlightEvaluateAndDo:
+	Receiver: a RubSmalltalkEditor
+	Arguments and temporary variables: 
+		aBlock: 	[ :result | text selection: result ]
+	Receiver's instance variables: 
+		defaultKeymappingIndex: 	an IdentityDictionary(#command->#(#noop: #cursorHome: #...etc...
+		textArea: 	a RubEditingArea(325157120)
+		selectorChooser: 	nil
+		notificationStrategy: 	a GLMPopperNotificationStrategy
+
+
+[ textMorph textArea editor highlightEvaluateAndDo: ann action.
+textMorph shoutStyler style: textMorph text ] in [ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate:
+	Receiver: a GLMMorphicPharoScriptRenderer
+	Arguments and temporary variables: 
+		ann: 	a GLMHighlightAndEvaluate
+	Receiver's instance variables: 
+		renderer: 	a GLMMorphicRenderer
+		textMorph: 	a RubScrolledTextMorph(780877056)
+		textModel: 	a GLMRubricSmalltalkTextModel
+
+
+RubEditingArea(RubAbstractTextArea)>>handleEdit:
+	Receiver: a RubEditingArea(325157120)
+	Arguments and temporary variables: 
+		editBlock: 	[ textMorph textArea editor highlightEvaluateAndDo: ann action.
+text...etc...
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (285@31)
+		owner: 	a TransformWithLayoutMorph(644111104)
+		submorphs: 	an Array(a RubPrimarySelectionMorph(1057178880) a RubCursor(80323916...etc...
+		fullBounds: 	(0@0) corner: (285@31)
+		color: 	Color transparent
+		extension: 	a MorphExtension (959022848) [other:  (announcer -> an Announcer) (k...etc...
+		model: 	a GLMRubricSmalltalkTextModel
+		paragraph: 	a RubShoutStylerDecorator
+		editor: 	a RubSmalltalkEditor
+		scrollPane: 	a RubTextScrollPane(114020096)
+		editingState: 	a RubEditingState
+		textStyle: 	a TextStyle Source Code Pro
+		textColor: 	Color black
+		margins: 	a Margin top: 6 left: 6 bottom: 6 right: 6
+		readOnly: 	false
+		menuAllowed: 	nil
+		editingMode: 	a RubSmalltalkScriptingMode
+		cursor: 	a RubCursor(803239168)
+		segments: 	an OrderedCollection(a RubHighlightSegmentMorph(1018544384))
+		getMenuPolicy: 	nil
+		mouseDownPoint: 	(186@140)
+		wrapped: 	true
+		editorClass: 	RubSmalltalkEditor
+
+
+[ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate:
+	Receiver: a GLMMorphicPharoScriptRenderer
+	Arguments and temporary variables: 
+		ann: 	a GLMHighlightAndEvaluate
+	Receiver's instance variables: 
+		renderer: 	a GLMMorphicRenderer
+		textMorph: 	a RubScrolledTextMorph(780877056)
+		textModel: 	a GLMRubricSmalltalkTextModel
+
+
+WorldState>>runStepMethodsIn:
+	Receiver: a WorldState
+	Arguments and temporary variables: 
+		aWorld: 	a WorldMorph(703126016) [world]
+		queue: 	WaitfreeQueue with 0 items
+		nextInQueue: 	[ textMorph textArea
+	handleEdit: [ textMorph textArea editor high...etc...
+	Receiver's instance variables: 
+		hands: 	an Array(a HandMorph(523392256))
+		viewBox: 	(0@0) corner: (1536@793)
+		canvas: 	a FormCanvas on: DisplayScreen(1536x793x32)
+		damageRecorder: 	a DamageRecorder
+		stepList: 	a Heap(StepMessage(#stepAt: -> a GLMSystemWindow(999734528) named: Pl...etc...
+		lastStepTime: 	896778
+		lastStepMessage: 	nil
+		lastCycleTime: 	896766
+		alarms: 	a Heap(MorphicAlarm(#hideShow -> a RubCursor(803239168)))
+		lastAlarmTime: 	896778
+		menuBuilder: 	a PragmaMenuBuilder ( nil ) 
+		activeHand: 	a HandMorph(523392256)
+		currentCursor: 	((CursorWithMask
+	extent: (16@16)
+	depth: 1
+	fromArray: #(
+		2r0...etc...
+
+
+WorldMorph>>runStepMethods
+	Receiver: a WorldMorph(703126016) [world]
+	Arguments and temporary variables: 
+THERE_BE_DRAGONS_HERE
+Instance of True did not understand #dimensionTablero
+21 November 2022 5:36:11.049204 pm
+
+VM: Win32 - X64 - 6.2 - CoInterpreter VMMaker.oscog-eem.2509 uuid: 91e81f64-95de-4914-a960-8f842be3a194 Sep 13 2019
+StackToRegisterMappingCogit VMMaker.oscog-eem.2509 uuid: 91e81f64-95de-4914-a960-8f842be3a194 Sep 13 2019
+VM: 201907031441-pharo Guille@DESKTOP-MG6660L:projects/vm7/opensmalltalk-vm Date: Wed Jul 3 16:41:39 2019 CommitHash: 4e4c5b5a0 Plugins: 201907031441-pharo Guille@DESKTOP-MG6660L:projects/vm7/opensmalltalk-vm
+
+Image: Pharo7.0.5 [Build information: Pharo-7.0.5+build.177.sha.fd8c156d959653f52be6fd7f8c71edf8cfb8fe90 (64 Bit)]
+
+True(Object)>>doesNotUnderstand: #dimensionTablero
+	Receiver: true
+	Arguments and temporary variables: 
+		aMessage: 	dimensionTablero
+		exception: 	MessageNotUnderstood: True>>dimensionTablero
+		resumeValue: 	nil
+	Receiver's instance variables: 
+true
+
+LightsOut>>initialize
+	Receiver: a LightsOut
+	Arguments and temporary variables: 
+		opcion: 	1
+	Receiver's instance variables: 
+a LightsOut
+
+LightsOut class(Behavior)>>new
+	Receiver: LightsOut
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		superclass: 	Object
+		methodDict: 	a MethodDictionary(#initialize->LightsOut>>#initialize )
+		format: 	0
+		layout: 	a FixedLayout
+		organization: 	a ClassOrganization
+		subclasses: 	nil
+		name: 	#LightsOut
+		classPool: 	a Dictionary(#Juego->true #Table->a Tablero(417147136) #Ventana->a S...etc...
+		sharedPools: 	an OrderedCollection()
+		environment: 	a SystemDictionary(lots of globals)
+		category: 	#'Lights Out'
+
+
+UndefinedObject>>DoIt
+	Receiver: nil
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+nil
+
+OpalCompiler>>evaluate
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		value: 	nil
+	Receiver's instance variables: 
+		ast: 	DoIt
+	^ LightsOut new
+		source: 	a ReadStream
+		context: 	nil
+		receiver: 	nil
+		compilationContext: 	a CompilationContext
+		compilationContextClass: 	nil
+
+
+RubSmalltalkEditor>>evaluate:andDo:
+	Receiver: a RubSmalltalkEditor
+	Arguments and temporary variables: 
+		aStream: 	a ReadStream
+		aBlock: 	[ :result | aBlock value: result ]
+		result: 	nil
+		rcvr: 	nil
+		ctxt: 	nil
+	Receiver's instance variables: 
+		defaultKeymappingIndex: 	an IdentityDictionary(#command->#(#noop: #cursorHome: #...etc...
+		textArea: 	a RubEditingArea(325157120)
+		selectorChooser: 	nil
+		notificationStrategy: 	a GLMPopperNotificationStrategy
+
+
+RubSmalltalkEditor>>highlightEvaluateAndDo:
+	Receiver: a RubSmalltalkEditor
+	Arguments and temporary variables: 
+		aBlock: 	[ :result | text selection: result ]
+	Receiver's instance variables: 
+		defaultKeymappingIndex: 	an IdentityDictionary(#command->#(#noop: #cursorHome: #...etc...
+		textArea: 	a RubEditingArea(325157120)
+		selectorChooser: 	nil
+		notificationStrategy: 	a GLMPopperNotificationStrategy
+
+
+[ textMorph textArea editor highlightEvaluateAndDo: ann action.
+textMorph shoutStyler style: textMorph text ] in [ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate:
+	Receiver: a GLMMorphicPharoScriptRenderer
+	Arguments and temporary variables: 
+		ann: 	a GLMHighlightAndEvaluate
+	Receiver's instance variables: 
+		renderer: 	a GLMMorphicRenderer
+		textMorph: 	a RubScrolledTextMorph(780877056)
+		textModel: 	a GLMRubricSmalltalkTextModel
+
+
+RubEditingArea(RubAbstractTextArea)>>handleEdit:
+	Receiver: a RubEditingArea(325157120)
+	Arguments and temporary variables: 
+		editBlock: 	[ textMorph textArea editor highlightEvaluateAndDo: ann action.
+text...etc...
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (285@31)
+		owner: 	a TransformWithLayoutMorph(644111104)
+		submorphs: 	an Array(a RubPrimarySelectionMorph(1057178880) a RubCursor(80323916...etc...
+		fullBounds: 	(0@0) corner: (285@31)
+		color: 	Color transparent
+		extension: 	a MorphExtension (959022848) [other:  (announcer -> an Announcer) (k...etc...
+		model: 	a GLMRubricSmalltalkTextModel
+		paragraph: 	a RubShoutStylerDecorator
+		editor: 	a RubSmalltalkEditor
+		scrollPane: 	a RubTextScrollPane(114020096)
+		editingState: 	a RubEditingState
+		textStyle: 	a TextStyle Source Code Pro
+		textColor: 	Color black
+		margins: 	a Margin top: 6 left: 6 bottom: 6 right: 6
+		readOnly: 	false
+		menuAllowed: 	nil
+		editingMode: 	a RubSmalltalkScriptingMode
+		cursor: 	a RubCursor(803239168)
+		segments: 	an OrderedCollection(a RubHighlightSegmentMorph(430564608))
+		getMenuPolicy: 	nil
+		mouseDownPoint: 	nil
+		wrapped: 	true
+		editorClass: 	RubSmalltalkEditor
+
+
+[ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate:
+	Receiver: a GLMMorphicPharoScriptRenderer
+	Arguments and temporary variables: 
+		ann: 	a GLMHighlightAndEvaluate
+	Receiver's instance variables: 
+		renderer: 	a GLMMorphicRenderer
+		textMorph: 	a RubScrolledTextMorph(780877056)
+		textModel: 	a GLMRubricSmalltalkTextModel
+
+
+WorldState>>runStepMethodsIn:
+	Receiver: a WorldState
+	Arguments and temporary variables: 
+		aWorld: 	a WorldMorph(703126016) [world]
+		queue: 	WaitfreeQueue with 0 items
+		nextInQueue: 	[ textMorph textArea
+	handleEdit: [ textMorph textArea editor high...etc...
+	Receiver's instance variables: 
+		hands: 	an Array(a HandMorph(523392256))
+		viewBox: 	(0@0) corner: (1536@793)
+		canvas: 	a FormCanvas on: DisplayScreen(1536x793x32)
+		damageRecorder: 	a DamageRecorder
+		stepList: 	a Heap(StepMessage(#stepAt: -> a GLMSystemWindow(999734528) named: Pl...etc...
+		lastStepTime: 	1393841
+		lastStepMessage: 	nil
+		lastCycleTime: 	1393835
+		alarms: 	a Heap(MorphicAlarm(#hideShow -> a RubCursor(803239168)))
+		lastAlarmTime: 	1393841
+		menuBuilder: 	a PragmaMenuBuilder ( nil ) 
+		activeHand: 	a HandMorph(523392256)
+		currentCursor: 	((CursorWithMask
+	extent: (16@16)
+	depth: 1
+	fromArray: #(
+		2r0...etc...
+
+
+WorldMorTHERE_BE_DRAGONS_HERE
+Instance of True did not understand #dimensionTablero
+21 November 2022 5:36:33.099204 pm
+
+VM: Win32 - X64 - 6.2 - CoInterpreter VMMaker.oscog-eem.2509 uuid: 91e81f64-95de-4914-a960-8f842be3a194 Sep 13 2019
+StackToRegisterMappingCogit VMMaker.oscog-eem.2509 uuid: 91e81f64-95de-4914-a960-8f842be3a194 Sep 13 2019
+VM: 201907031441-pharo Guille@DESKTOP-MG6660L:projects/vm7/opensmalltalk-vm Date: Wed Jul 3 16:41:39 2019 CommitHash: 4e4c5b5a0 Plugins: 201907031441-pharo Guille@DESKTOP-MG6660L:projects/vm7/opensmalltalk-vm
+
+Image: Pharo7.0.5 [Build information: Pharo-7.0.5+build.177.sha.fd8c156d959653f52be6fd7f8c71edf8cfb8fe90 (64 Bit)]
+
+True(Object)>>doesNotUnderstand: #dimensionTablero
+	Receiver: true
+	Arguments and temporary variables: 
+		aMessage: 	dimensionTablero
+		exception: 	MessageNotUnderstood: True>>dimensionTablero
+		resumeValue: 	nil
+	Receiver's instance variables: 
+true
+
+LightsOut>>initialize
+	Receiver: a LightsOut
+	Arguments and temporary variables: 
+		opcion: 	1
+	Receiver's instance variables: 
+a LightsOut
+
+LightsOut class(Behavior)>>new
+	Receiver: LightsOut
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		superclass: 	Object
+		methodDict: 	a MethodDictionary(#initialize->LightsOut>>#initialize )
+		format: 	0
+		layout: 	a FixedLayout
+		organization: 	a ClassOrganization
+		subclasses: 	nil
+		name: 	#LightsOut
+		classPool: 	a Dictionary(#Juego->true #Table->a Tablero(535226112) #Ventana->a S...etc...
+		sharedPools: 	an OrderedCollection()
+		environment: 	a SystemDictionary(lots of globals)
+		category: 	#'Lights Out'
+
+
+UndefinedObject>>DoIt
+	Receiver: nil
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+nil
+
+OpalCompiler>>evaluate
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		value: 	nil
+	Receiver's instance variables: 
+		ast: 	DoIt
+	^ LightsOut new
+		source: 	a ReadStream
+		context: 	nil
+		receiver: 	nil
+		compilationContext: 	a CompilationContext
+		compilationContextClass: 	nil
+
+
+RubSmalltalkEditor>>evaluate:andDo:
+	Receiver: a RubSmalltalkEditor
+	Arguments and temporary variables: 
+		aStream: 	a ReadStream
+		aBlock: 	[ :result | aBlock value: result ]
+		result: 	nil
+		rcvr: 	nil
+		ctxt: 	nil
+	Receiver's instance variables: 
+		defaultKeymappingIndex: 	an IdentityDictionary(#command->#(#noop: #cursorHome: #...etc...
+		textArea: 	a RubEditingArea(325157120)
+		selectorChooser: 	nil
+		notificationStrategy: 	a GLMPopperNotificationStrategy
+
+
+RubSmalltalkEditor>>highlightEvaluateAndDo:
+	Receiver: a RubSmalltalkEditor
+	Arguments and temporary variables: 
+		aBlock: 	[ :result | text selection: result ]
+	Receiver's instance variables: 
+		defaultKeymappingIndex: 	an IdentityDictionary(#command->#(#noop: #cursorHome: #...etc...
+		textArea: 	a RubEditingArea(325157120)
+		selectorChooser: 	nil
+		notificationStrategy: 	a GLMPopperNotificationStrategy
+
+
+[ textMorph textArea editor highlightEvaluateAndDo: ann action.
+textMorph shoutStyler style: textMorph text ] in [ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate:
+	Receiver: a GLMMorphicPharoScriptRenderer
+	Arguments and temporary variables: 
+		ann: 	a GLMHighlightAndEvaluate
+	Receiver's instance variables: 
+		renderer: 	a GLMMorphicRenderer
+		textMorph: 	a RubScrolledTextMorph(780877056)
+		textModel: 	a GLMRubricSmalltalkTextModel
+
+
+RubEditingArea(RubAbstractTextArea)>>handleEdit:
+	Receiver: a RubEditingArea(325157120)
+	Arguments and temporary variables: 
+		editBlock: 	[ textMorph textArea editor highlightEvaluateAndDo: ann action.
+text...etc...
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (285@31)
+		owner: 	a TransformWithLayoutMorph(644111104)
+		submorphs: 	an Array(a RubPrimarySelectionMorph(1057178880) a RubCursor(80323916...etc...
+		fullBounds: 	(0@0) corner: (285@31)
+		color: 	Color transparent
+		extension: 	a MorphExtension (959022848) [other:  (announcer -> an Announcer) (k...etc...
+		model: 	a GLMRubricSmalltalkTextModel
+		paragraph: 	a RubShoutStylerDecorator
+		editor: 	a RubSmalltalkEditor
+		scrollPane: 	a RubTextScrollPane(114020096)
+		editingState: 	a RubEditingState
+		textStyle: 	a TextStyle Source Code Pro
+		textColor: 	Color black
+		margins: 	a Margin top: 6 left: 6 bottom: 6 right: 6
+		readOnly: 	false
+		menuAllowed: 	nil
+		editingMode: 	a RubSmalltalkScriptingMode
+		cursor: 	a RubCursor(803239168)
+		segments: 	an OrderedCollection(a RubHighlightSegmentMorph(35588864))
+		getMenuPolicy: 	nil
+		mouseDownPoint: 	nil
+		wrapped: 	true
+		editorClass: 	RubSmalltalkEditor
+
+
+[ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate:
+	Receiver: a GLMMorphicPharoScriptRenderer
+	Arguments and temporary variables: 
+		ann: 	a GLMHighlightAndEvaluate
+	Receiver's instance variables: 
+		renderer: 	a GLMMorphicRenderer
+		textMorph: 	a RubScrolledTextMorph(780877056)
+		textModel: 	a GLMRubricSmalltalkTextModel
+
+
+WorldState>>runStepMethodsIn:
+	Receiver: a WorldState
+	Arguments and temporary variables: 
+		aWorld: 	a WorldMorph(703126016) [world]
+		queue: 	WaitfreeQueue with 0 items
+		nextInQueue: 	[ textMorph textArea
+	handleEdit: [ textMorph textArea editor high...etc...
+	Receiver's instance variables: 
+		hands: 	an Array(a HandMorph(523392256))
+		viewBox: 	(0@0) corner: (1536@793)
+		canvas: 	a FormCanvas on: DisplayScreen(1536x793x32)
+		damageRecorder: 	a DamageRecorder
+		stepList: 	a Heap(StepMessage(#stepAt: -> a GLMSystemWindow(999734528) named: Pl...etc...
+		lastStepTime: 	1415894
+		lastStepMessage: 	nil
+		lastCycleTime: 	1415887
+		alarms: 	a Heap(MorphicAlarm(#hideShow -> a RubCursor(803239168)))
+		lastAlarmTime: 	1415894
+		menuBuilder: 	a PragmaMenuBuilder ( nil ) 
+		activeHand: 	a HandMorph(523392256)
+		currentCursor: 	((CursorWithMask
+	extent: (16@16)
+	depth: 1
+	fromArray: #(
+		2r0...etc...
+
+
+WorldMorph>>runStepMethods
+	Receiver: a WorldMorph(703126016) [world]
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (1536@793)
+		owner: 	nil
+		submorphs: 	an Array(a MenubarMorph(769431040) a TaskbarMorph(1025265408) a GLMS...etc...
+		fullBounds: 	(0@0) corner: (1536@793)
+		color: 	(Color r: 0.9400000000000001 g: 0.9400000000000001 b: 0.9400000000000001...etc...
+		extension: 	a MorphExtension (359075072) [other:  (dragEnabled -> true) (dropEna...etc...
+		borderWidth: 	0
+		borderColor: 	(Color r: 0.06 g: 0.06 b: 0.06 alpha: 1.0)
+		backgroundMorph: 	nil
+		worldState: 	a WorldState
+		griddingOn: 	nil
+		osWindow: 	nil
+		osWindowMutex: 	nil
+		session: 	nil
+
+
+WorldState>>doOnTHERE_BE_DRAGONS_HERE
+Instance of True did not understand #dimensionTablero
+21 November 2022 5:36:38.719204 pm
+
+VM: Win32 - X64 - 6.2 - CoInterpreter VMMaker.oscog-eem.2509 uuid: 91e81f64-95de-4914-a960-8f842be3a194 Sep 13 2019
+StackToRegisterMappingCogit VMMaker.oscog-eem.2509 uuid: 91e81f64-95de-4914-a960-8f842be3a194 Sep 13 2019
+VM: 201907031441-pharo Guille@DESKTOP-MG6660L:projects/vm7/opensmalltalk-vm Date: Wed Jul 3 16:41:39 2019 CommitHash: 4e4c5b5a0 Plugins: 201907031441-pharo Guille@DESKTOP-MG6660L:projects/vm7/opensmalltalk-vm
+
+Image: Pharo7.0.5 [Build information: Pharo-7.0.5+build.177.sha.fd8c156d959653f52be6fd7f8c71edf8cfb8fe90 (64 Bit)]
+
+True(Object)>>doesNotUnderstand: #dimensionTablero
+	Receiver: true
+	Arguments and temporary variables: 
+		aMessage: 	dimensionTablero
+		exception: 	MessageNotUnderstood: True>>dimensionTablero
+		resumeValue: 	nil
+	Receiver's instance variables: 
+true
+
+LightsOut>>initialize
+	Receiver: a LightsOut
+	Arguments and temporary variables: 
+		opcion: 	1
+	Receiver's instance variables: 
+a LightsOut
+
+LightsOut class(Behavior)>>new
+	Receiver: LightsOut
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		superclass: 	Object
+		methodDict: 	a MethodDictionary(#initialize->LightsOut>>#initialize )
+		format: 	0
+		layout: 	a FixedLayout
+		organization: 	a ClassOrganization
+		subclasses: 	nil
+		name: 	#LightsOut
+		classPool: 	a Dictionary(#Juego->true #Table->a Tablero(561236224) #Ventana->a S...etc...
+		sharedPools: 	an OrderedCollection()
+		environment: 	a SystemDictionary(lots of globals)
+		category: 	#'Lights Out'
+
+
+UndefinedObject>>DoIt
+	Receiver: nil
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+nil
+
+OpalCompiler>>evaluate
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		value: 	nil
+	Receiver's instance variables: 
+		ast: 	DoIt
+	^ LightsOut new
+		source: 	a ReadStream
+		context: 	nil
+		receiver: 	nil
+		compilationContext: 	a CompilationContext
+		compilationContextClass: 	nil
+
+
+RubSmalltalkEditor>>evaluate:andDo:
+	Receiver: a RubSmalltalkEditor
+	Arguments and temporary variables: 
+		aStream: 	a ReadStream
+		aBlock: 	[ :result | aBlock value: result ]
+		result: 	nil
+		rcvr: 	nil
+		ctxt: 	nil
+	Receiver's instance variables: 
+		defaultKeymappingIndex: 	an IdentityDictionary(#command->#(#noop: #cursorHome: #...etc...
+		textArea: 	a RubEditingArea(325157120)
+		selectorChooser: 	nil
+		notificationStrategy: 	a GLMPopperNotificationStrategy
+
+
+RubSmalltalkEditor>>highlightEvaluateAndDo:
+	Receiver: a RubSmalltalkEditor
+	Arguments and temporary variables: 
+		aBlock: 	[ :result | text selection: result ]
+	Receiver's instance variables: 
+		defaultKeymappingIndex: 	an IdentityDictionary(#command->#(#noop: #cursorHome: #...etc...
+		textArea: 	a RubEditingArea(325157120)
+		selectorChooser: 	nil
+		notificationStrategy: 	a GLMPopperNotificationStrategy
+
+
+[ textMorph textArea editor highlightEvaluateAndDo: ann action.
+textMorph shoutStyler style: textMorph text ] in [ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate:
+	Receiver: a GLMMorphicPharoScriptRenderer
+	Arguments and temporary variables: 
+		ann: 	a GLMHighlightAndEvaluate
+	Receiver's instance variables: 
+		renderer: 	a GLMMorphicRenderer
+		textMorph: 	a RubScrolledTextMorph(780877056)
+		textModel: 	a GLMRubricSmalltalkTextModel
+
+
+RubEditingArea(RubAbstractTextArea)>>handleEdit:
+	Receiver: a RubEditingArea(325157120)
+	Arguments and temporary variables: 
+		editBlock: 	[ textMorph textArea editor highlightEvaluateAndDo: ann action.
+text...etc...
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (285@31)
+		owner: 	a TransformWithLayoutMorph(644111104)
+		submorphs: 	an Array(a RubPrimarySelectionMorph(1057178880) a RubCursor(80323916...etc...
+		fullBounds: 	(0@0) corner: (285@31)
+		color: 	Color transparent
+		extension: 	a MorphExtension (959022848) [other:  (announcer -> an Announcer) (k...etc...
+		model: 	a GLMRubricSmalltalkTextModel
+		paragraph: 	a RubShoutStylerDecorator
+		editor: 	a RubSmalltalkEditor
+		scrollPane: 	a RubTextScrollPane(114020096)
+		editingState: 	a RubEditingState
+		textStyle: 	a TextStyle Source Code Pro
+		textColor: 	Color black
+		margins: 	a Margin top: 6 left: 6 bottom: 6 right: 6
+		readOnly: 	false
+		menuAllowed: 	nil
+		editingMode: 	a RubSmalltalkScriptingMode
+		cursor: 	a RubCursor(803239168)
+		segments: 	an OrderedCollection(a RubHighlightSegmentMorph(912108800))
+		getMenuPolicy: 	nil
+		mouseDownPoint: 	nil
+		wrapped: 	true
+		editorClass: 	RubSmalltalkEditor
+
+
+[ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate:
+	Receiver: a GLMMorphicPharoScriptRenderer
+	Arguments and temporary variables: 
+		ann: 	a GLMHighlightAndEvaluate
+	Receiver's instance variables: 
+		renderer: 	a GLMMorphicRenderer
+		textMorph: 	a RubScrolledTextMorph(780877056)
+		textModel: 	a GLMRubricSmalltalkTextModel
+
+
+WorldState>>runStepMethodsIn:
+	Receiver: a WorldState
+	Arguments and temporary variables: 
+		aWorld: 	a WorldMorph(703126016) [world]
+		queue: 	WaitfreeQueue with 0 items
+		nextInQueue: 	[ textMorph textArea
+	handleEdit: [ textMorph textArea editor high...etc...
+	Receiver's instance variables: 
+		hands: 	an Array(a HandMorph(523392256))
+		viewBox: 	(0@0) corner: (1536@793)
+		canvas: 	a FormCanvas on: DisplayScreen(1536x793x32)
+		damageRecorder: 	a DamageRecorder
+		stepList: 	a Heap(StepMessage(#stepAt: -> a GLMSystemWindow(999734528) namedTHERE_BE_DRAGONS_HERE
+Instance of True did not understand #dimensionTablero
+21 November 2022 5:38:16.838204 pm
+
+VM: Win32 - X64 - 6.2 - CoInterpreter VMMaker.oscog-eem.2509 uuid: 91e81f64-95de-4914-a960-8f842be3a194 Sep 13 2019
+StackToRegisterMappingCogit VMMaker.oscog-eem.2509 uuid: 91e81f64-95de-4914-a960-8f842be3a194 Sep 13 2019
+VM: 201907031441-pharo Guille@DESKTOP-MG6660L:projects/vm7/opensmalltalk-vm Date: Wed Jul 3 16:41:39 2019 CommitHash: 4e4c5b5a0 Plugins: 201907031441-pharo Guille@DESKTOP-MG6660L:projects/vm7/opensmalltalk-vm
+
+Image: Pharo7.0.5 [Build information: Pharo-7.0.5+build.177.sha.fd8c156d959653f52be6fd7f8c71edf8cfb8fe90 (64 Bit)]
+
+True(Object)>>doesNotUnderstand: #dimensionTablero
+	Receiver: true
+	Arguments and temporary variables: 
+		aMessage: 	dimensionTablero
+		exception: 	MessageNotUnderstood: True>>dimensionTablero
+		resumeValue: 	nil
+	Receiver's instance variables: 
+true
+
+LightsOut>>initialize
+	Receiver: a LightsOut
+	Arguments and temporary variables: 
+		opcion: 	1
+	Receiver's instance variables: 
+a LightsOut
+
+LightsOut class(Behavior)>>new
+	Receiver: LightsOut
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		superclass: 	Object
+		methodDict: 	a MethodDictionary(#initialize->LightsOut>>#initialize )
+		format: 	0
+		layout: 	a FixedLayout
+		organization: 	a ClassOrganization
+		subclasses: 	nil
+		name: 	#LightsOut
+		classPool: 	a Dictionary(#Juego->true #Table->a Tablero(225336064) #Ventana->a S...etc...
+		sharedPools: 	an OrderedCollection()
+		environment: 	a SystemDictionary(lots of globals)
+		category: 	#'Lights Out'
+
+
+UndefinedObject>>DoIt
+	Receiver: nil
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+nil
+
+OpalCompiler>>evaluate
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		value: 	nil
+	Receiver's instance variables: 
+		ast: 	DoIt
+	^ LightsOut new
+		source: 	a ReadStream
+		context: 	nil
+		receiver: 	nil
+		compilationContext: 	a CompilationContext
+		compilationContextClass: 	nil
+
+
+RubSmalltalkEditor>>evaluate:andDo:
+	Receiver: a RubSmalltalkEditor
+	Arguments and temporary variables: 
+		aStream: 	a ReadStream
+		aBlock: 	[ :result | aBlock value: result ]
+		result: 	nil
+		rcvr: 	nil
+		ctxt: 	nil
+	Receiver's instance variables: 
+		defaultKeymappingIndex: 	an IdentityDictionary(#command->#(#noop: #cursorHome: #...etc...
+		textArea: 	a RubEditingArea(325157120)
+		selectorChooser: 	nil
+		notificationStrategy: 	a GLMPopperNotificationStrategy
+
+
+RubSmalltalkEditor>>highlightEvaluateAndDo:
+	Receiver: a RubSmalltalkEditor
+	Arguments and temporary variables: 
+		aBlock: 	[ :result | text selection: result ]
+	Receiver's instance variables: 
+		defaultKeymappingIndex: 	an IdentityDictionary(#command->#(#noop: #cursorHome: #...etc...
+		textArea: 	a RubEditingArea(325157120)
+		selectorChooser: 	nil
+		notificationStrategy: 	a GLMPopperNotificationStrategy
+
+
+[ textMorph textArea editor highlightEvaluateAndDo: ann action.
+textMorph shoutStyler style: textMorph text ] in [ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate:
+	Receiver: a GLMMorphicPharoScriptRenderer
+	Arguments and temporary variables: 
+		ann: 	a GLMHighlightAndEvaluate
+	Receiver's instance variables: 
+		renderer: 	a GLMMorphicRenderer
+		textMorph: 	a RubScrolledTextMorph(780877056)
+		textModel: 	a GLMRubricSmalltalkTextModel
+
+
+RubEditingArea(RubAbstractTextArea)>>handleEdit:
+	Receiver: a RubEditingArea(325157120)
+	Arguments and temporary variables: 
+		editBlock: 	[ textMorph textArea editor highlightEvaluateAndDo: ann action.
+text...etc...
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (285@31)
+		owner: 	a TransformWithLayoutMorph(644111104)
+		submorphs: 	an Array(a RubPrimarySelectionMorph(1057178880) a RubCursor(80323916...etc...
+		fullBounds: 	(0@0) corner: (285@31)
+		color: 	Color transparent
+		extension: 	a MorphExtension (959022848) [other:  (announcer -> an Announcer) (k...etc...
+		model: 	a GLMRubricSmalltalkTextModel
+		paragraph: 	a RubShoutStylerDecorator
+		editor: 	a RubSmalltalkEditor
+		scrollPane: 	a RubTextScrollPane(114020096)
+		editingState: 	a RubEditingState
+		textStyle: 	a TextStyle Source Code Pro
+		textColor: 	Color black
+		margins: 	a Margin top: 6 left: 6 bottom: 6 right: 6
+		readOnly: 	false
+		menuAllowed: 	nil
+		editingMode: 	a RubSmalltalkScriptingMode
+		cursor: 	a RubCursor(803239168)
+		segments: 	an OrderedCollection(a RubHighlightSegmentMorph(35913472))
+		getMenuPolicy: 	nil
+		mouseDownPoint: 	nil
+		wrapped: 	true
+		editorClass: 	RubSmalltalkEditor
+
+
+[ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate:
+	Receiver: a GLMMorphicPharoScriptRenderer
+	Arguments and temporary variables: 
+		ann: 	a GLMHighlightAndEvaluate
+	Receiver's instance variables: 
+		renderer: 	a GLMMorphicRenderer
+		textMorph: 	a RubScrolledTextMorph(780877056)
+		textModel: 	a GLMRubricSmalltalkTextModel
+
+
+WorldState>>runStepMethodsIn:
+	Receiver: a WorldState
+	Arguments and temporary variables: 
+		aWorld: 	a WorldMorph(703126016) [world]
+		queue: 	WaitfreeQueue with 0 items
+		nextInQueue: 	[ textMorph textArea
+	handleEdit: [ textMorph textArea editor high...etc...
+	Receiver's instance variables: 
+		hands: 	an Array(a HandMorph(523392256))
+		viewBox: 	(0@0) corner: (1536@793)
+		canvas: 	a FormCanvas on: DisplayScreen(1536x793x32)
+		damageRecorder: 	a DamageRecorder
+		stepList: 	a Heap(StepMessage(#stepAt: -> a GLMSystemWindow(999734528) named: Pl...etc...
+		lastStepTime: 	1519630
+		lastStepMessage: 	nil
+		lastCycleTime: 	1519619
+		alarms: 	a Heap(MorphicAlarm(#hideShow -> a RubCursor(803239168)))
+		lastAlarmTime: 	1519630
+		menuBuilder: 	a PragmaMenuBuilder ( nil ) 
+		activeHand: 	a HandMorph(523392256)
+		currentCursor: 	((CursorWithMask
+	extent: (16@16)
+	depth: 1
+	fromArray: #(
+		2r0...etc...
+
+
+WorldMorph>>runStepMethods
+	Receiver: a WorldMorph(703126016) [world]
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (1536@793)
+		owner: 	nil
+		submorphs: 	an Array(a MenubarMorph(769431040) a TaskbarMorph(1025265408) a GLMS...etc...
+		fullBounds: 	(0@0) corner: (1536@793)
+		color: 	THERE_BE_DRAGONS_HERE
+#adaptToNumber:andSend: was sent to nil
+21 November 2022 5:48:06.620204 pm
+
+VM: Win32 - X64 - 6.2 - CoInterpreter VMMaker.oscog-eem.2509 uuid: 91e81f64-95de-4914-a960-8f842be3a194 Sep 13 2019
+StackToRegisterMappingCogit VMMaker.oscog-eem.2509 uuid: 91e81f64-95de-4914-a960-8f842be3a194 Sep 13 2019
+VM: 201907031441-pharo Guille@DESKTOP-MG6660L:projects/vm7/opensmalltalk-vm Date: Wed Jul 3 16:41:39 2019 CommitHash: 4e4c5b5a0 Plugins: 201907031441-pharo Guille@DESKTOP-MG6660L:projects/vm7/opensmalltalk-vm
+
+Image: Pharo7.0.5 [Build information: Pharo-7.0.5+build.177.sha.fd8c156d959653f52be6fd7f8c71edf8cfb8fe90 (64 Bit)]
+
+UndefinedObject(Object)>>doesNotUnderstand: #adaptToNumber:andSend:
+	Receiver: nil
+	Arguments and temporary variables: 
+		aMessage: 	adaptToNumber: 80 andSend: #*
+		exception: 	MessageNotUnderstood: receiver of "adaptToNumber:andSend:" is nil
+		resumeValue: 	nil
+	Receiver's instance variables: 
+nil
+
+UndefinedObject(Object)>>adaptToInteger:andSend:
+	Receiver: nil
+	Arguments and temporary variables: 
+		rcvr: 	80
+		selector: 	#*
+	Receiver's instance variables: 
+nil
+
+SmallInteger(Integer)>>*
+	Receiver: 80
+	Arguments and temporary variables: 
+		aNumber: 	nil
+	Receiver's instance variables: 
+80
+
+SmallInteger>>*
+	Receiver: 80
+	Arguments and temporary variables: 
+		aNumber: 	nil
+	Receiver's instance variables: 
+80
+
+Tablero>>crearTablero
+	Receiver: a Tablero(590956288)
+	Arguments and temporary variables: 
+		luz: 	a Luz(94225152)
+		lado: 	80
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (50@40)
+		owner: 	nil
+		submorphs: 	#()
+		fullBounds: 	nil
+		color: 	Color blue
+		extension: 	a MorphExtension (947218688)
+		borderWidth: 	1
+		borderColor: 	Color black
+		celdas: 	nil
+		tamaño: 	nil
+		contadorDeClicks: 	nil
+		modoJuego: 	nil
+		cambiarLuz: 	nil
+
+
+LightsOut>>initialize
+	Receiver: a LightsOut
+	Arguments and temporary variables: 
+		opcion: 	1
+	Receiver's instance variables: 
+a LightsOut
+
+LightsOut class(Behavior)>>new
+	Receiver: LightsOut
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		superclass: 	Object
+		methodDict: 	a MethodDictionary(#initialize->LightsOut>>#initialize )
+		format: 	0
+		layout: 	a FixedLayout
+		organization: 	a ClassOrganization
+		subclasses: 	nil
+		name: 	#LightsOut
+		classPool: 	a Dictionary(#Juego->a Partida #Table->a Tablero(590956288) #Ventana...etc...
+		sharedPools: 	an OrderedCollection()
+		environment: 	a SystemDictionary(lots of globals)
+		category: 	#'Lights Out'
+
+
+UndefinedObject>>DoIt
+	Receiver: nil
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+nil
+
+OpalCompiler>>evaluate
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		value: 	nil
+	Receiver's instance variables: 
+		ast: 	DoIt
+	^ LightsOut new
+		source: 	a ReadStream
+		context: 	nil
+		receiver: 	nil
+		compilationContext: 	a CompilationContext
+		compilationContextClass: 	nil
+
+
+RubSmalltalkEditor>>evaluate:andDo:
+	Receiver: a RubSmalltalkEditor
+	Arguments and temporary variables: 
+		aStream: 	a ReadStream
+		aBlock: 	[ :result | aBlock value: result ]
+		result: 	nil
+		rcvr: 	nil
+		ctxt: 	nil
+	Receiver's instance variables: 
+		defaultKeymappingIndex: 	an IdentityDictionary(#command->#(#noop: #cursorHome: #...etc...
+		textArea: 	a RubEditingArea(325157120)
+		selectorChooser: 	nil
+		notificationStrategy: 	a GLMPopperNotificationStrategy
+
+
+RubSmalltalkEditor>>highlightEvaluateAndDo:
+	Receiver: a RubSmalltalkEditor
+	Arguments and temporary variables: 
+		aBlock: 	[ :result | text selection: result ]
+	Receiver's instance variables: 
+		defaultKeymappingIndex: 	an IdentityDictionary(#command->#(#noop: #cursorHome: #...etc...
+		textArea: 	a RubEditingArea(325157120)
+		selectorChooser: 	nil
+		notificationStrategy: 	a GLMPopperNotificationStrategy
+
+
+[ textMorph textArea editor highlightEvaluateAndDo: ann action.
+textMorph shoutStyler style: textMorph text ] in [ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate:
+	Receiver: a GLMMorphicPharoScriptRenderer
+	Arguments and temporary variables: 
+		ann: 	a GLMHighlightAndEvaluate
+	Receiver's instance variables: 
+		renderer: 	a GLMMorphicRenderer
+		textMorph: 	a RubScrolledTextMorph(780877056)
+		textModel: 	a GLMRubricSmalltalkTextModel
+
+
+RubEditingArea(RubAbstractTextArea)>>handleEdit:
+	Receiver: a RubEditingArea(325157120)
+	Arguments and temporary variables: 
+		editBlock: 	[ textMorph textArea editor highlightEvaluateAndDo: ann action.
+text...etc...
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (285@31)
+		owner: 	a TransformWithLayoutMorph(644111104)
+		submorphs: 	an Array(a RubPrimarySelectionMorph(311119104) a RubCursor(803239168...etc...
+		fullBounds: 	(0@0) corner: (285@31)
+		color: 	Color transparent
+		extension: 	a MorphExtension (959022848) [other:  (announcer -> an Announcer) (k...etc...
+		model: 	a GLMRubricSmalltalkTextModel
+		paragraph: 	a RubShoutStylerDecorator
+		editor: 	a RubSmalltalkEditor
+		scrollPane: 	a RubTextScrollPane(114020096)
+		editingState: 	a RubEditingState
+		textStyle: 	a TextStyle Source Code Pro
+		textColor: 	Color black
+		margins: 	a Margin top: 6 left: 6 bottom: 6 right: 6
+		readOnly: 	false
+		menuAllowed: 	nil
+		editingMode: 	a RubSmalltalkScriptingMode
+		cursor: 	a RubCursor(803239168)
+		segments: 	an OrderedCollection(a RubHighlightSegmentMorph(933604608))
+		getMenuPolicy: 	nil
+		mouseDownPoint: 	(203.0@ -14.0)
+		wrapped: 	true
+		editorClass: 	RubSmalltalkEditor
+
+
+[ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate:
+	Receiver: a GLMMorphicPharoScriptRenderer
+	Arguments and temporary variables: 
+		ann: 	a GLMHighlightAndEvaluate
+	Receiver's instance variables: 
+		renderer: 	a GLMMorphicRenderer
+		textMorph: 	a RubScrolledTextMorph(780877056)
+		textModel: 	a GLMRubricSmalltalkTextModel
+
+
+WorldState>>runStepMethodsIn:
+	Receiver: a WorldState
+	Arguments and temporary variables: 
+		aWorld: 	a WorldMorph(703126016) [world]
+		queue: 	WaitfreeQueue with 0 items
+		nextInQueue: 	[ textMorph textArea
+	handleEdit: [ textMorph textArea editor high...etc...
+	Receiver's instance variables: 
+		hands: 	an Array(a HandMorph(523392256))
+		viewBox: 	(0@0) corner: (1536@793)
+		canvas: 	a FormCanvas on: DisplayScreen(1536x793x32)
+		damageRecorder: 	a DamageRecorder
+		stepList: 	a Heap(StepMessage(#stepAt: -> a GLMSystemWindow(999734528) named: Pl...etc...
+		lastStepTime: 	2109419
+		lastStepMessage: 	nil
+		lastCycleTime: 	2109411
+		alarms: 	a Heap(MorphicAlarm(#hideShow -> a RubCursor(803239168)))
+		lastAlarmTime: 	2109419
+		menuBuilder: 	a PragmaMenuBuilder ( nil ) 
+		activeHand: 	a HandMorph(523392256)
+		currentCursor: 	((CursorWithMask
+	extent: (16@16)
+	depth: 1
+	fromArray: #(
+		2r0...etc...
+
+
+WorldMorph>>runStepMethods
+	Receiver: a WorldMorph(703126016) [world]
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		bounds: 	(0THERE_BE_DRAGONS_HERE
+#includes: was sent to nil
+21 November 2022 5:50:43.006204 pm
+
+VM: Win32 - X64 - 6.2 - CoInterpreter VMMaker.oscog-eem.2509 uuid: 91e81f64-95de-4914-a960-8f842be3a194 Sep 13 2019
+StackToRegisterMappingCogit VMMaker.oscog-eem.2509 uuid: 91e81f64-95de-4914-a960-8f842be3a194 Sep 13 2019
+VM: 201907031441-pharo Guille@DESKTOP-MG6660L:projects/vm7/opensmalltalk-vm Date: Wed Jul 3 16:41:39 2019 CommitHash: 4e4c5b5a0 Plugins: 201907031441-pharo Guille@DESKTOP-MG6660L:projects/vm7/opensmalltalk-vm
+
+Image: Pharo7.0.5 [Build information: Pharo-7.0.5+build.177.sha.fd8c156d959653f52be6fd7f8c71edf8cfb8fe90 (64 Bit)]
+
+UndefinedObject(Object)>>doesNotUnderstand: #includes:
+	Receiver: nil
+	Arguments and temporary variables: 
+		aMessage: 	includes: #(3 5 7)
+		exception: 	MessageNotUnderstood: receiver of "includes:" is nil
+		resumeValue: 	nil
+	Receiver's instance variables: 
+nil
+
+Partida>>tamaño
+	Receiver: a Partida
+	Arguments and temporary variables: 
+		tam: 	nil
+	Receiver's instance variables: 
+		modoJuego: 	1
+		dimensionTablero: 	nil
+		cantClicks: 	nil
+
+
+Partida>>initialize
+	Receiver: a Partida
+	Arguments and temporary variables: 
+		opcion: 	1
+	Receiver's instance variables: 
+		modoJuego: 	1
+		dimensionTablero: 	nil
+		cantClicks: 	nil
+
+
+Partida class(Behavior)>>new
+	Receiver: Partida
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		superclass: 	Object
+		methodDict: 	a MethodDictionary(#cantClicks->Partida>>#cantClicks #cantClicks:->...etc...
+		format: 	65539
+		layout: 	a FixedLayout
+		organization: 	a ClassOrganization
+		subclasses: 	#()
+		name: 	#Partida
+		classPool: 	a Dictionary()
+		sharedPools: 	an OrderedCollection()
+		environment: 	a SystemDictionary(lots of globals)
+		category: 	#'Lights Out'
+		tamaño: 	nil
+
+
+LightsOut>>initialize
+	Receiver: a LightsOut
+	Arguments and temporary variables: 
+		opcion: 	1
+	Receiver's instance variables: 
+a LightsOut
+
+LightsOut class(Behavior)>>new
+	Receiver: LightsOut
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		superclass: 	Object
+		methodDict: 	a MethodDictionary(#initialize->LightsOut>>#initialize )
+		format: 	0
+		layout: 	a FixedLayout
+		organization: 	a ClassOrganization
+		subclasses: 	nil
+		name: 	#LightsOut
+		classPool: 	a Dictionary(#Juego->a Partida #Table->a Tablero(590956288) #Ventana...etc...
+		sharedPools: 	an OrderedCollection()
+		environment: 	a SystemDictionary(lots of globals)
+		category: 	#'Lights Out'
+
+
+UndefinedObject>>DoIt
+	Receiver: nil
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+nil
+
+OpalCompiler>>evaluate
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		value: 	nil
+	Receiver's instance variables: 
+		ast: 	DoIt
+	^ LightsOut new
+		source: 	a ReadStream
+		context: 	nil
+		receiver: 	nil
+		compilationContext: 	a CompilationContext
+		compilationContextClass: 	nil
+
+
+RubSmalltalkEditor>>evaluate:andDo:
+	Receiver: a RubSmalltalkEditor
+	Arguments and temporary variables: 
+		aStream: 	a ReadStream
+		aBlock: 	[ :result | aBlock value: result ]
+		result: 	nil
+		rcvr: 	nil
+		ctxt: 	nil
+	Receiver's instance variables: 
+		defaultKeymappingIndex: 	an IdentityDictionary(#command->#(#noop: #cursorHome: #...etc...
+		textArea: 	a RubEditingArea(325157120)
+		selectorChooser: 	nil
+		notificationStrategy: 	a GLMPopperNotificationStrategy
+
+
+RubSmalltalkEditor>>highlightEvaluateAndDo:
+	Receiver: a RubSmalltalkEditor
+	Arguments and temporary variables: 
+		aBlock: 	[ :result | text selection: result ]
+	Receiver's instance variables: 
+		defaultKeymappingIndex: 	an IdentityDictionary(#command->#(#noop: #cursorHome: #...etc...
+		textArea: 	a RubEditingArea(325157120)
+		selectorChooser: 	nil
+		notificationStrategy: 	a GLMPopperNotificationStrategy
+
+
+[ textMorph textArea editor highlightEvaluateAndDo: ann action.
+textMorph shoutStyler style: textMorph text ] in [ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate:
+	Receiver: a GLMMorphicPharoScriptRenderer
+	Arguments and temporary variables: 
+		ann: 	a GLMHighlightAndEvaluate
+	Receiver's instance variables: 
+		renderer: 	a GLMMorphicRenderer
+		textMorph: 	a RubScrolledTextMorph(780877056)
+		textModel: 	a GLMRubricSmalltalkTextModel
+
+
+RubEditingArea(RubAbstractTextArea)>>handleEdit:
+	Receiver: a RubEditingArea(325157120)
+	Arguments and temporary variables: 
+		editBlock: 	[ textMorph textArea editor highlightEvaluateAndDo: ann action.
+text...etc...
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (285@31)
+		owner: 	a TransformWithLayoutMorph(644111104)
+		submorphs: 	an Array(a RubPrimarySelectionMorph(311119104) a RubCursor(803239168...etc...
+		fullBounds: 	(0@0) corner: (285@31)
+		color: 	Color transparent
+		extension: 	a MorphExtension (959022848) [other:  (announcer -> an Announcer) (k...etc...
+		model: 	a GLMRubricSmalltalkTextModel
+		paragraph: 	a RubShoutStylerDecorator
+		editor: 	a RubSmalltalkEditor
+		scrollPane: 	a RubTextScrollPane(114020096)
+		editingState: 	a RubEditingState
+		textStyle: 	a TextStyle Source Code Pro
+		textColor: 	Color black
+		margins: 	a Margin top: 6 left: 6 bottom: 6 right: 6
+		readOnly: 	false
+		menuAllowed: 	nil
+		editingMode: 	a RubSmalltalkScriptingMode
+		cursor: 	a RubCursor(803239168)
+		segments: 	an OrderedCollection(a RubHighlightSegmentMorph(557810944))
+		getMenuPolicy: 	nil
+		mouseDownPoint: 	(203.0@ -14.0)
+		wrapped: 	true
+		editorClass: 	RubSmalltalkEditor
+
+
+[ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate:
+	Receiver: a GLMMorphicPharoScriptRenderer
+	Arguments and temporary variables: 
+		ann: 	a GLMHighlightAndEvaluate
+	Receiver's instance variables: 
+		renderer: 	a GLMMorphicRenderer
+		textMorph: 	a RubScrolledTextMorph(780877056)
+		textModel: 	a GLMRubricSmalltalkTextModel
+
+
+WorldState>>runStepMethodsIn:
+	Receiver: a WorldState
+	Arguments and temporary variables: 
+		aWorld: 	a WorldMorph(703126016) [world]
+		queue: 	WaitfreeQueue with 0 items
+		nextInQueue: 	[ textMorph textArea
+	handleEdit: [ textMorph textArea editor high...etc...
+	Receiver's instance variables: 
+		hands: 	an Array(a HandMorph(523392256))
+		viewBox: 	(0@0) corner: (1536@793)
+		canvas: 	a FormCanvas on: DisplayScreen(1536x793x32)
+		damageRecorder: 	a DamageRecorder
+		stepList: 	a Heap(StepMessage(#stepAt: -> a GLMSystemWindow(999734528) named: Pl...etc...
+		lastStepTime: 	2265802
+		lastStepMessage: 	nil
+		lastCycleTime: 	2265791
+		alarms: 	a Heap(MorphicAlarm(#hideShow -> a RubCursor(803239168)))
+		lastAlarmTime: 	2265802
+		menuBuilder: 	a PragmaMenuBuilder ( nil ) 
+		activeHand: 	a HandMorph(523392256)
+		currentCursor: 	((CursorWithMask
+	extent: (16@16)
+	depth: 1
+	fromArray: #(
+		2r0...etc...
+
+
+WorldMorph>>runStepMethods
+	Receiver: a WorldMorph(703126016) [world]
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (1536@793)
+		owner: 	nil
+		submorphs: 	an Array(a MenubarMorph(769431040) a TaskbarMorph(1025265408) a GLMS...etc...
+		fullBounds: 	(0@0) corner: (1536@793)
+		color: 	(Color r: 0.9400000000000001 g: 0.9400000000000001 b: 0.9400000000000001...etc...
+		extension: 	a MorphExtension (359075072) [other:  (dragEnTHERE_BE_DRAGONS_HERE
+#includes: was sent to nil
+21 November 2022 5:51:10.268204 pm
+
+VM: Win32 - X64 - 6.2 - CoInterpreter VMMaker.oscog-eem.2509 uuid: 91e81f64-95de-4914-a960-8f842be3a194 Sep 13 2019
+StackToRegisterMappingCogit VMMaker.oscog-eem.2509 uuid: 91e81f64-95de-4914-a960-8f842be3a194 Sep 13 2019
+VM: 201907031441-pharo Guille@DESKTOP-MG6660L:projects/vm7/opensmalltalk-vm Date: Wed Jul 3 16:41:39 2019 CommitHash: 4e4c5b5a0 Plugins: 201907031441-pharo Guille@DESKTOP-MG6660L:projects/vm7/opensmalltalk-vm
+
+Image: Pharo7.0.5 [Build information: Pharo-7.0.5+build.177.sha.fd8c156d959653f52be6fd7f8c71edf8cfb8fe90 (64 Bit)]
+
+UndefinedObject(Object)>>doesNotUnderstand: #includes:
+	Receiver: nil
+	Arguments and temporary variables: 
+		aMessage: 	includes: #(1 2 3)
+		exception: 	MessageNotUnderstood: receiver of "includes:" is nil
+		resumeValue: 	nil
+	Receiver's instance variables: 
+nil
+
+Partida>>tamaño
+	Receiver: a Partida
+	Arguments and temporary variables: 
+		tam: 	nil
+	Receiver's instance variables: 
+		modoJuego: 	1
+		dimensionTablero: 	nil
+		cantClicks: 	nil
+
+
+Partida>>initialize
+	Receiver: a Partida
+	Arguments and temporary variables: 
+		opcion: 	1
+	Receiver's instance variables: 
+		modoJuego: 	1
+		dimensionTablero: 	nil
+		cantClicks: 	nil
+
+
+Partida class(Behavior)>>new
+	Receiver: Partida
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		superclass: 	Object
+		methodDict: 	a MethodDictionary(#cantClicks->Partida>>#cantClicks #cantClicks:->...etc...
+		format: 	65539
+		layout: 	a FixedLayout
+		organization: 	a ClassOrganization
+		subclasses: 	#()
+		name: 	#Partida
+		classPool: 	a Dictionary()
+		sharedPools: 	an OrderedCollection()
+		environment: 	a SystemDictionary(lots of globals)
+		category: 	#'Lights Out'
+		tamaño: 	nil
+
+
+LightsOut>>initialize
+	Receiver: a LightsOut
+	Arguments and temporary variables: 
+		opcion: 	1
+	Receiver's instance variables: 
+a LightsOut
+
+LightsOut class(Behavior)>>new
+	Receiver: LightsOut
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		superclass: 	Object
+		methodDict: 	a MethodDictionary(#initialize->LightsOut>>#initialize )
+		format: 	0
+		layout: 	a FixedLayout
+		organization: 	a ClassOrganization
+		subclasses: 	nil
+		name: 	#LightsOut
+		classPool: 	a Dictionary(#Juego->a Partida #Table->a Tablero(590956288) #Ventana...etc...
+		sharedPools: 	an OrderedCollection()
+		environment: 	a SystemDictionary(lots of globals)
+		category: 	#'Lights Out'
+
+
+UndefinedObject>>DoIt
+	Receiver: nil
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+nil
+
+OpalCompiler>>evaluate
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		value: 	nil
+	Receiver's instance variables: 
+		ast: 	DoIt
+	^ LightsOut new
+		source: 	a ReadStream
+		context: 	nil
+		receiver: 	nil
+		compilationContext: 	a CompilationContext
+		compilationContextClass: 	nil
+
+
+RubSmalltalkEditor>>evaluate:andDo:
+	Receiver: a RubSmalltalkEditor
+	Arguments and temporary variables: 
+		aStream: 	a ReadStream
+		aBlock: 	[ :result | aBlock value: result ]
+		result: 	nil
+		rcvr: 	nil
+		ctxt: 	nil
+	Receiver's instance variables: 
+		defaultKeymappingIndex: 	an IdentityDictionary(#command->#(#noop: #cursorHome: #...etc...
+		textArea: 	a RubEditingArea(325157120)
+		selectorChooser: 	nil
+		notificationStrategy: 	a GLMPopperNotificationStrategy
+
+
+RubSmalltalkEditor>>highlightEvaluateAndDo:
+	Receiver: a RubSmalltalkEditor
+	Arguments and temporary variables: 
+		aBlock: 	[ :result | text selection: result ]
+	Receiver's instance variables: 
+		defaultKeymappingIndex: 	an IdentityDictionary(#command->#(#noop: #cursorHome: #...etc...
+		textArea: 	a RubEditingArea(325157120)
+		selectorChooser: 	nil
+		notificationStrategy: 	a GLMPopperNotificationStrategy
+
+
+[ textMorph textArea editor highlightEvaluateAndDo: ann action.
+textMorph shoutStyler style: textMorph text ] in [ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate:
+	Receiver: a GLMMorphicPharoScriptRenderer
+	Arguments and temporary variables: 
+		ann: 	a GLMHighlightAndEvaluate
+	Receiver's instance variables: 
+		renderer: 	a GLMMorphicRenderer
+		textMorph: 	a RubScrolledTextMorph(780877056)
+		textModel: 	a GLMRubricSmalltalkTextModel
+
+
+RubEditingArea(RubAbstractTextArea)>>handleEdit:
+	Receiver: a RubEditingArea(325157120)
+	Arguments and temporary variables: 
+		editBlock: 	[ textMorph textArea editor highlightEvaluateAndDo: ann action.
+text...etc...
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (285@31)
+		owner: 	a TransformWithLayoutMorph(644111104)
+		submorphs: 	an Array(a RubPrimarySelectionMorph(311119104) a RubCursor(803239168...etc...
+		fullBounds: 	(0@0) corner: (285@31)
+		color: 	Color transparent
+		extension: 	a MorphExtension (959022848) [other:  (announcer -> an Announcer) (k...etc...
+		model: 	a GLMRubricSmalltalkTextModel
+		paragraph: 	a RubShoutStylerDecorator
+		editor: 	a RubSmalltalkEditor
+		scrollPane: 	a RubTextScrollPane(114020096)
+		editingState: 	a RubEditingState
+		textStyle: 	a TextStyle Source Code Pro
+		textColor: 	Color black
+		margins: 	a Margin top: 6 left: 6 bottom: 6 right: 6
+		readOnly: 	false
+		menuAllowed: 	nil
+		editingMode: 	a RubSmalltalkScriptingMode
+		cursor: 	a RubCursor(803239168)
+		segments: 	an OrderedCollection(a RubHighlightSegmentMorph(994640640))
+		getMenuPolicy: 	nil
+		mouseDownPoint: 	(203.0@ -14.0)
+		wrapped: 	true
+		editorClass: 	RubSmalltalkEditor
+
+
+[ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoTHERE_BE_DRAGONS_HERE
+#adaptToNumber:andSend: was sent to nil
+21 November 2022 5:55:19.040204 pm
+
+VM: Win32 - X64 - 6.2 - CoInterpreter VMMaker.oscog-eem.2509 uuid: 91e81f64-95de-4914-a960-8f842be3a194 Sep 13 2019
+StackToRegisterMappingCogit VMMaker.oscog-eem.2509 uuid: 91e81f64-95de-4914-a960-8f842be3a194 Sep 13 2019
+VM: 201907031441-pharo Guille@DESKTOP-MG6660L:projects/vm7/opensmalltalk-vm Date: Wed Jul 3 16:41:39 2019 CommitHash: 4e4c5b5a0 Plugins: 201907031441-pharo Guille@DESKTOP-MG6660L:projects/vm7/opensmalltalk-vm
+
+Image: Pharo7.0.5 [Build information: Pharo-7.0.5+build.177.sha.fd8c156d959653f52be6fd7f8c71edf8cfb8fe90 (64 Bit)]
+
+UndefinedObject(Object)>>doesNotUnderstand: #adaptToNumber:andSend:
+	Receiver: nil
+	Arguments and temporary variables: 
+		aMessage: 	adaptToNumber: 80 andSend: #*
+		exception: 	MessageNotUnderstood: receiver of "adaptToNumber:andSend:" is nil
+		resumeValue: 	nil
+	Receiver's instance variables: 
+nil
+
+UndefinedObject(Object)>>adaptToInteger:andSend:
+	Receiver: nil
+	Arguments and temporary variables: 
+		rcvr: 	80
+		selector: 	#*
+	Receiver's instance variables: 
+nil
+
+SmallInteger(Integer)>>*
+	Receiver: 80
+	Arguments and temporary variables: 
+		aNumber: 	nil
+	Receiver's instance variables: 
+80
+
+SmallInteger>>*
+	Receiver: 80
+	Arguments and temporary variables: 
+		aNumber: 	nil
+	Receiver's instance variables: 
+80
+
+Tablero>>crearTablero
+	Receiver: a Tablero(93535488)
+	Arguments and temporary variables: 
+		luz: 	a Luz(93454080)
+		lado: 	80
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (50@40)
+		owner: 	nil
+		submorphs: 	#()
+		fullBounds: 	nil
+		color: 	Color blue
+		extension: 	a MorphExtension (875940608)
+		borderWidth: 	1
+		borderColor: 	Color black
+		celdas: 	nil
+		tamaño: 	nil
+		contadorDeClicks: 	nil
+		modoJuego: 	nil
+		cambiarLuz: 	nil
+
+
+LightsOut>>initialize
+	Receiver: a LightsOut
+	Arguments and temporary variables: 
+		opcion: 	1
+	Receiver's instance variables: 
+a LightsOut
+
+LightsOut class(Behavior)>>new
+	Receiver: LightsOut
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		superclass: 	Object
+		methodDict: 	a MethodDictionary(#initialize->LightsOut>>#initialize )
+		format: 	0
+		layout: 	a FixedLayout
+		organization: 	a ClassOrganization
+		subclasses: 	nil
+		name: 	#LightsOut
+		classPool: 	a Dictionary(#Juego->a Partida #Table->a Tablero(93535488) #Ventana-...etc...
+		sharedPools: 	an OrderedCollection()
+		environment: 	a SystemDictionary(lots of globals)
+		category: 	#'Lights Out'
+
+
+UndefinedObject>>DoIt
+	Receiver: nil
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+nil
+
+OpalCompiler>>evaluate
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		value: 	nil
+	Receiver's instance variables: 
+		ast: 	DoIt
+	^ LightsOut new
+		source: 	a ReadStream
+		context: 	nil
+		receiver: 	nil
+		compilationContext: 	a CompilationContext
+		compilationContextClass: 	nil
+
+
+RubSmalltalkEditor>>evaluate:andDo:
+	Receiver: a RubSmalltalkEditor
+	Arguments and temporary variables: 
+		aStream: 	a ReadStream
+		aBlock: 	[ :result | aBlock value: result ]
+		result: 	nil
+		rcvr: 	nil
+		ctxt: 	nil
+	Receiver's instance variables: 
+		defaultKeymappingIndex: 	an IdentityDictionary(#command->#(#noop: #cursorHome: #...etc...
+		textArea: 	a RubEditingArea(325157120)
+		selectorChooser: 	nil
+		notificationStrategy: 	a GLMPopperNotificationStrategy
+
+
+RubSmalltalkEditor>>highlightEvaluateAndDo:
+	Receiver: a RubSmalltalkEditor
+	Arguments and temporary variables: 
+		aBlock: 	[ :result | text selection: result ]
+	Receiver's instance variables: 
+		defaultKeymappingIndex: 	an IdentityDictionary(#command->#(#noop: #cursorHome: #...etc...
+		textArea: 	a RubEditingArea(325157120)
+		selectorChooser: 	nil
+		notificationStrategy: 	a GLMPopperNotificationStrategy
+
+
+[ textMorph textArea editor highlightEvaluateAndDo: ann action.
+textMorph shoutStyler style: textMorph text ] in [ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate:
+	Receiver: a GLMMorphicPharoScriptRenderer
+	Arguments and temporary variables: 
+		ann: 	a GLMHighlightAndEvaluate
+	Receiver's instance variables: 
+		renderer: 	a GLMMorphicRenderer
+		textMorph: 	a RubScrolledTextMorph(780877056)
+		textModel: 	a GLMRubricSmalltalkTextModel
+
+
+RubEditingArea(RubAbstractTextArea)>>handleEdit:
+	Receiver: a RubEditingArea(325157120)
+	Arguments and temporary variables: 
+		editBlock: 	[ textMorph textArea editor highlightEvaluateAndDo: ann action.
+text...etc...
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (285@31)
+		owner: 	a TransformWithLayoutMorph(644111104)
+		submorphs: 	an Array(a RubPrimarySelectionMorph(311119104) a RubCursor(803239168...etc...
+		fullBounds: 	(0@0) corner: (285@31)
+		color: 	Color transparent
+		extension: 	a MorphExtension (959022848) [other:  (announcer -> an Announcer) (k...etc...
+		model: 	a GLMRubricSmalltalkTextModel
+		paragraph: 	a RubShoutStylerDecorator
+		editor: 	a RubSmalltalkEditor
+		scrollPane: 	a RubTextScrollPane(114020096)
+		editingState: 	a RubEditingState
+		textStyle: 	a TextStyle Source Code Pro
+		textColor: 	Color black
+		margins: 	a Margin top: 6 left: 6 bottom: 6 right: 6
+		readOnly: 	false
+		menuAllowed: 	nil
+		editingMode: 	a RubSmalltalkScriptingMode
+		cursor: 	a RubCursor(803239168)
+		segments: 	an OrderedCollection(a RubHighlightSegmentMorph(1014777600))
+		getMenuPolicy: 	nil
+		mouseDownPoint: 	(274.0@125.0)
+		wrapped: 	true
+		editorClass: 	RubSmalltalkEditor
+
+
+[ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate:
+	Receiver: a GLMMorphicPharoScriptRenderer
+	Arguments and temporary variables: 
+		ann: 	a GLMHighlightAndEvaluate
+	Receiver's instance variables: 
+		renderer: 	a GLMMorphicRenderer
+		textMorph: 	a RubScrolledTextMorph(780877056)
+		textModel: 	a GLMRubricSmalltalkTextModel
+
+
+WorldState>>runStepMethodsIn:
+	Receiver: a WorldState
+	Arguments and temporary variables: 
+		aWorld: 	a WorldMorph(703126016) [world]
+		queue: 	WaitfreeQueue with 0 items
+		nextInQueue: 	[ textMorph textArea
+	handleEdit: [ textMorph textArea editor high...etc...
+	Receiver's instance variables: 
+		hands: 	an Array(a HandMorph(523392256))
+		viewBox: 	(0@0) corner: (1536@793)
+		canvas: 	a FormCanvas on: DisplayScreen(1536x793x32)
+		damageRecorder: 	a DamageRecorder
+		stepList: 	a Heap(StepMessage(#stepAt: -> a GLMSystemWindow(999734528) named: Pl...etc...
+		lastStepTime: 	2541828
+		lastStepMessage: 	nil
+		lastCycleTime: 	2541812
+		alarms: 	a Heap(MorphicAlarm(#hideShow -> a RubCursor(803239168)))
+		lastAlarmTime: 	2541828
+		menuBuilder: 	a PragmaMenuBuilder ( nil ) 
+		activeHand: 	a HandMorph(523392256)
+		currentCursor: 	((CursorWithMask
+	extent: (16@16)
+	depth: 1
+	fromArrayTHERE_BE_DRAGONS_HERE
+#adaptToNumber:andSend: was sent to nil
+21 November 2022 5:55:30.670204 pm
+
+VM: Win32 - X64 - 6.2 - CoInterpreter VMMaker.oscog-eem.2509 uuid: 91e81f64-95de-4914-a960-8f842be3a194 Sep 13 2019
+StackToRegisterMappingCogit VMMaker.oscog-eem.2509 uuid: 91e81f64-95de-4914-a960-8f842be3a194 Sep 13 2019
+VM: 201907031441-pharo Guille@DESKTOP-MG6660L:projects/vm7/opensmalltalk-vm Date: Wed Jul 3 16:41:39 2019 CommitHash: 4e4c5b5a0 Plugins: 201907031441-pharo Guille@DESKTOP-MG6660L:projects/vm7/opensmalltalk-vm
+
+Image: Pharo7.0.5 [Build information: Pharo-7.0.5+build.177.sha.fd8c156d959653f52be6fd7f8c71edf8cfb8fe90 (64 Bit)]
+
+UndefinedObject(Object)>>doesNotUnderstand: #adaptToNumber:andSend:
+	Receiver: nil
+	Arguments and temporary variables: 
+		aMessage: 	adaptToNumber: 80 andSend: #*
+		exception: 	MessageNotUnderstood: receiver of "adaptToNumber:andSend:" is nil
+		resumeValue: 	nil
+	Receiver's instance variables: 
+nil
+
+UndefinedObject(Object)>>adaptToInteger:andSend:
+	Receiver: nil
+	Arguments and temporary variables: 
+		rcvr: 	80
+		selector: 	#*
+	Receiver's instance variables: 
+nil
+
+SmallInteger(Integer)>>*
+	Receiver: 80
+	Arguments and temporary variables: 
+		aNumber: 	nil
+	Receiver's instance variables: 
+80
+
+SmallInteger>>*
+	Receiver: 80
+	Arguments and temporary variables: 
+		aNumber: 	nil
+	Receiver's instance variables: 
+80
+
+Tablero>>crearTablero
+	Receiver: a Tablero(481492736)
+	Arguments and temporary variables: 
+		luz: 	a Luz(733793024)
+		lado: 	80
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (50@40)
+		owner: 	nil
+		submorphs: 	#()
+		fullBounds: 	nil
+		color: 	Color blue
+		extension: 	a MorphExtension (935043328)
+		borderWidth: 	1
+		borderColor: 	Color black
+		celdas: 	nil
+		tamaño: 	nil
+		contadorDeClicks: 	nil
+		modoJuego: 	nil
+		cambiarLuz: 	nil
+
+
+LightsOut>>initialize
+	Receiver: a LightsOut
+	Arguments and temporary variables: 
+		opcion: 	1
+	Receiver's instance variables: 
+a LightsOut
+
+LightsOut class(Behavior)>>new
+	Receiver: LightsOut
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		superclass: 	Object
+		methodDict: 	a MethodDictionary(#initialize->LightsOut>>#initialize )
+		format: 	0
+		layout: 	a FixedLayout
+		organization: 	a ClassOrganization
+		subclasses: 	nil
+		name: 	#LightsOut
+		classPool: 	a Dictionary(#Juego->a Partida #Table->a Tablero(481492736) #Ventana...etc...
+		sharedPools: 	an OrderedCollection()
+		environment: 	a SystemDictionary(lots of globals)
+		category: 	#'Lights Out'
+
+
+UndefinedObject>>DoIt
+	Receiver: nil
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+nil
+
+OpalCompiler>>evaluate
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		value: 	nil
+	Receiver's instance variables: 
+		ast: 	DoIt
+	^ LightsOut new
+		source: 	a ReadStream
+		context: 	nil
+		receiver: 	nil
+		compilationContext: 	a CompilationContext
+		compilationContextClass: 	nil
+
+
+RubSmalltalkEditor>>evaluate:andDo:
+	Receiver: a RubSmalltalkEditor
+	Arguments and temporary variables: 
+		aStream: 	a ReadStream
+		aBlock: 	[ :result | aBlock value: result ]
+		result: 	nil
+		rcvr: 	nil
+		ctxt: 	nil
+	Receiver's instance variables: 
+		defaultKeymappingIndex: 	an IdentityDictionary(#command->#(#noop: #cursorHome: #...etc...
+		textArea: 	a RubEditingArea(325157120)
+		selectorChooser: 	nil
+		notificationStrategy: 	a GLMPopperNotificationStrategy
+
+
+RubSmalltalkEditor>>highlightEvaluateAndDo:
+	Receiver: a RubSmalltalkEditor
+	Arguments and temporary variables: 
+		aBlock: 	[ :result | text selection: result ]
+	Receiver's instance variables: 
+		defaultKeymappingIndex: 	an IdentityDictionary(#command->#(#noop: #cursorHome: #...etc...
+		textArea: 	a RubEditingArea(325157120)
+		selectorChooser: 	nil
+		notificationStrategy: 	a GLMPopperNotificationStrategy
+
+
+[ textMorph textArea editor highlightEvaluateAndDo: ann action.
+textMorph shoutStyler style: textMorph text ] in [ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate:
+	Receiver: a GLMMorphicPharoScriptRenderer
+	Arguments and temporary variables: 
+		ann: 	a GLMHighlightAndEvaluate
+	Receiver's instance variables: 
+		renderer: 	a GLMMorphicRenderer
+		textMorph: 	a RubScrolledTextMorph(780877056)
+		textModel: 	a GLMRubricSmalltalkTextModel
+
+
+RubEditingArea(RubAbstractTextArea)>>handleEdit:
+	Receiver: a RubEditingArea(325157120)
+	Arguments and temporary variables: 
+		editBlock: 	[ textMorph textArea editor highlightEvaluateAndDo: ann action.
+text...etc...
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (285@31)
+		owner: 	a TransformWithLayoutMorph(644111104)
+		submorphs: 	an Array(a RubPrimarySelectionMorph(311119104) a RubCursor(803239168...etc...
+		fullBounds: 	(0@0) corner: (285@31)
+		color: 	Color transparent
+		extension: 	a MorphExtension (959022848) [other:  (announcer -> an Announcer) (k...etc...
+		model: 	a GLMRubricSmalltalkTextModel
+		paragraph: 	a RubShoutStylerDecorator
+		editor: 	a RubSmalltalkEditor
+		scrollPane: 	a RubTextScrollPane(114020096)
+		editingState: 	a RubEditingState
+		textStyle: 	a TextStyle Source Code Pro
+		textColor: 	Color black
+		margins: 	a Margin top: 6 left: 6 bottom: 6 right: 6
+		readOnly: 	false
+		menuAllowed: 	nil
+		editingMode: 	a RubSmalltalkScriptingMode
+		cursor: 	a RubCursor(803239168)
+		segments: 	an OrderedCollection(a RubHighlightSegmentMorph(135431424))
+		getMenuPolicy: 	nil
+		mouseDownPoint: 	(274.0@125.0)
+		wrapped: 	true
+		editorClass: 	RubSmalltalkEditor
+
+
+[ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate:
+	Receiver: a GLMMorphicPharoScriptRenderer
+	Arguments and temporary variables: 
+		ann: 	a GLMHighlightAndEvaluate
+	Receiver's instance variables: 
+		renderer: 	a GLMMorphicRenderer
+		textMorph: 	a RubScrolledTextMorph(780877056)
+		textModel: 	a GLMRubricSmalltalkTextModel
+
+
+WorldState>>runStepMethodsIn:
+	Receiver: a WorldState
+	Arguments and temporary variables: 
+		aWorld: 	a WorldMorph(703126016) [world]
+		queue: 	WaitfreeQueue with 0 items
+		nextInQueue: 	[ textMorph textArea
+	handleEdit: [ textMorph textArea editor high...etc...
+	Receiver's instance variables: 
+		hands: 	an Array(a HandMorph(523392256))
+		viewBox: 	(0@0) corner: (1536@793)
+		canvas: 	a FormCanvas on: DisplayScreen(1536x793x32)
+		damageRecorder: 	a DamageRecorder
+		stepList: 	a Heap(StepMessage(#stepAt: -> a GLMSystemWindow(999734528) named: Pl...etc...
+		lastTHERE_BE_DRAGONS_HERE
+Instance of Tablero did not understand #cerrar
+21 November 2022 6:15:02.517204 pm
+
+VM: Win32 - X64 - 6.2 - CoInterpreter VMMaker.oscog-eem.2509 uuid: 91e81f64-95de-4914-a960-8f842be3a194 Sep 13 2019
+StackToRegisterMappingCogit VMMaker.oscog-eem.2509 uuid: 91e81f64-95de-4914-a960-8f842be3a194 Sep 13 2019
+VM: 201907031441-pharo Guille@DESKTOP-MG6660L:projects/vm7/opensmalltalk-vm Date: Wed Jul 3 16:41:39 2019 CommitHash: 4e4c5b5a0 Plugins: 201907031441-pharo Guille@DESKTOP-MG6660L:projects/vm7/opensmalltalk-vm
+
+Image: Pharo7.0.5 [Build information: Pharo-7.0.5+build.177.sha.fd8c156d959653f52be6fd7f8c71edf8cfb8fe90 (64 Bit)]
+
+Tablero(Object)>>doesNotUnderstand: #cerrar
+	Receiver: a Tablero(50793728)
+	Arguments and temporary variables: 
+		aMessage: 	cerrar
+		exception: 	MessageNotUnderstood: Tablero>>cerrar
+		resumeValue: 	nil
+	Receiver's instance variables: 
+		bounds: 	(409.0@236.0) corner: (651.0@478.0)
+		owner: 	a SystemWindow(1071904000) named: Lights Out
+		submorphs: 	an Array(a Luz(360823552) a Luz(100962048) a Luz(941895936) a Luz(20...etc...
+		fullBounds: 	(409.0@236.0) corner: (651.0@478.0)
+		color: 	Color black
+		extension: 	a MorphExtension (729081600) [other:  (formerPosition -> (536.0@10.0...etc...
+		borderWidth: 	1
+		borderColor: 	(Color r: 0.8230000000000001 g: 0.8230000000000001 b: 0.8230000000...etc...
+		celdas: 	(a Luz(827178752) a Luz(514910976) a Luz(658427136)
+a Luz(823716096) a ...etc...
+		tamaño: 	3
+		contadorDeClicks: 	163
+		modoJuego: 	1
+		cambiarLuz: 	nil
+
+
+LightsOut class>>terminarJuego
+	Receiver: LightsOut
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		superclass: 	Object
+		methodDict: 	a MethodDictionary(#initialize->LightsOut>>#initialize )
+		format: 	0
+		layout: 	a FixedLayout
+		organization: 	a ClassOrganization
+		subclasses: 	nil
+		name: 	#LightsOut
+		classPool: 	a Dictionary(#Juego->a Partida #Table->a Tablero(50793728) #Ventana-...etc...
+		sharedPools: 	an OrderedCollection()
+		environment: 	a SystemDictionary(lots of globals)
+		category: 	#'Lights Out'
+
+
+Tablero>>recorrerLuces
+	Receiver: a Tablero(50793728)
+	Arguments and temporary variables: 
+		bandera: 	true
+	Receiver's instance variables: 
+		bounds: 	(409.0@236.0) corner: (651.0@478.0)
+		owner: 	a SystemWindow(1071904000) named: Lights Out
+		submorphs: 	an Array(a Luz(360823552) a Luz(100962048) a Luz(941895936) a Luz(20...etc...
+		fullBounds: 	(409.0@236.0) corner: (651.0@478.0)
+		color: 	Color black
+		extension: 	a MorphExtension (729081600) [other:  (formerPosition -> (536.0@10.0...etc...
+		borderWidth: 	1
+		borderColor: 	(Color r: 0.8230000000000001 g: 0.8230000000000001 b: 0.8230000000...etc...
+		celdas: 	(a Luz(827178752) a Luz(514910976) a Luz(658427136)
+a Luz(823716096) a ...etc...
+		tamaño: 	3
+		contadorDeClicks: 	163
+		modoJuego: 	1
+		cambiarLuz: 	nil
+
+
+Tablero>>cambiarLuzOriginal:at:
+	Receiver: a Tablero(50793728)
+	Arguments and temporary variables: 
+		i: 	2
+		j: 	2
+	Receiver's instance variables: 
+		bounds: 	(409.0@236.0) corner: (651.0@478.0)
+		owner: 	a SystemWindow(1071904000) named: Lights Out
+		submorphs: 	an Array(a Luz(360823552) a Luz(100962048) a Luz(941895936) a Luz(20...etc...
+		fullBounds: 	(409.0@236.0) corner: (651.0@478.0)
+		color: 	Color black
+		extension: 	a MorphExtension (729081600) [other:  (formerPosition -> (536.0@10.0...etc...
+		borderWidth: 	1
+		borderColor: 	(Color r: 0.8230000000000001 g: 0.8230000000000001 b: 0.8230000000...etc...
+		celdas: 	(a Luz(827178752) a Luz(514910976) a Luz(658427136)
+a Luz(823716096) a ...etc...
+		tamaño: 	3
+		contadorDeClicks: 	163
+		modoJuego: 	1
+		cambiarLuz: 	nil
+
+
+Tablero>>cambiarLuz:at:
+	Receiver: a Tablero(50793728)
+	Arguments and temporary variables: 
+		i: 	2
+		j: 	2
+	Receiver's instance variables: 
+		bounds: 	(409.0@236.0) corner: (651.0@478.0)
+		owner: 	a SystemWindow(1071904000) named: Lights Out
+		submorphs: 	an Array(a Luz(360823552) a Luz(100962048) a Luz(941895936) a Luz(20...etc...
+		fullBounds: 	(409.0@236.0) corner: (651.0@478.0)
+		color: 	Color black
+		extension: 	a MorphExtension (729081600) [other:  (formerPosition -> (536.0@10.0...etc...
+		borderWidth: 	1
+		borderColor: 	(Color r: 0.8230000000000001 g: 0.8230000000000001 b: 0.8230000000...etc...
+		celdas: 	(a Luz(827178752) a Luz(514910976) a Luz(658427136)
+a Luz(823716096) a ...etc...
+		tamaño: 	3
+		contadorDeClicks: 	163
+		modoJuego: 	1
+		cambiarLuz: 	nil
+
+
+[ self cambiarLuz: i at: j ] in Tablero>>nuevaluz:at:
+	Receiver: a Tablero(50793728)
+	Arguments and temporary variables: 
+		i: 	2
+		j: 	2
+		luz: 	nil
+		origen: 	nil
+	Receiver's instance variables: 
+		bounds: 	(409.0@236.0) corner: (651.0@478.0)
+		owner: 	a SystemWindow(1071904000) named: Lights Out
+		submorphs: 	an Array(a Luz(360823552) a Luz(100962048) a Luz(941895936) a Luz(20...etc...
+		fullBounds: 	(409.0@236.0) corner: (651.0@478.0)
+		color: 	Color black
+		extension: 	a MorphExtension (729081600) [other:  (formerPosition -> (536.0@10.0...etc...
+		borderWidth: 	1
+		borderColor: 	(Color r: 0.8230000000000001 g: 0.8230000000000001 b: 0.8230000000...etc...
+		celdas: 	(a Luz(827178752) a Luz(514910976) a Luz(658427136)
+a Luz(823716096) a ...etc...
+		tamaño: 	3
+		contadorDeClicks: 	163
+		modoJuego: 	1
+		cambiarLuz: 	nil
+
+
+Luz>>mouseUp:
+	Receiver: a Luz(446853376)
+	Arguments and temporary variables: 
+		anEvent: 	[(547@357) mouseUp 4279171 nil]
+	Receiver's instance variables: 
+		bounds: 	(490.0@317.0) corner: (570.0@397.0)
+		owner: 	a Tablero(50793728)
+		submorphs: 	an Array(a StringMorph(430795520)'')
+		fullBounds: 	(490.0@317.0) corner: (570.0@397.0)
+		color: 	Color veryVeryDarkGray
+		extension: 	a MorphExtension (142950144)
+		borderWidth: 	10
+		borderColor: 	#inset
+		target: 	nil
+		actionSelector: 	#flash
+		arguments: 	#()
+		actWhen: 	#buttonUp
+		oldColor: 	Color lightGreen
+		label: 	a StringMorph(430795520)''
+		onColor: 	Color veryVeryDarkGray
+		offColor: 	Color lightGreen
+		comportamientoCursor: 	[ self cambiarLuz: i at: j ]
+
+
+Luz(Morph)>>handleMouseUp:
+	Receiver: a Luz(446853376)
+	Arguments and temporary variables: 
+		anEvent: 	[(547@357) mouseUp 4279171 nil]
+		result: 	nil
+	Receiver's instance variables: 
+		bounds: 	(490.0@317.0) corner: (570.0@397.0)
+		owner: 	a Tablero(50793728)
+		submorphs: 	an Array(a StringMorph(430795520)'')
+		fullBounds: 	(490.0@317.0) corner: (570.0@397.0)
+		color: 	Color veryVeryDarkGray
+		extension: 	a MorphExtension (142950144)
+		borderWidthTHERE_BE_DRAGONS_HERE
+#close was sent to nil
+21 November 2022 8:08:37.201204 pm
+
+VM: Win32 - X64 - 6.2 - CoInterpreter VMMaker.oscog-eem.2509 uuid: 91e81f64-95de-4914-a960-8f842be3a194 Sep 13 2019
+StackToRegisterMappingCogit VMMaker.oscog-eem.2509 uuid: 91e81f64-95de-4914-a960-8f842be3a194 Sep 13 2019
+VM: 201907031441-pharo Guille@DESKTOP-MG6660L:projects/vm7/opensmalltalk-vm Date: Wed Jul 3 16:41:39 2019 CommitHash: 4e4c5b5a0 Plugins: 201907031441-pharo Guille@DESKTOP-MG6660L:projects/vm7/opensmalltalk-vm
+
+Image: Pharo7.0.5 [Build information: Pharo-7.0.5+build.177.sha.fd8c156d959653f52be6fd7f8c71edf8cfb8fe90 (64 Bit)]
+
+UndefinedObject(Object)>>doesNotUnderstand: #close
+	Receiver: nil
+	Arguments and temporary variables: 
+		aMessage: 	close
+		exception: 	MessageNotUnderstood: receiver of "close" is nil
+		resumeValue: 	nil
+	Receiver's instance variables: 
+nil
+
+LightsOut class>>terminarJuego
+	Receiver: LightsOut
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		superclass: 	Object
+		methodDict: 	a MethodDictionary(#initialize->LightsOut>>#initialize )
+		format: 	65537
+		layout: 	a FixedLayout
+		organization: 	a ClassOrganization
+		subclasses: 	nil
+		name: 	#LightsOut
+		classPool: 	a Dictionary(#Juego->a Partida #Table->a Tablero(987973376) )
+		sharedPools: 	an OrderedCollection()
+		environment: 	a SystemDictionary(lots of globals)
+		category: 	#'Lights Out'
+
+
+Tablero>>recorrerLuces
+	Receiver: a Tablero(987973376)
+	Arguments and temporary variables: 
+		bandera: 	true
+	Receiver's instance variables: 
+		bounds: 	(594.0@208.0) corner: (836.0@450.0)
+		owner: 	nil
+		submorphs: 	an Array(a Luz(610180864) a Luz(582180608) a Luz(881320704) a Luz(53...etc...
+		fullBounds: 	(594.0@208.0) corner: (836.0@450.0)
+		color: 	Color black
+		extension: 	a MorphExtension (311247104) [other:  (formerPosition -> (598.0@13.0...etc...
+		borderWidth: 	1
+		borderColor: 	(Color r: 0.8230000000000001 g: 0.8230000000000001 b: 0.8230000000...etc...
+		celdas: 	(a Luz(937416960) a Luz(153600768) a Luz(296527616)
+a Luz(16918272) a L...etc...
+		tamaño: 	3
+		contadorDeClicks: 	1
+		modoJuego: 	1
+		cambiarLuz: 	nil
+
+
+Tablero>>cambiarLuzOriginal:at:
+	Receiver: a Tablero(987973376)
+	Arguments and temporary variables: 
+		i: 	3
+		j: 	2
+	Receiver's instance variables: 
+		bounds: 	(594.0@208.0) corner: (836.0@450.0)
+		owner: 	nil
+		submorphs: 	an Array(a Luz(610180864) a Luz(582180608) a Luz(881320704) a Luz(53...etc...
+		fullBounds: 	(594.0@208.0) corner: (836.0@450.0)
+		color: 	Color black
+		extension: 	a MorphExtension (311247104) [other:  (formerPosition -> (598.0@13.0...etc...
+		borderWidth: 	1
+		borderColor: 	(Color r: 0.8230000000000001 g: 0.8230000000000001 b: 0.8230000000...etc...
+		celdas: 	(a Luz(937416960) a Luz(153600768) a Luz(296527616)
+a Luz(16918272) a L...etc...
+		tamaño: 	3
+		contadorDeClicks: 	1
+		modoJuego: 	1
+		cambiarLuz: 	nil
+
+
+Tablero>>cambiarLuz:at:
+	Receiver: a Tablero(987973376)
+	Arguments and temporary variables: 
+		i: 	3
+		j: 	2
+	Receiver's instance variables: 
+		bounds: 	(594.0@208.0) corner: (836.0@450.0)
+		owner: 	nil
+		submorphs: 	an Array(a Luz(610180864) a Luz(582180608) a Luz(881320704) a Luz(53...etc...
+		fullBounds: 	(594.0@208.0) corner: (836.0@450.0)
+		color: 	Color black
+		extension: 	a MorphExtension (311247104) [other:  (formerPosition -> (598.0@13.0...etc...
+		borderWidth: 	1
+		borderColor: 	(Color r: 0.8230000000000001 g: 0.8230000000000001 b: 0.8230000000...etc...
+		celdas: 	(a Luz(937416960) a Luz(153600768) a Luz(296527616)
+a Luz(16918272) a L...etc...
+		tamaño: 	3
+		contadorDeClicks: 	1
+		modoJuego: 	1
+		cambiarLuz: 	nil
+
+
+[ self cambiarLuz: i at: j ] in Tablero>>nuevaluz:at:
+	Receiver: a Tablero(987973376)
+	Arguments and temporary variables: 
+		i: 	3
+		j: 	2
+		luz: 	nil
+		origen: 	nil
+	Receiver's instance variables: 
+		bounds: 	(594.0@208.0) corner: (836.0@450.0)
+		owner: 	nil
+		submorphs: 	an Array(a Luz(610180864) a Luz(582180608) a Luz(881320704) a Luz(53...etc...
+		fullBounds: 	(594.0@208.0) corner: (836.0@450.0)
+		color: 	Color black
+		extension: 	a MorphExtension (311247104) [other:  (formerPosition -> (598.0@13.0...etc...
+		borderWidth: 	1
+		borderColor: 	(Color r: 0.8230000000000001 g: 0.8230000000000001 b: 0.8230000000...etc...
+		celdas: 	(a Luz(937416960) a Luz(153600768) a Luz(296527616)
+a Luz(16918272) a L...etc...
+		tamaño: 	3
+		contadorDeClicks: 	1
+		modoJuego: 	1
+		cambiarLuz: 	nil
+
+
+Luz>>mouseUp:
+	Receiver: a Luz(582180608)
+	Arguments and temporary variables: 
+		anEvent: 	[(789@310) mouseUp 11093156 nil]
+	Receiver's instance variables: 
+		bounds: 	(755.0@289.0) corner: (835.0@369.0)
+		owner: 	a Tablero(987973376)
+		submorphs: 	an Array(a StringMorph(419676416)'')
+		fullBounds: 	(755.0@289.0) corner: (835.0@369.0)
+		color: 	Color veryVeryDarkGray
+		extension: 	a MorphExtension (92019456)
+		borderWidth: 	10
+		borderColor: 	#inset
+		target: 	nil
+		actionSelector: 	#flash
+		arguments: 	#()
+		actWhen: 	#buttonUp
+		oldColor: 	Color lightGreen
+		label: 	a StringMorph(419676416)''
+		onColor: 	Color veryVeryDarkGray
+		offColor: 	Color lightGreen
+		comportamientoCursor: 	[ self cambiarLuz: i at: j ]
+
+
+Luz(Morph)>>handleMouseUp:
+	Receiver: a Luz(582180608)
+	Arguments and temporary variables: 
+		anEvent: 	[(789@310) mouseUp 11093156 nil]
+		result: 	nil
+	Receiver's instance variables: 
+		bounds: 	(755.0@289.0) corner: (835.0@369.0)
+		owner: 	a Tablero(987973376)
+		submorphs: 	an Array(a StringMorph(419676416)'')
+		fullBounds: 	(755.0@289.0) corner: (835.0@369.0)
+		color: 	Color veryVeryDarkGray
+		extension: 	a MorphExtension (92019456)
+		borderWidth: 	10
+		borderColor: 	#inset
+		target: 	nil
+		actionSelector: 	#flash
+		arguments: 	#()
+		actWhen: 	#buttonUp
+		oldColor: 	Color lightGreen
+		label: 	a StringMorph(419676416)''
+		onColor: 	Color veryVeryDarkGray
+		offColor: 	Color lightGreen
+		comportamientoCursor: 	[ self cambiarLuz: i at: j ]
+
+
+MouseButtonEvent>>sentTo:
+	Receiver: [(789@310) mouseUp 11093156 nil]
+	Arguments and temporary variables: 
+		anObject: 	a Luz(582180608)
+	Receiver's instance variables: 
+		timeStamp: 	11093156
+		source: 	a HandMorph(523392256)
+		windowIndex: 	nil
+		type: 	#mouseUp
+		buttons: 	0
+		position: 	(789@310)
+		handler: 	nil
+		wasHandled: 	true
+		whichButton: 	4
+
+
+Luz(Morph)>>handleEvent:
+	Receiver: a Luz(582180608)
+	Arguments and temporary variables: 
+		anEvent: 	[(789@310) mouseUp 11093156 nil]
+	Receiver's instance variables: 
+		bounds: 	(755.0@289.0) corner: (835.0@369.0)
+		owner: 	a Tablero(987973376)
+		submorphs: 	an Array(a StringMorph(419676416)'')
+		fullBounds: 	(755.0@289.0) corner: (835.0@369.0)
+		color: 	Color veryVeryDarkGray
+		extension: 	a MorphExtension (92019456)
+		borderWidth: 	10
+		borderColor: 	#inset
+		target: 	nil
+		actionSelector: 	#flash
+		arguments: 	#()
+		actWhen: 	#buttonUp
+		oldColor: 	Color lightGreen
+		label: 	a StringMorph(419676416)''
+		onColor: 	Color veryVeryDarkGray
+		offColor: 	Color lightGreen
+		comportamientoCursor: 	[ self cambiarLuz: i at: j ]
+
+
+Luz(Morph)>>handleFocusEvent:
+	Receiver: a Luz(582180608)
+	Arguments and temporary variables: 
+		anEvent: 	[(789@310) mouseUp 11093156 nil]
+	Receiver's instance variables: 
+		bounds: 	(755.0@289.0) corner: (835.0@369.0)
+		owner: 	a Tablero(987973376)
+		submorphs: 	an Array(a StringMorph(419676416)'')
+		fullBounds: 	(755.0@289.0) corner: (835.0@369.0)
+		color: 	Color veryVeryDarkGray
+		extension: 	a MorphExtension (92019456)
+		borderWidth: 	10
+		borderColor: 	#inset
+		target: 	nil
+		actionSelector: 	#flash
+		arguments: 	#()
+		actWhen: 	#buttonUp
+		oldColor: 	Color lightGreen
+		label: 	a StringMorph(419676416)''
+		onColor: 	Color veryVeryDarkGray
+		offColor: 	Color lightGreen
+		comportamientoCursor: 	[ self cambiarLuz: i at: j ]
+
+
+[ ActiveHand := self.
+ActiveEvent := anEvent.
+result := focusHolder
+	handleFocusEvent: (anEvent transformedBy: (focusHolder transformedFrom: self)) ] in HandMorph>>sendFocusEvent:to:clear:
+	Receiver: a HandMorph(523392256)
+	Arguments and temporary variables: 
+		anEvent: 	[(789@310) mouseUp 11093156 nil]
+		focusHolder: 	a Luz(582180608)
+		aBlock: 	[ self mouseFocus: nil ]
+		w: 	a WorldMorph(703126016) [world]
+		result: 	nil
+	Receiver's instance variables: 
+		bounds: 	(850@343) corner: (866@359)
+		owner: 	a WorldMorph(703126016) [world]
+		submorphs: 	#()
+		fullBounds: 	(850@343) corner: (866@359)
+		color: 	Color blue
+		extension: 	a MorphExtension (915337472)
+		mouseFocus: 	nil
+		keyboardFocus: 	a SystemWindow(998651648) named: Lights Out
+		eventListeners: 	nil
+		mouseListeners: 	nil
+		keyboardListeners: 	nil
+		mouseClickState: 	a MouseClickState[#firstClickUp]
+		mouseOverHandler: 	a MouseOverHandler
+		lastMouseEvent: 	[(850@343) mouseOver 11095265 nil]
+		targetOffset: 	(15.0@13.0)
+		damageRecorder: 	a DamageRecorder
+		cacheCanvas: 	nil
+		cachedCanvasHasHoles: 	false
+		temporaryCursor: 	nil
+		temporaryCursorOffset: 	nil
+		hardwareCursor: 	nil
+		hasChanged: 	true
+		savedPatch: 	nil
+		lastEventBuffer: 	#(1 11095265 850 343 0 0 1 1)
+		lastKeyScanCode: 	83
+		combinedChar: 	nil
+		eventSource: 	nil
+		lastSystemEvent: 	nil
+		captureBlock: 	nil
+		recentModifiers: 	0
+
+
+BlockClosure>>on:do:
+	Receiver: [ ActiveHand := self.
+ActiveEvent := anEvent.
+result := focusHolder
+	handleFocusEvent: (an...etc...
+	Arguments and temporary variables: 
+		exception: 	Error
+		handlerAction: 	[ :ex | 
+ActiveWorld := priorWorld.
+ActiveEvent := priorEvent.
+A...etc...
+	Receiver's instance variables: 
+		outerContext: 	HandMorph>>sendFocusEvent:to:clear:
+		startpc: 	111
+		numArgs: 	0
+
+
+WorldMorph(PasteUpMorph)>>becomeActiveDuring:
+	Receiver: a WorldMorph(703126016) [world]
+	Arguments and temporary variables: 
+		aBlock: 	[ ActiveHand := self.
+ActiveEvent := anEvent.
+result := focusHolder
+	ha...etc...
+		priorWorld: 	a WorldMorph(703126016) [world]
+		priorHand: 	a HandMorph(523392256)
+		priorEvent: 	[(789@310) mouseOver red 11093109 nil]
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (1536@793)
+		owner: 	nil
+		submorphs: 	an Array(a MenubarMorph(769431040) a TaskbarMorph(1025265408) a Syst...etc...
+		fullBounds: 	(0@0) corner: (1536@793)
+		color: 	(Color r: 0.9400000000000001 g: 0.9400000000000001 b: 0.9400000000000001...etc...
+		extension: 	a MorphExtension (359075072) [other:  (dragEnabled -> true) (dropEna...etc...
+		borderWidth: 	0
+		borderColor: 	(Color r: 0.06 g: 0.06 b: 0.06 alpha: 1.0)
+		backgroundMorph: 	nil
+		worldState: 	a WorldState
+		griddingOn: 	nil
+		osWindow: 	nil
+		osWindowMutex: 	nil
+		session: 	nil
+
+
+HandMorph>>sendFocusEvent:to:clear:
+	Receiver: a HandMorph(523392256)
+	Arguments and temporary variables: 
+		result: 	nil
+		anEvent: 	[(789@310) mouseUp 11093156 nil]
+		focusHolder: 	a Luz(582180608)
+		aBlock: 	[ self mouseFocus: nil ]
+		w: 	a WorldMorph(703126016) [world]
+	Receiver's instance variables: 
+		bounds: 	(850@343) corner: (866@359)
+		owner: 	a WorldMorph(703126016) [world]
+		submorphs: 	#()
+		fullBounds: 	(850@343) corner: (866@359)
+		color: 	Color blue
+		extension: 	a MorphExtension (915337472)
+		mouseFocus: 	nil
+		keyboardFocus: 	a SystemWindow(998651648) named: Lights Out
+		eventListeners: 	nil
+		mouseListeners: 	nil
+		keyboardListeners: 	nil
+		mouseClickState: 	a MouseClickState[#firstClickUp]
+		mouseOverHandler: 	a MouseOverHandler
+		lastMouseEvent: 	[(850@343) mouseOver 11095265 nil]
+		targetOffset: 	(15.0@13.0)
+		damageRecorder: 	a DamageRecorder
+		cacheCanvas: 	nil
+		cachedCanvasHasHoles: 	false
+		temporaryCursor: 	nil
+		temporaryCursorOffset: 	nil
+		hardwareCursor: 	nil
+		hasChanged: 	true
+		savedPatch: 	nil
+		lastEventBuffer: 	#(1 11095265 850 343 0 0 1 1)
+		lastKeyScanCode: 	83
+		combinedChar: 	nil
+		eventSource: 	nil
+		lastSystemEvent: 	nil
+		captureBlock: 	nil
+		recentModifiers: 	0
+
+
+HandMorph>>sendEvent:focus:clear:
+	Receiver: a HandMorph(523392256)
+	Arguments and temporary variables: 
+		anEvent: 	[(789@310) mouseUp 11093156 nil]
+		focusHolder: 	a Luz(582180608)
+		aBlock: 	[ self mouseFocus: nil ]
+		result: 	nil
+	Receiver's instance variables: 
+		bounds: 	(850@343) corner: (866@359)
+		owner: 	a WorldMorph(703126016) [world]
+		submorphs: 	#()
+		fullBounds: 	(850@343) corner: (866@359)
+		color: 	Color blue
+		extension: 	a MorphExtension (915337472)
+		mouseFocus: 	nil
+		keyboardFocus: 	a SystemWindow(998651648) named: Lights Out
+		eventListeners: 	nil
+		mouseListeners: 	nil
+		keyboardListeners: 	nil
+		mouseClickState: 	a MouseClickState[#firstClickUp]
+		mouseOverHandler: 	a MouseOverHandler
+		lastMouseEvent: 	[(850@343) mouseOver 11095265 nil]
+		targetOffset: 	(15.0@13.0)
+		damageRecorder: 	a DamageRecorder
+		cacheCanvas: 	nil
+		cachedCanvasHasHoles: 	false
+		temporaryCursor: 	nil
+		temporaryCursorOffset: 	nil
+		hardwareCursor: 	nil
+		hasChanged: 	true
+		savedPatch: 	nil
+		lastEventBuffer: 	#(1 11095265 850 343 0 0 1 1)
+		lastKeyScanCode: 	83
+		combinedChar: 	nil
+		eventSource: 	nil
+		lastSystemEvent: 	nil
+		captureBlock: 	nil
+		recentModifiers: 	0
+
+
+HandMorph>>sendMouseEvent:
+	Receiver: a HandMorph(523392256)
+	Arguments and temporary variables: 
+		anEvent: 	[(789@310) mouseUp 11093156 nil]
+	Receiver's instance variables: 
+		bounds: 	(850@343) corner: (866@359)
+		owner: 	a WorldMorph(703126016) [world]
+		submorphs: 	#()
+		fullBounds: 	(850@343) corner: (866@359)
+		color: 	Color blue
+		extension: 	a MorphExtension (915337472)
+		mouseFocus: 	nil
+		keyboardFocus: 	a SystemWindow(998651648) named: Lights Out
+		eventListeners: 	nil
+		mouseListeners: 	nil
+		keyboardListeners: 	nil
+		mouseClickState: 	a MouseClickState[#firstClickUp]
+		mouseOverHandler: 	a MouseOverHandler
+		lastMouseEvent: 	[(850@343) mouseOver 11095265 nil]
+		targetOffset: 	(15.0@13.0)
+		damageRecorder: 	a DamageRecorder
+		cacheCanvas: 	nil
+		cachedCanvasHasHoles: 	false
+		temporaryCursor: 	nil
+		temporaryCursorOffset: 	nil
+		hardwareCursor: 	nil
+		hasChanged: 	true
+		savedPatch: 	nil
+		lastEventBuffer: 	#(1 11095265 850 343 0 0 1 1)
+		lastKeyScanCode: 	83
+		combinedChar: 	nil
+		eventSource: 	nil
+		lastSystemEvent: 	nil
+		captureBlock: 	nil
+		recentModifiers: 	0
+
+
+HandMorph>>handleEvent:
+	Receiver: a HandMorph(523392256)
+	Arguments and temporary variables: 
+		anEvent: 	[(789@310) mouseUp 11093156 nil]
+		evt: 	[(789@310) mouseUp 11093156 nil]
+	Receiver's instance variables: 
+		bounds: 	(850@343) corner: (866@359)
+		owner: 	a WorldMorph(703126016) [world]
+		submorphs: 	#()
+		fullBounds: 	(850@343) corner: (866@359)
+		color: 	Color blue
+		extension: 	a MorphExtension (915337472)
+		mouseFocus: 	nil
+		keyboardFocus: 	a SystemWindow(998651648) named: Lights Out
+		eventListeners: 	nil
+		mouseListeners: 	nil
+		keyboardListeners: 	nil
+		mouseClickState: 	a MouseClickState[#firstClickUp]
+		mouseOverHandler: 	a MouseOverHandler
+		lastMouseEvent: 	[(850@343) mouseOver 11095265 nil]
+		targetOffset: 	(15.0@13.0)
+		damageRecorder: 	a DamageRecorder
+		cacheCanvas: 	nil
+		cachedCanvasHasHoles: 	false
+		temporaryCursor: 	nil
+		temporaryCursorOffset: 	nil
+		hardwareCursor: 	nil
+		hasChanged: 	true
+		savedPatch: 	nil
+		lastEventBuffer: 	#(1 11095265 850 343 0 0 1 1)
+		lastKeyScanCode: 	83
+		combinedChar: 	nil
+		eventSource: 	nil
+		lastSystemEvent: 	nil
+		captureBlock: 	nil
+		recentModifiers: 	0
+
+
+HandMorph>>processEventsFromQueue:
+	Receiver: a HandMorph(523392256)
+	Arguments and temporary variables: 
+		anEventQueue: 	an InputEventSensor
+		evt: 	[(789@310) mouseUp 11093156 nil]
+		evtBuf: 	#(1 11093156 789 310 0 0 1 1)
+		type: 	1
+		hadAny: 	false
+	Receiver's instance variables: 
+		bounds: 	(850@343) corner: (866@359)
+		owner: 	a WorldMorph(703126016) [world]
+		submorphs: 	#()
+		fullBounds: 	(850@343) corner: (866@359)
+		color: 	Color blue
+		extension: 	a MorphExtension (915337472)
+		mouseFocus: 	nil
+		keyboardFocus: 	a SystemWindow(998651648) named: Lights Out
+		eventListeners: 	nil
+		mouseListeners: 	nil
+		keyboardListeners: 	nil
+		mouseClickState: 	a MouseClickState[#firstClickUp]
+		mouseOverHandler: 	a MouseOverHandler
+		lastMouseEvent: 	[(850@343) mouseOver 11095265 nil]
+		targetOffset: 	(15.0@13.0)
+		damageRecorder: 	a DamageRecorder
+		cacheCanvas: 	nil
+		cachedCanvasHasHoles: 	false
+		temporaryCursor: 	nil
+		temporaryCursorOffset: 	nil
+		hardwareCursor: 	nil
+		hasChanged: 	true
+		savedPatch: 	nil
+		lastEventBuffer: 	#(1 11095265 850 343 0 0 1 1)
+		lastKeyScanCode: 	83
+		combinedChar: 	nil
+		eventSource: 	nil
+		lastSystemEvent: 	nil
+		captureBlock: 	nil
+		recentModifiers: 	0
+
+
+HandMorph>>processEvents
+	Receiver: a HandMorph(523392256)
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		bounds: 	(850@343) corner: (866@359)
+		owner: 	a WorldMorph(703126016) [world]
+		submorphs: 	#()
+		fullBounds: 	(850@343) corner: (866@359)
+		color: 	Color blue
+		extension: 	a MorphExtension (915337472)
+		mouseFocus: 	nil
+		keyboardFocus: 	a SystemWindow(998651648) named: Lights Out
+		eventListeners: 	nil
+		mouseListeners: 	nil
+		keyboardListeners: 	nil
+		mouseClickState: 	a MouseClickState[#firstClickUp]
+		mouseOverHandler: 	a MouseOverHandler
+		lastMouseEvent: 	[(850@343) mouseOver 11095265 nil]
+		targetOffset: 	(15.0@13.0)
+		damageRecorder: 	a DamageRecorder
+		cacheCanvas: 	nil
+		cachedCanvasHasHoles: 	false
+		temporaryCursor: 	nil
+		temporaryCursorOffset: 	nil
+		hardwareCursor: 	nil
+		hasChanged: 	true
+		savedPatch: 	nil
+		lastEventBuffer: 	#(1 11095265 850 343 0 0 1 1)
+		lastKeyScanCode: 	83
+		combinedChar: 	nil
+		eventSource: 	nil
+		lastSystemEvent: 	nil
+		captureBlock: 	nil
+		recentModifiers: 	0
+
+
+[ :h | 
+self activeHand: h.
+h processEvents.
+self activeHand: nil ] in WorldState>>doOneCycleNowFor:
+	Receiver: a WorldState
+	Arguments and temporary variables: 
+		aWorld: 	a WorldMorph(703126016) [world]
+		h: 	a HandMorph(523392256)
+	Receiver's instance variables: 
+		hands: 	an Array(a HandMorph(523392256))
+		viewBox: 	(0@0) corner: (1536@793)
+		canvas: 	a FormCanvas on: DisplayScreen(1536x793x32)
+		damageRecorder: 	a DamageRecorder
+		stepList: 	a Heap(StepMessage(#stepAt: -> a GLMSystemWindow(1045805824) named: P...etc...
+		lastStepTime: 	10540021
+		lastStepMessage: 	nil
+		lastCycleTime: 	10540018
+		alarms: 	a Heap()
+		lastAlarmTime: 	10540021
+		menuBuilder: 	a PragmaMenuBuilder ( nil ) 
+		activeHand: 	a HandMorph(523392256)
+		currentCursor: 	((CursorWithMask
+	extent: (16@16)
+	depth: 1
+	fromArray: #(
+		2r0...etc...
+
+
+Array(SequenceableCollection)>>do:
+	Receiver: an Array(a HandMorph(523392256))
+	Arguments and temporary variables: 
+		aBlock: 	[ :h | 
+self activeHand: h.
+h processEvents.
+self activeHand: nil ]
+		index: 	1
+	Receiver's instance variTHERE_BE_DRAGONS_HERE
+#close was sent to nil
+21 November 2022 8:12:06.225204 pm
+
+VM: Win32 - X64 - 6.2 - CoInterpreter VMMaker.oscog-eem.2509 uuid: 91e81f64-95de-4914-a960-8f842be3a194 Sep 13 2019
+StackToRegisterMappingCogit VMMaker.oscog-eem.2509 uuid: 91e81f64-95de-4914-a960-8f842be3a194 Sep 13 2019
+VM: 201907031441-pharo Guille@DESKTOP-MG6660L:projects/vm7/opensmalltalk-vm Date: Wed Jul 3 16:41:39 2019 CommitHash: 4e4c5b5a0 Plugins: 201907031441-pharo Guille@DESKTOP-MG6660L:projects/vm7/opensmalltalk-vm
+
+Image: Pharo7.0.5 [Build information: Pharo-7.0.5+build.177.sha.fd8c156d959653f52be6fd7f8c71edf8cfb8fe90 (64 Bit)]
+
+UndefinedObject(Object)>>doesNotUnderstand: #close
+	Receiver: nil
+	Arguments and temporary variables: 
+		aMessage: 	close
+		exception: 	MessageNotUnderstood: receiver of "close" is nil
+		resumeValue: 	nil
+	Receiver's instance variables: 
+nil
+
+LightsOut class>>terminarJuego
+	Receiver: LightsOut
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		superclass: 	Object
+		methodDict: 	a MethodDictionary(#initialize->LightsOut>>#initialize )
+		format: 	65537
+		layout: 	a FixedLayout
+		organization: 	a ClassOrganization
+		subclasses: 	nil
+		name: 	#LightsOut
+		classPool: 	a Dictionary(#Juego->a Partida #Table->a Tablero(424888064) )
+		sharedPools: 	an OrderedCollection()
+		environment: 	a SystemDictionary(lots of globals)
+		category: 	#'Lights Out'
+
+
+Tablero>>recorrerLuces
+	Receiver: a Tablero(424888064)
+	Arguments and temporary variables: 
+		bandera: 	true
+	Receiver's instance variables: 
+		bounds: 	(388.0@154.0) corner: (630.0@396.0)
+		owner: 	nil
+		submorphs: 	an Array(a Luz(4012288) a Luz(618714368) a Luz(696802560) a Luz(8662...etc...
+		fullBounds: 	(388.0@154.0) corner: (630.0@396.0)
+		color: 	Color black
+		extension: 	a MorphExtension (703272192) [other:  (formerPosition -> (462.0@125....etc...
+		borderWidth: 	1
+		borderColor: 	(Color r: 0.8230000000000001 g: 0.8230000000000001 b: 0.8230000000...etc...
+		celdas: 	(a Luz(889789696) a Luz(389606144) a Luz(932830976)
+a Luz(626716416) a ...etc...
+		tamaño: 	3
+		contadorDeClicks: 	19
+		modoJuego: 	1
+		cambiarLuz: 	nil
+
+
+Tablero>>cambiarLuzOriginal:at:
+	Receiver: a Tablero(424888064)
+	Arguments and temporary variables: 
+		i: 	1
+		j: 	1
+	Receiver's instance variables: 
+		bounds: 	(388.0@154.0) corner: (630.0@396.0)
+		owner: 	nil
+		submorphs: 	an Array(a Luz(4012288) a Luz(618714368) a Luz(696802560) a Luz(8662...etc...
+		fullBounds: 	(388.0@154.0) corner: (630.0@396.0)
+		color: 	Color black
+		extension: 	a MorphExtension (703272192) [other:  (formerPosition -> (462.0@125....etc...
+		borderWidth: 	1
+		borderColor: 	(Color r: 0.8230000000000001 g: 0.8230000000000001 b: 0.8230000000...etc...
+		celdas: 	(a Luz(889789696) a Luz(389606144) a Luz(932830976)
+a Luz(626716416) a ...etc...
+		tamaño: 	3
+		contadorDeClicks: 	19
+		modoJuego: 	1
+		cambiarLuz: 	nil
+
+
+Tablero>>cambiarLuz:at:
+	Receiver: a Tablero(424888064)
+	Arguments and temporary variables: 
+		i: 	1
+		j: 	1
+	Receiver's instance variables: 
+		bounds: 	(388.0@154.0) corner: (630.0@396.0)
+		owner: 	nil
+		submorphs: 	an Array(a Luz(4012288) a Luz(618714368) a Luz(696802560) a Luz(8662...etc...
+		fullBounds: 	(388.0@154.0) corner: (630.0@396.0)
+		color: 	Color black
+		extension: 	a MorphExtension (703272192) [other:  (formerPosition -> (462.0@125....etc...
+		borderWidth: 	1
+		borderColor: 	(Color r: 0.8230000000000001 g: 0.8230000000000001 b: 0.8230000000...etc...
+		celdas: 	(a Luz(889789696) a Luz(389606144) a Luz(932830976)
+a Luz(626716416) a ...etc...
+		tamaño: 	3
+		contadorDeClicks: 	19
+		modoJuego: 	1
+		cambiarLuz: 	nil
+
+
+[ self cambiarLuz: i at: j ] in Tablero>>nuevaluz:at:
+	Receiver: a Tablero(424888064)
+	Arguments and temporary variables: 
+		i: 	1
+		j: 	1
+		luz: 	nil
+		origen: 	nil
+	Receiver's instance variables: 
+		bounds: 	(388.0@154.0) corner: (630.0@396.0)
+		owner: 	nil
+		submorphs: 	an Array(a Luz(4012288) a Luz(618714368) a Luz(696802560) a Luz(8662...etc...
+		fullBounds: 	(388.0@154.0) corner: (630.0@396.0)
+		color: 	Color black
+		extension: 	a MorphExtension (703272192) [other:  (formerPosition -> (462.0@125....etc...
+		borderWidth: 	1
+		borderColor: 	(Color r: 0.8230000000000001 g: 0.8230000000000001 b: 0.8230000000...etc...
+		celdas: 	(a Luz(889789696) a Luz(389606144) a Luz(932830976)
+a Luz(626716416) a ...etc...
+		tamaño: 	3
+		contadorDeClicks: 	19
+		modoJuego: 	1
+		cambiarLuz: 	nil
+
+
+Luz>>mouseUp:
+	Receiver: a Luz(889789696)
+	Arguments and temporary variables: 
+		anEvent: 	[(419@183) mouseUp 11301687 nil]
+	Receiver's instance variables: 
+		bounds: 	(389.0@155.0) corner: (469.0@235.0)
+		owner: 	a Tablero(424888064)
+		submorphs: 	an Array(a StringMorph(648932608)'')
+		fullBounds: 	(389.0@155.0) corner: (469.0@235.0)
+		color: 	Color veryVeryDarkGray
+		extension: 	a MorphExtension (618401024)
+		borderWidth: 	10
+		borderColor: 	#inset
+		target: 	nil
+		actionSelector: 	#flash
+		arguments: 	#()
+		actWhen: 	#buttonUp
+		oldColor: 	Color lightGreen
+		label: 	a StringMorph(648932608)''
+		onColor: 	Color veryVeryDarkGray
+		offColor: 	Color lightGreen
+		comportamientoCursor: 	[ self cambiarLuz: i at: j ]
+
+
+Luz(Morph)>>handleMouseUp:
+	Receiver: a Luz(889789696)
+	Arguments and temporary variables: 
+		anEvent: 	[(419@183) mouseUp 11301687 nil]
+		result: 	nil
+	Receiver's instance variables: 
+		bounds: 	(389.0@155.0) corner: (469.0@235.0)
+		owner: 	a Tablero(424888064)
+		submorphs: 	an Array(a StringMorph(648932608)'')
+		fullBounds: 	(389.0@155.0) corner: (469.0@235.0)
+		color: 	Color veryVeryDarkGray
+		extension: 	a MorphExtension (618401024)
+		borderWidth: 	10
+		borderColor: 	#inset
+		target: 	nil
+		actionSelector: 	#flash
+		arguments: 	#()
+		actWhen: 	#buttonUp
+		oldColor: 	Color lightGreen
+		label: 	a StringMorph(648932608)''
+		onColor: 	Color veryVeryDarkGray
+		offColor: 	Color lightGreen
+		comportamientoCursor: 	[ self cambiarLuz: i at: j ]
+
+
+MouseButtonEvent>>sentTo:
+	Receiver: [(419@183) mouseUp 11301687 nil]
+	Arguments and temporary variables: 
+		anObject: 	a Luz(889789696)
+	Receiver's instance variables: 
+		timeStamp: 	11301687
+		source: 	a HandMorph(523392256)
+		windowIndex: 	nil
+		type: 	#mouseUp
+		buttons: 	0
+		position: 	(419@183)
+		handler: 	nil
+		wasHandled: 	true
+		whichButton: 	4
+
+
+Luz(Morph)>>handleEvent:
+	Receiver: a Luz(889789696)
+	Arguments and temporary variables: 
+		anEvent: 	[(419@183) mouseUp 11301687 nil]
+	Receiver's instance variables: 
+		bounds: 	(389.0@155.0) corner: (469.0@235.0)
+		owner: 	a Tablero(424888064)
+		submorphs: 	an Array(a StringMorph(648932608)'')
+		fullBounds: 	(389.0@155.0) corner: (469.0@235.0)
+		color: 	Color veryVeryDarkGray
+		extension: 	a MorphExtension (618401024)
+		borderWidth: 	10
+		borderColor: 	#inset
+		target: 	nil
+		actionSelector: 	#flash
+		arguments: 	#()
+		actWhen: 	#buttonUp
+		oldColor: 	Color lightGreen
+		label: 	a StringMorph(648932608)''
+		onColor: 	Color veryVeryDarkGray
+		offColor: 	Color lightGreen
+		comportamientoCursor: 	[ self cambiarLuz: i at: j ]
+
+
+Luz(Morph)>>handleFocusEvent:
+	Receiver: a Luz(889789696)
+	Arguments and temporary variables: 
+		anEvent: 	[(419@183) mouseUp 11301687 nil]
+	Receiver's instance variables: 
+		bounds: 	(389.0@155.0) corner: (469.0@235.0)
+		owner: 	a Tablero(424888064)
+		submorphs: 	an Array(a StringMorph(648932608)'')
+		fullBounds: 	(389.0@155.0) corner: (469.0@235.0)
+		color: 	Color veryVeryDarkGray
+		extension: 	a MorphExtension (618401024)
+		borderWidth: 	10
+		borderColor: 	#inset
+		target: 	nil
+		actionSelector: 	#flash
+		arguments: 	#()
+		actWhen: 	#buttonUp
+		oldColor: 	Color lightGreen
+		label: 	a StringMorph(648932608)''
+		onColor: 	Color veryVeryDarkGray
+		offColor: 	Color lightGreen
+		comportamientoCursor: 	[ self cambiarLuz: i at: j ]
+
+
+[ ActiveHand := self.
+ActiveEvent := anEvent.
+result := focusHolder
+	handleFocusEvent: (anEvent transformedBy: (focusHolder transformedFrom: self)) ] in HandMorph>>sendFocusEvent:to:clear:
+	Receiver: a HandMorph(523392256)
+	Arguments and temporary variables: 
+		anEvent: 	[(419@183) mouseUp 11301687 nil]
+		focusHolder: 	a Luz(889789696)
+		aBlock: 	[ self mouseFocus: nil ]
+		w: 	a WorldMorph(703126016) [world]
+		result: 	nil
+	Receiver's instance variables: 
+		bounds: 	(491@217) corner: (507@233)
+		owner: 	a WorldMorph(703126016) [world]
+		submorphs: 	#()
+		fullBounds: 	(491@217) corner: (507@233)
+		color: 	Color blue
+		extension: 	a MorphExtension (915337472)
+		mouseFocus: 	nil
+		keyboardFocus: 	a SystemWindow(1031072000) named: Lights Out
+		eventListeners: 	nil
+		mouseListeners: 	nil
+		keyboardListeners: 	nil
+		mouseClickState: 	a MouseClickState[#firstClickUp]
+		mouseOverHandler: 	a MouseOverHandler
+		lastMouseEvent: 	[(491@217) mouseOver 11304281 nil]
+		targetOffset: 	(22.0@14.0)
+		damageRecorder: 	a DamageRecorder
+		cacheCanvas: 	nil
+		cachedCanvasHasHoles: 	false
+		temporaryCursor: 	nil
+		temporaryCursorOffset: 	nil
+		hardwareCursor: 	nil
+		hasChanged: 	true
+		savedPatch: 	nil
+		lastEventBuffer: 	#(1 11304281 491 217 0 0 1 1)
+		lastKeyScanCode: 	87
+		combinedChar: 	nil
+		eventSource: 	nil
+		lastSystemEvent: 	nil
+		captureBlock: 	nil
+		recentModifiers: 	0
+
+
+BlockClosure>>on:do:
+	Receiver: [ ActiveHand := self.
+ActiveEvent := anEvent.
+result := focusHolder
+	handleFocusEvent: (an...etc...
+	Arguments and temporary variables: 
+		exception: 	Error
+		handlerAction: 	[ :ex | 
+ActiveWorld := priorWorld.
+ActiveEvent := priorEvent.
+A...etc...
+	Receiver's instance variables: 
+		outerContext: 	HandMorph>>sendFocusEvent:to:clear:
+		startpc: 	111
+		numArgs: 	0
+
+
+WorldMorph(PasteUpMorph)>>becomeActiveDuring:
+	Receiver: a WorldMorph(703126016) [world]
+	Arguments and temporary variables: 
+		aBlock: 	[ ActiveHand := self.
+ActiveEvent := anEvent.
+result := focusHolder
+	ha...etc...
+		priorWorld: 	a WorldMorph(703126016) [world]
+		priorHand: 	a HandMorph(523392256)
+		priorEvent: 	[(419@183) mouseOver red 11301640 nil]
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (1536@793)
+		owner: 	nil
+		submorphs: 	an Array(a MenubarMorph(769431040) a TaskbarMorph(1025265408) a Syst...etc...
+		fullBounds: 	(0@0) corner: (1536@793)
+		color: 	(Color r: 0.9400000000000001 g: 0.9400000000000001 b: 0.9400000000000001...etc...
+		extension: 	a MorphExtension (359075072) [other:  (dragEnabled -> true) (dropEna...etc...
+		borderWidth: 	0
+		borderColor: 	(Color r: 0.06 g: 0.06 b: 0.06 alpha: 1.0)
+		backgroundMorph: 	nil
+		worldState: 	a WorldState
+		griddingOn: 	nil
+		osWindow: 	nil
+		osWindowMutex: 	nil
+		session: 	nil
+
+
+HandMorph>>sendFocusEvent:to:clear:
+	Receiver: a HandMorph(523392256)
+	Arguments and temporary variables: 
+		result: 	nil
+		anEvent: 	[(419@183) mouseUp 11301687 nil]
+		focusHolder: 	a Luz(889789696)
+		aBlock: 	[ self mouseFocus: nil ]
+		w: 	a WorldMorph(703126016) [world]
+	Receiver's instance variables: 
+		bounds: 	(491@217) corner: (507@233)
+		owner: 	a WorldMorph(703126016) [world]
+		submorphs: 	#()
+		fullBounds: 	(491@217) corner: (507@233)
+		color: 	Color blue
+		extension: 	a MorphExtension (915337472)
+		mouseFocus: 	nil
+		keyboardFocus: 	a SystemWindow(1031072000) named: Lights Out
+		eventListeners: 	nil
+		mouseListeners: 	nil
+		keyboardListeners: 	nil
+		mouseClickState: 	a MouseClickState[#firstClickUp]
+		mouseOverHandler: 	a MouseOverHandler
+		lastMouseEvent: 	[(491@217) mouseOver 11304281 nil]
+		targetOffset: 	(22.0@14.0)
+		damageRecorder: 	a DamageRecorder
+		cacheCanvas: 	nil
+		cachedCanvasHasHoles: 	false
+		temporaryCursor: 	nil
+		temporaryCursorOffset: 	nil
+		hardwareCursor: 	nil
+		hasChanged: 	true
+		savedPatch: 	nil
+		lastEventBuffer: 	#(1 11304281 491 217 0 0 1 1)
+		lastKeyScanCode: 	87
+		combinedChar: 	nil
+		eventSource: 	nil
+		lastSystemEvent: 	nil
+		captureBlock: 	nil
+		recentModifiers: 	0
+
+
+HandMorph>>sendEvent:focus:clear:
+	Receiver: a HandMorph(523392256)
+	Arguments and temporary variables: 
+		anEvent: 	[(419@183) mouseUp 11301687 nil]
+		focusHolder: 	a Luz(889789696)
+		aBlock: 	[ self mouseFocus: nil ]
+		result: 	nil
+	Receiver's instance variables: 
+		bounds: 	(491@217) corner: (507@233)
+		owner: 	a WorldMorph(703126016) [world]
+		submorphs: 	#()
+		fullBounds: 	(491@217) corner: (507@233)
+		color: 	Color blue
+		extension: 	a MorphExtension (915337472)
+		mouseFocus: 	nil
+		keyboardFocus: 	a SystemWindow(1031072000) named: Lights Out
+		eventListeners: 	nil
+		mouseListeners: 	nil
+		keyboardListeners: 	nil
+		mouseClickState: 	a MouseClickState[#firstClickUp]
+		mouseOverHandler: 	a MouseOverHandler
+		lastMouseEvent: 	[(491@217) mouseOver 11304281 nil]
+		targetOffset: 	(22.0@14.0)
+		damageRecorder: 	a DamageRecorder
+		cacheCanvas: 	nil
+		cachedCanvasHasHoles: 	false
+		temporaryCursor: 	nil
+		temporaryCursorOffset: 	nil
+		hardwareCursor: 	nil
+		hasChanged: 	true
+		savedPatch: 	nil
+		lastEventBuffer: 	#(1 11304281 491 217 0 0 1 1)
+		lastKeyScanCode: 	87
+		combinedChar: 	nil
+		eventSource: 	nil
+		lastSystemEvent: 	nil
+		captureBlock: 	nil
+		recentModifiers: 	0
+
+
+HandMorph>>sendMouseEvent:
+	Receiver: a HandMorph(523392256)
+	Arguments and temporary variables: 
+		anEvent: 	[(419@183) mouseUp 11301687 nil]
+	Receiver's instance variables: 
+		bounds: 	(491@217) corner: (507@233)
+		owner: 	a WorldMorph(703126016) [world]
+		submorphs: 	#()
+		fullBounds: 	(491@217) corner: (507@233)
+		color: 	Color blue
+		extension: 	a MorphExtension (915337472)
+		mouseFocus: 	nil
+		keyboardFocus: 	a SystemWindow(1031072000) named: Lights Out
+		eventListeners: 	nil
+		mouseListeners: 	nil
+		keyboardListeners: 	nil
+		mouseClickState: 	a MouseClickState[#firstClickUp]
+		mouseOverHandler: 	a MouseOverHandler
+		lastMouseEvent: 	[(491@217) mouseOver 11304281 nil]
+		targetOffset: 	(22.0@14.0)
+		damageRecorder: 	a DamageRecorder
+		cacheCanvas: 	nil
+		cachedCanvasHasHoles: 	false
+		temporaryCursor: 	nil
+		temporaryCursorOffset: 	nil
+		hardwareCursor: 	nil
+		hasChanged: 	true
+		savedPatch: 	nil
+		lastEventBuffer: 	#(1 11304281 491 217 0 0 1 1)
+		lastKeyScanCode: 	87
+		combinedChar: 	nil
+		eventSource: 	nil
+		lastSystemEvent: 	nil
+		captureBlock: 	nil
+		recentModifiers: 	0
+
+
+HandMorph>>handleEvent:
+	Receiver: a HandMorph(523392256)
+	Arguments and temporary variables: 
+		anEvent: 	[(419@183) mouseUp 11301687 nil]
+		evt: 	[(419@183) mouseUp 11301687 nil]
+	Receiver's instance variables: 
+		bounds: 	(491@217) corner: (507@233)
+		owner: 	a WorldMorph(703126016) [world]
+		submorphs: 	#()
+		fullBounds: 	(491@217) corner: (507@233)
+		color: 	Color blue
+		extension: 	a MorphExtension (915337472)
+		mouseFocus: 	nil
+		keyboardFocus: 	a SystemWindow(1031072000) named: Lights Out
+		eventListeners: 	nil
+		mouseListeners: 	nil
+		keyboardListeners: 	nil
+		mouseClickState: 	a MouseClickState[#firstClickUp]
+		mouseOverHandler: 	a MouseOverHandler
+		lastMouseEvent: 	[(491@217) mouseOver 11304281 nil]
+		targetOffset: 	(22.0@14.0)
+		damageRecorder: 	a DamageRecorder
+		cacheCanvas: 	nil
+		cachedCanvasHasHoles: 	false
+		temporaryCursor: 	nil
+		temporaryCursorOffset: 	nil
+		hardwareCursor: 	nil
+		hasChanged: 	true
+		savedPatch: 	nil
+		lastEventBuffer: 	#(1 11304281 491 217 0 0 1 1)
+		lastKeyScanCode: 	87
+		combinedChar: 	nil
+		eventSource: 	nil
+		lastSystemEvent: 	nil
+		captureBlock: 	nil
+		recentModifiers: 	0
+
+
+HandMorph>>processEventsFromQueue:
+	Receiver: a HandMorph(523392256)
+	Arguments and temporary variables: 
+		anEventQueue: 	an InputEventSensor
+		evt: 	[(419@183) mouseUp 11301687 nil]
+		evtBuf: 	#(1 11301687 419 183 0 0 1 1)
+		type: 	1
+		hadAny: 	false
+	Receiver's instance variables: 
+		bounds: 	(491@217) corner: (507@233)
+		owner: 	a WorldMorph(703126016) [world]
+		submorphs: 	#()
+		fullBounds: 	(491@217) corner: (507@233)
+		color: 	Color blue
+		extension: 	a MorphExtension (915337472)
+		mouseFocus: 	nil
+		keyboardFocus: 	a SystemWindow(1031072000) named: Lights Out
+		eventListeners: 	nil
+		mouseListeners: 	nil
+		keyboardListeners: 	nil
+		mouseClickState: 	a MouseClickState[#firstClickUp]
+		mouseOverHandler: 	a MouseOverHandler
+		lastMouseEvent: 	[(491@217) mouseOver 11304281 nil]
+		targetOffset: 	(22.0@14.0)
+		damageRecorder: 	a DamageRecorder
+		cacheCanvas: 	nil
+		cachedCanvasHasHoles: 	false
+		temporaryCursor: 	nil
+		temporaryCursorOffset: 	nil
+		hardwareCursor: 	nil
+		hasChanged: 	true
+		savedPatch: 	nil
+		lastEventBuffer: 	#(1 11304281 491 217 0 0 1 1)
+		lastKeyScanCode: 	87
+		combinedChar: 	nil
+		eventSource: 	nil
+		lastSystemEvent: 	nil
+		captureBlock: 	nil
+		recentModifiers: 	0
+
+
+HandMorph>>processEvents
+	Receiver: a HandMorph(523392256)
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		bounds: 	(491@217) corner: (507@233)
+		owner: 	a WorldMorph(703126016) [world]
+		submorphs: 	#()
+		fullBounds: 	(491@217) corner: (507@233)
+		color: 	Color blue
+		extension: 	a MorphExtension (915337472)
+		mouseFocus: 	nil
+		keyboardFocus: 	a SystemWindow(1031072000) named: Lights Out
+		eventListeners: 	nil
+		mouseListeners: 	nil
+		keyboardListeners: 	nil
+		mouseClickState: 	a MouseClickState[#firstClickUp]
+		mouseOverHandler: 	a MouseOverHandler
+		lastMouseEvent: 	[(491@217) mouseOver 11304281 nil]
+		targetOffset: 	(22.0@14.0)
+		damageRecorder: 	a DamageRecorder
+		cacheCanvas: 	nil
+		cachedCanvasHasHoles: 	false
+		temporaryCursor: 	nil
+		temporaryCursorOffset: 	nil
+		hardwareCursor: 	nil
+		hasChanged: 	true
+		savedPatch: 	nil
+		lastEventBuffer: 	#(1 11304281 491 217 0 0 1 1)
+		lastKeyScanCode: 	87
+		combinedChar: 	nil
+		eventSource: 	nil
+		lastSystemEvent: 	nil
+		captureBlock: 	nil
+		recentModifiers: 	0
+
+
+[ :h | 
+self activeHand: h.
+h processEvents.
+self activeHand: nil ] in WorldState>>doOneCycleNowFor:
+	Receiver: a WorldState
+	Arguments and temporary variables: 
+		aWorld: 	a WorldMorph(703126016) [world]
+		h: 	a HandMorph(523392256)
+	Receiver's instance variables: 
+		hands: 	an Array(a HandMorph(523392256))
+		viewBox: 	(0@0) corner: (1536@793)
+		canvas: 	a FormCanvas on: DisplayScreen(1536x793x32)
+		damageRecorder: 	a DamageRecorder
+		stepList: 	a Heap(StepMessage(#stepAt: -> a GLMSystemWindow(266259200) named: Pl...etc...
+		lastStepTime: 	10749045
+		lastStepMessage: 	nil
+		lastCycleTime: 	10749043
+		alarms: 	a Heap()
+		lastAlarmTime: 	10749045
+		menuBuilder: 	a PragmaMenuBuilder ( nil ) 
+		activeHand: 	a HandMorph(523392256)
+		currentCursor: 	((CursorWithMask
+	extent: (16@16)
+	depth: 1
+	fromArray: #(
+		2r0...etc...
+
+
+Array(SequenceableCollection)>>do:
+	Receiver: an Array(a HandMorph(523392256))
+	Arguments and temporary variables: 
+		aBlock: 	[ :h | 
+self activeHand: h.
+h processEvents.
+self activeHand: nil ]
+		index: 	1
+	Receiver's instance variables: 
+an Array(a HandMorph(523392256))
+
+WorldState>>handsDo:
+	Receiver: a WorldState
+	Arguments and temporary variables: 
+		aBlock: 	[ :h | 
+self activeHand: h.
+h processEvents.
+self activeHand: nil ]
+	Receiver's instance variables: 
+		hands: 	an Array(a HandMorph(523392256))
+		viewBox: 	(0@0) corner: (1536@793)
+		canvas: 	a FormCanvas on: DisplayScreen(1536x793x32)
+		damageRecorder: 	a DamageRecorder
+		stepList: 	a Heap(StepMessage(#stepAt: -> a GLMSystemWindow(266259200) named: Pl...etc...
+		lastStepTime: 	10749045
+		lastStepMessage: 	nil
+		lastCycleTime: 	10749043
+		alarms: 	a Heap()
+		lastAlarmTime: 	10749045
+		menuBuilder: 	a PragmaMenuBuilder ( nil ) 
+		activeHand: 	a HandMorph(523392256)
+		currentCursor: 	((CursorWithMask
+	extent: (16@16)
+	depth: 1
+	fromArray: #(
+		2r0...etc...
+
+
+WorldState>>doOneCycleNowFor:
+	Receiver: a WorldState
+	Arguments and temporary variables: 
+		aWorld: 	a WorldMorph(703126016) [world]
+	Receiver's instance variables: 
+		hands: 	an Array(a HandMorph(523392256))
+		viewBox: 	(0@0) corner: (1536@793)
+		canvas: 	a FormCanvas on: DisplayScreen(1536x793x32)
+		damageRecorder: 	a DamageRecorder
+		stepList: 	a Heap(StepMessage(#stepAt: -> a GLMSystemWindow(266259200) named: Pl...etc...
+		lastStepTime: 	10749045
+		lastStepMessage: 	nil
+		lastCycleTime: 	10749043
+		alarms: 	a Heap()
+		lastAlarmTime: 	10749045
+		menuBuilder: 	a PragmaMenuBuilder ( nil ) 
+		activeHand: 	a HandMorph(523392256)
+		currentCursor: 	((CursorWithMask
+	extent: (16@16)
+	depth: 1
+	fromArray: #(
+		2r0...etc...
+
+
+WorldState>>doOneCycleFor:
+	Receiver: a WorldState
+	Arguments and temporary variables: 
+		aWorld: 	a WorldMorph(703126016) [world]
+	Receiver's instance variables: 
+		hands: 	an Array(a HandMorph(523392256))
+		viewBox: 	(0@0) corner: (1536@793)
+		canvas: 	a FormCanvas on: DisplayScreen(1536x793x32)
+		damageRecorder: 	a DamageRecorder
+		stepList: 	a Heap(StepMessage(#stepAt: -> a GLMSystemWindow(266259200) named: Pl...etc...
+		lastStepTime: 	10749045
+		lastStepMessage: 	nil
+		lastCycleTime: 	10749043
+		alarms: 	a Heap()
+		lastAlarmTime: 	10749045
+		menuBuilder: 	a PragmaMenuBuilder ( nil ) 
+		activeHand: 	a HandMorph(523392256)
+		currentCursor: 	((CursorWithMask
+	extent: (16@16)
+	depth: 1
+	fromArray: #(
+		2r0...etc...
+
+
+WorldMorph>>doOneCycle
+	Receiver: a WorldMorph(703126016) [world]
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (1536@793)
+		owner: 	nil
+		submorphs: 	an Array(a MenubarMorph(769431040) a TaskbarMorph(1025265408) a Syst...etc...
+		fullBounds: 	(0@0) corner: (1536@793)
+		color: 	(Color r: 0.9400000000000001 g: 0.9400000000000001 b: 0.9400000000000001...etc...
+		extension: 	a MorphExtension (359075072) [other:  (dragEnabled -> true) (dropEna...etc...
+		borderWidth: 	0
+		borderColor: 	(Color r: 0.06 g: 0.06 b: 0.06 alpha: 1.0)
+		backgroundMorph: 	nil
+		worldState: 	a WorldState
+		griddingOn: 	nil
+		osWindow: 	nil
+		osWindowMutex: 	nil
+		session: 	nil
+
+
+WorldMorph class>>doOneCycle
+	Receiver: WorldMorph
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		superclass: 	PasteUpMorph
+		methodDict: 	a THERE_BE_DRAGONS_HERE
+#close was sent to nil
+21 November 2022 8:12:49.535204 pm
+
+VM: Win32 - X64 - 6.2 - CoInterpreter VMMaker.oscog-eem.2509 uuid: 91e81f64-95de-4914-a960-8f842be3a194 Sep 13 2019
+StackToRegisterMappingCogit VMMaker.oscog-eem.2509 uuid: 91e81f64-95de-4914-a960-8f842be3a194 Sep 13 2019
+VM: 201907031441-pharo Guille@DESKTOP-MG6660L:projects/vm7/opensmalltalk-vm Date: Wed Jul 3 16:41:39 2019 CommitHash: 4e4c5b5a0 Plugins: 201907031441-pharo Guille@DESKTOP-MG6660L:projects/vm7/opensmalltalk-vm
+
+Image: Pharo7.0.5 [Build information: Pharo-7.0.5+build.177.sha.fd8c156d959653f52be6fd7f8c71edf8cfb8fe90 (64 Bit)]
+
+UndefinedObject(Object)>>doesNotUnderstand: #close
+	Receiver: nil
+	Arguments and temporary variables: 
+		aMessage: 	close
+		exception: 	MessageNotUnderstood: receiver of "close" is nil
+		resumeValue: 	nil
+	Receiver's instance variables: 
+nil
+
+LightsOut class>>terminarJuego
+	Receiver: LightsOut
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		superclass: 	Object
+		methodDict: 	a MethodDictionary(#initialize->LightsOut>>#initialize )
+		format: 	65537
+		layout: 	a FixedLayout
+		organization: 	a ClassOrganization
+		subclasses: 	nil
+		name: 	#LightsOut
+		classPool: 	a Dictionary(#Juego->a Partida #Table->a Tablero(643135232) )
+		sharedPools: 	an OrderedCollection()
+		environment: 	a SystemDictionary(lots of globals)
+		category: 	#'Lights Out'
+
+
+Tablero>>recorrerLuces
+	Receiver: a Tablero(643135232)
+	Arguments and temporary variables: 
+		bandera: 	true
+	Receiver's instance variables: 
+		bounds: 	(388.0@154.0) corner: (630.0@396.0)
+		owner: 	nil
+		submorphs: 	an Array(a Luz(683794688) a Luz(93059328) a Luz(117748480) a Luz(404...etc...
+		fullBounds: 	(388.0@154.0) corner: (630.0@396.0)
+		color: 	Color black
+		extension: 	a MorphExtension (963679488) [other:  (formerPosition -> (435.0@18.0...etc...
+		borderWidth: 	1
+		borderColor: 	(Color r: 0.8230000000000001 g: 0.8230000000000001 b: 0.8230000000...etc...
+		celdas: 	(a Luz(240019200) a Luz(1011232512) a Luz(279116544)
+a Luz(197629184) a...etc...
+		tamaño: 	3
+		contadorDeClicks: 	37
+		modoJuego: 	1
+		cambiarLuz: 	nil
+
+
+Tablero>>cambiarLuzOriginal:at:
+	Receiver: a Tablero(643135232)
+	Arguments and temporary variables: 
+		i: 	2
+		j: 	2
+	Receiver's instance variables: 
+		bounds: 	(388.0@154.0) corner: (630.0@396.0)
+		owner: 	nil
+		submorphs: 	an Array(a Luz(683794688) a Luz(93059328) a Luz(117748480) a Luz(404...etc...
+		fullBounds: 	(388.0@154.0) corner: (630.0@396.0)
+		color: 	Color black
+		extension: 	a MorphExtension (963679488) [other:  (formerPosition -> (435.0@18.0...etc...
+		borderWidth: 	1
+		borderColor: 	(Color r: 0.8230000000000001 g: 0.8230000000000001 b: 0.8230000000...etc...
+		celdas: 	(a Luz(240019200) a Luz(1011232512) a Luz(279116544)
+a Luz(197629184) a...etc...
+		tamaño: 	3
+		contadorDeClicks: 	37
+		modoJuego: 	1
+		cambiarLuz: 	nil
+
+
+Tablero>>cambiarLuz:at:
+	Receiver: a Tablero(643135232)
+	Arguments and temporary variables: 
+		i: 	2
+		j: 	2
+	Receiver's instance variables: 
+		bounds: 	(388.0@154.0) corner: (630.0@396.0)
+		owner: 	nil
+		submorphs: 	an Array(a Luz(683794688) a Luz(93059328) a Luz(117748480) a Luz(404...etc...
+		fullBounds: 	(388.0@154.0) corner: (630.0@396.0)
+		color: 	Color black
+		extension: 	a MorphExtension (963679488) [other:  (formerPosition -> (435.0@18.0...etc...
+		borderWidth: 	1
+		borderColor: 	(Color r: 0.8230000000000001 g: 0.8230000000000001 b: 0.8230000000...etc...
+		celdas: 	(a Luz(240019200) a Luz(1011232512) a Luz(279116544)
+a Luz(197629184) a...etc...
+		tamaño: 	3
+		contadorDeClicks: 	37
+		modoJuego: 	1
+		cambiarLuz: 	nil
+
+
+[ self cambiarLuz: i at: j ] in Tablero>>nuevaluz:at:
+	Receiver: a Tablero(643135232)
+	Arguments and temporary variables: 
+		i: 	2
+		j: 	2
+		luz: 	nil
+		origen: 	nil
+	Receiver's instance variables: 
+		bounds: 	(388.0@154.0) corner: (630.0@396.0)
+		owner: 	nil
+		submorphs: 	an Array(a Luz(683794688) a Luz(93059328) a Luz(117748480) a Luz(404...etc...
+		fullBounds: 	(388.0@154.0) corner: (630.0@396.0)
+		color: 	Color black
+		extension: 	a MorphExtension (963679488) [other:  (formerPosition -> (435.0@18.0...etc...
+		borderWidth: 	1
+		borderColor: 	(Color r: 0.8230000000000001 g: 0.8230000000000001 b: 0.8230000000...etc...
+		celdas: 	(a Luz(240019200) a Luz(1011232512) a Luz(279116544)
+a Luz(197629184) a...etc...
+		tamaño: 	3
+		contadorDeClicks: 	37
+		modoJuego: 	1
+		cambiarLuz: 	nil
+
+
+Luz>>mouseUp:
+	Receiver: a Luz(473998592)
+	Arguments and temporary variables: 
+		anEvent: 	[(519@274) mouseUp 11346359 nil]
+	Receiver's instance variables: 
+		bounds: 	(469.0@235.0) corner: (549.0@315.0)
+		owner: 	a Tablero(643135232)
+		submorphs: 	an Array(a StringMorph(1032168192)'')
+		fullBounds: 	(469.0@235.0) corner: (549.0@315.0)
+		color: 	Color veryVeryDarkGray
+		extension: 	a MorphExtension (278432000)
+		borderWidth: 	10
+		borderColor: 	#inset
+		target: 	nil
+		actionSelector: 	#flash
+		arguments: 	#()
+		actWhen: 	#buttonUp
+		oldColor: 	Color lightGreen
+		label: 	a StringMorph(1032168192)''
+		onColor: 	Color veryVeryDarkGray
+		offColor: 	Color lightGreen
+		comportamientoCursor: 	[ self cambiarLuz: i at: j ]
+
+
+Luz(Morph)>>handleMouseUp:
+	Receiver: a Luz(473998592)
+	Arguments and temporary variables: 
+		anEvent: 	[(519@274) mouseUp 11346359 nil]
+		result: 	nil
+	Receiver's instance variables: 
+		bounds: 	(469.0@235.0) corner: (549.0@315.0)
+		owner: 	a Tablero(643135232)
+		submorphs: 	an Array(a StringMorph(1032168192)'')
+		fullBounds: 	(469.0@235.0) corner: (549.0@315.0)
+		color: 	Color veryVeryDarkGray
+		extension: 	a MorphExtension (278432000)
+		borderWidth: 	10
+		borderColor: 	#inset
+		target: 	nil
+		actionSelector: 	#flash
+		arguments: 	#()
+		actWhen: 	#buttonUp
+		oldColor: 	Color lightGreen
+		label: 	a StringMorph(1032168192)''
+		onColor: 	Color veryVeryDarkGray
+		offColor: 	Color lightGreen
+		comportamientoCursor: 	[ self cambiarLuz: i at: j ]
+
+
+MouseButtonEvent>>sentTo:
+	Receiver: [(519@274) mouseUp 11346359 nil]
+	Arguments and temporary variables: 
+		anObject: 	a Luz(473998592)
+	Receiver's instance variables: 
+		timeStamp: 	11346359
+		source: 	a HandMorph(523392256)
+		windowIndex: 	nil
+		type: 	#mouseUp
+		buttons: 	0
+		position: 	(519@274)
+		handler: 	nil
+		wasHandled: 	true
+		whichButton: 	4
+
+
+Luz(Morph)>>handleEvent:
+	Receiver: a Luz(473998592)
+	Arguments and temporary variables: 
+		anEvent: 	[(519@274) mouseUp 11346359 nil]
+	Receiver's instance variables: 
+		bounds: 	(469.0@235.0) corner: (549.0@315.0)
+		owner: 	a Tablero(643135232)
+		submorphs: 	an Array(a StringMorph(1032168192)'')
+		fullBounds: 	(469.0@235.0) corner: (549.0@315.0)
+		color: 	Color veryVeryDarkGray
+		extension: 	a MorphExtension (278432000)
+		borderWidth: 	10
+		borderColor: 	#inset
+		target: 	nil
+		actionSelector: 	#flash
+		arguments: 	#()
+		actWhen: 	#buttonUp
+		oldColor: 	Color lightGreen
+		label: 	a StringMorph(1032168192)''
+		onColor: 	Color veryVeryDarkGray
+		offColor: 	Color lightGreen
+		comportamientoCursor: 	[ self cambiarLuz: i at: j ]
+
+
+Luz(Morph)>>handleFocusEvent:
+	Receiver: a Luz(473998592)
+	Arguments and temporary variables: 
+		anEvent: 	[(519@274) mouseUp 11346359 nil]
+	Receiver's instance variables: 
+		bounds: 	(469.0@235.0) corner: (549.0@315.0)
+		owner: 	a Tablero(643135232)
+		submorphs: 	an Array(a StringMorph(1032168192)'')
+		fullBounds: 	(469.0@235.0) corner: (549.0@315.0)
+		color: 	Color veryVeryDarkGray
+		extension: 	a MorphExtension (278432000)
+		borderWidth: 	10
+		borderColor: 	#inset
+		target: 	nil
+		actionSelector: 	#flash
+		arguments: 	#()
+		actWhen: 	#buttonUp
+		oldColor: 	Color lightGreen
+		label: 	a StringMorph(1032168192)''
+		onColor: 	Color veryVeryDarkGray
+		offColor: 	Color lightGreen
+		comportamientoCursor: 	[ self cambiarLuz: i at: j ]
+
+
+[ ActiveHand := self.
+ActiveEvent := anEvent.
+result := focusHolder
+	handleFocusEvent: (anEvent transformedBy: (focusHolder transformedFrom: self)) ] in HandMorph>>sendFocusEvent:to:clear:
+	Receiver: a HandMorph(523392256)
+	Arguments and temporary variables: 
+		anEvent: 	[(519@274) mouseUp 11346359 nil]
+		focusHolder: 	a Luz(473998592)
+		aBlock: 	[ self mouseFocus: nil ]
+		w: 	a WorldMorph(703126016) [world]
+		result: 	nil
+	Receiver's instance variables: 
+		bounds: 	(585@312) corner: (601@328)
+		owner: 	a WorldMorph(703126016) [world]
+		submorphs: 	#()
+		fullBounds: 	(585@312) corner: (601@328)
+		color: 	Color blue
+		extension: 	a MorphExtension (915337472)
+		mouseFocus: 	nil
+		keyboardFocus: 	a SystemWindow(168713984) named: Lights Out
+		eventListeners: 	nil
+		mouseListeners: 	nil
+		keyboardListeners: 	nil
+		mouseClickState: 	a MouseClickState[#firstClickUp]
+		mouseOverHandler: 	a MouseOverHandler
+		lastMouseEvent: 	[(585@312) mouseOver 11347593 nil]
+		targetOffset: 	(16.0@18.0)
+		damageRecorder: 	a DamageRecorder
+		cacheCanvas: 	nil
+		cachedCanvasHasHoles: 	false
+		temporaryCursor: 	nil
+		temporaryCursorOffset: 	nil
+		hardwareCursor: 	nil
+		hasChanged: 	true
+		savedPatch: 	nil
+		lastEventBuffer: 	#(1 11347593 585 312 0 0 1 1)
+		lastKeyScanCode: 	87
+		combinedChar: 	nil
+		eventSource: 	nil
+		lastSystemEvent: 	nil
+		captureBlock: 	nil
+		recentModifiers: 	0
+
+
+BlockClosure>>on:do:
+	Receiver: [ ActiveHand := self.
+ActiveEvent := anEvent.
+result := focusHolder
+	handleFocusEvent: (an...etc...
+	Arguments and temporary variables: 
+		exception: 	Error
+		handlerAction: 	[ :ex | 
+ActiveWorld := priorWorld.
+ActiveEvent := priorEvent.
+A...etc...
+	Receiver's instance variables: 
+		outerContext: 	HandMorph>>sendFocusEvent:to:clear:
+		startpc: 	111
+		numArgs: 	0
+
+
+WorldMorph(PasteUpMorph)>>becomeActiveDuring:
+	Receiver: a WorldMorph(703126016) [world]
+	Arguments and temporary variables: 
+		aBlock: 	[ ActiveHand := self.
+ActiveEvent := anEvent.
+result := focusHolder
+	ha...etc...
+		priorWorld: 	a WorldMorph(703126016) [world]
+		priorHand: 	a HandMorph(523392256)
+		priorEvent: 	[(519@274) mouseOver red 11346296 nil]
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (1536@793)
+		owner: 	nil
+		submorphs: 	an Array(a MenubarMorph(769431040) a TaskbarMorph(1025265408) a Syst...etc...
+		fullBounds: 	(0@0) corner: (1536@793)
+		color: 	(Color r: 0.9400000000000001 g: 0.9400000000000001 b: 0.9400000000000001...etc...
+		extension: 	a MorphExtension (359075072) [other:  (dragEnabled -> true) (dropEna...etc...
+		borderWidth: 	0
+		borderColor: 	(Color r: 0.06 g: 0.06 b: 0.06 alpha: 1.0)
+		backgroundMorph: 	nil
+		worldState: 	a WorldState
+		griddingOn: 	nil
+		osWindow: 	nil
+		osWindowMutex: 	nil
+		session: 	nil
+
+
+HandMorph>>sendFocusEvent:to:clear:
+	Receiver: a HandMorph(523392256)
+	Arguments and temporary variables: 
+		result: 	nil
+		anEvent: 	[(519@274) mouseUp 11346359 nil]
+		focusHolder: 	a Luz(473998592)
+		aBlock: 	[ self mouseFocus: nil ]
+		w: 	a WorldMorph(703126016) [world]
+	Receiver's instance variables: 
+		bounds: 	(585@312) corner: (601@328)
+		owner: 	a WorldMorph(703126016) [world]
+		submorphs: 	#()
+		fullBounds: 	(585@312) corner: (601@328)
+		color: 	Color blue
+		extension: 	a MorphExtension (915337472)
+		mouseFocus: 	nil
+		keyboardFocus: 	a SystemWindow(168713984) named: Lights Out
+		eventListeners: 	nil
+		mouseListeners: 	nil
+		keyboardListeners: 	nil
+		mouseClickState: 	a MouseClickState[#firstClickUp]
+		mouseOverHandler: 	a MouseOverHandler
+		lastMouseEvent: 	[(585@312) mouseOver 11347593 nil]
+		targetOffset: 	(16.0@18.0)
+		damageRecorder: 	a DamageRecorder
+		cacheCanvas: 	nil
+		cachedCanvasHasHoles: 	false
+		temporaryCursor: 	nil
+		temporaryCursorOffset: 	nil
+		hardwareCursor: 	nil
+		hasChanged: 	true
+		savedPatch: 	nil
+		lastEventBuffer: 	#(1 11347593 585 312 0 0 1 1)
+		lastKeyScanCode: 	87
+		combinedChar: 	nil
+		eventSource: 	nil
+		lastSystemEvent: 	nil
+		captureBlock: 	nil
+		recentModifiers: 	0
+
+
+HandMorph>>sendEvent:focus:clear:
+	Receiver: a HandMorph(523392256)
+	Arguments and temporary variables: 
+		anEvent: 	[(519@274) mouseUp 11346359 nil]
+		focusHolder: 	a Luz(473998592)
+		aBlock: 	[ self mouseFocus: nil ]
+		result: 	nil
+	Receiver's instance variables: 
+		bounds: 	(585@312) corner: (601@328)
+		owner: 	a WorldMorph(703126016) [world]
+		submorphs: 	#()
+		fullBounds: 	(585@312) corner: (601@328)
+		color: 	Color blue
+		extension: 	a MorphExtension (915337472)
+		mouseFocus: 	nil
+		keyboardFocus: 	a SystemWindow(168713984) named: Lights Out
+		eventListeners: 	nil
+		mouseListeners: 	nil
+		keyboardListeners: 	nil
+		mouseClickState: 	a MouseClickState[#firstClickUp]
+		mouseOverHandler: 	a MouseOverHandler
+		lastMouseEvent: 	[(585@312) mouseOver 11347593 nil]
+		targetOffset: 	(16.0@18.0)
+		damageRecorder: 	a DamageRecorder
+		cacheCanvas: 	nil
+		cachedCanvasHasHoles: 	false
+		temporaryCursor: 	nil
+		temporaryCursorOffset: 	nil
+		hardwareCursor: 	nil
+		hasChanged: 	true
+		savedPatch: 	nil
+		lastEventBuffer: 	#(1 11347593 585 312 0 0 1 1)
+		lastKeyScanCode: 	87
+		combinedChar: 	nil
+		eventSource: 	nil
+		lastSystemEvent: 	nil
+		captureBlock: 	nil
+		recentModifiers: 	0
+
+
+HandMorph>>sendMouseEvent:
+	Receiver: a HandMorph(523392256)
+	Arguments and temporary variables: 
+		anEvent: 	[(519@274) mouseUp 11346359 nil]
+	Receiver's instance variables: 
+		bounds: 	(585@312) corner: (601@328)
+		owner: 	a WorldMorph(703126016) [world]
+		submorphs: 	#()
+		fullBounds: 	(585@312) corner: (601@328)
+		color: 	Color blue
+		extension: 	a MorphExtension (915337472)
+		mouseFocus: 	nil
+		keyboardFocus: 	a SystemWindow(168713984) named: Lights Out
+		eventListeners: 	nil
+		mouseListeners: 	nil
+		keyboardListeners: 	nil
+		mouseClickState: 	a MouseClickState[#firstClickUp]
+		mouseOverHandler: 	a MouseOverHandler
+		lastMouseEvent: 	[(585@312) mouseOver 11347593 nil]
+		targetOffset: 	(16.0@18.0)
+		damageRecorder: 	a DamageRecorder
+		cacheCanvas: 	nil
+		cachedCanvasHasHoles: 	false
+		temporaryCursor: 	nil
+		temporaryCursorOffset: 	nil
+		hardwareCursor: 	nil
+		hasChanged: 	true
+		savedPatch: 	nil
+		lastEventBuffer: 	#(1 11347593 585 312 0 0 1 1)
+		lastKeyScanCode: 	87
+		combinedChar: 	nil
+		eventSource: 	nil
+		lastSystemEvent: 	nil
+		captureBlock: 	nil
+		recentModifiers: 	0
+
+
+HandMorph>>handleEvent:
+	Receiver: a HandMorph(523392256)
+	Arguments and temporary variables: 
+		anEvent: 	[(519@274) mouseUp 11346359 nil]
+		evt: 	[(519@274) mouseUp 11346359 nil]
+	Receiver's instance variables: 
+		bounds: 	(585@312) corner: (601@328)
+		owner: 	a WorldMorph(703126016) [world]
+		submorphs: 	#()
+		fullBounds: 	(585@312) corner: (601@328)
+		color: 	Color blue
+		extension: 	a MorphExtension (915337472)
+		mouseFocus: 	nil
+		keyboardFocus: 	a SystemWindow(168713984) named: Lights Out
+		eventListeners: 	nil
+		mouseListeners: 	nil
+		keyboardListeners: 	nil
+		mouseClickState: 	a MouseClickState[#firstClickUp]
+		mouseOverHandler: 	a MouseOverHandler
+		lastMouseEvent: 	[(585@312) mouseOver 11347593 nil]
+		targetOffset: 	(16.0@18.0)
+		damageRecorder: 	a DamageRecorder
+		cacheCanvas: 	nil
+		cachedCanvasHasHoles: 	false
+		temporaryCursor: 	nil
+		temporaryCursorOffset: 	nil
+		hardwareCursor: 	nil
+		hasChanged: 	true
+		savedPatch: 	nil
+		lastEventBuffer: 	#(1 11347593 585 312 0 0 1 1)
+		lastKeyScanCode: 	87
+		combinedChar: 	nil
+		eventSource: 	nil
+		lastSystemEvent: 	nil
+		captureBlock: 	nil
+		recentModifiers: 	0
+
+
+HandMorph>>processEventsFromQueue:
+	Receiver: a HandMorph(523392256)
+	Arguments and temporary variables: 
+		anEventQueue: 	an InputEventSensor
+		evt: 	[(519@274) mouseUp 11346359 nil]
+		evtBuf: 	#(1 11346359 519 274 0 0 1 1)
+		type: 	1
+		hadAny: 	false
+	Receiver's instance variables: 
+		bounds: 	(585@312) corner: (601@328)
+		owner: 	a WorldMorph(703126016) [world]
+		submorphs: 	#()
+		fullBounds: 	(585@312) corner: (601@328)
+		color: 	Color blue
+		extension: 	a MorphExtension (915337472)
+		mouseFocus: 	nil
+		keyboardFocus: 	a SystemWindow(168713984) named: Lights Out
+		eventListeners: 	nil
+		mouseListeners: 	nil
+		keyboardListeners: 	nil
+		mouseClickState: 	a MouseClickState[#firstClickUp]
+		mouseOverHandler: 	a MouseOverHandler
+		lastMouseEvent: 	[(585@312) mouseOver 11347593 nil]
+		targetOffset: 	(16.0@18.0)
+		damageRecorder: 	a DamageRecorder
+		cacheCanvas: 	nil
+		cachedCanvasHasHoles: 	false
+		temporaryCursor: 	nil
+		temporaryCursorOffset: 	nil
+		hardwareCursor: 	nil
+		hasChanged: 	true
+		savedPatch: 	nil
+		lastEventBuffer: 	#(1 11347593 585 312 0 0 1 1)
+		lastKeyScanCode: 	87
+		combinedChar: 	nil
+		eventSource: 	nil
+		lastSystemEvent: 	nil
+		captureBlock: 	nil
+		recentModifiers: 	0
+
+
+HandMorph>>processEvents
+	Receiver: a HandMorph(523392256)
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		bounds: 	(585@312) corner: (601@328)
+		owner: 	a WorldMorph(703126016) [world]
+		submorphs: 	#()
+		fullBounds: 	(585@312) corner: (601@328)
+		color: 	Color blue
+		extension: 	a MorphExtension (915337472)
+		mouseFocus: 	nil
+		keyboardFocus: 	a SystemWindow(168713984) named: Lights Out
+		eventListeners: 	nil
+		mouseListeners: 	nil
+		keyboardListeners: 	nil
+		mouseClickState: 	a MouseClickState[#firstClickUp]
+		mouseOverHandler: 	a MouseOverHandler
+		lastMouseEvent: 	[(585@312) mouseOver 11347593 nil]
+		targetOffset: 	(16.0@18.0)
+		damageRecorder: 	a DamageRecorder
+		cacheCanvas: 	nil
+		cachedCanvasHasHoles: 	false
+		temporaryCursor: 	nil
+		temporaryCursorOffset: 	nil
+		hardwareCursor: 	nil
+		hasChanged: 	true
+		savedPatch: 	nil
+		lastEventBuffer: 	#(1 11347593 585 312 0 0 1 1)
+		lastKeyScanCode: 	87
+		combinedChar: 	nil
+		eventSource: 	nil
+		lastSystemEvent: 	nil
+		captureBlock: 	nil
+		recentModifiers: 	0
+
+
+[ :h | 
+self activeHand: h.
+h processEvents.
+self activeHand: nil ] in WorldState>>doOneCycleNowFor:
+	Receiver: a WorldState
+	Arguments and temporary variables: 
+		aWorld: 	a WorldMorph(703126016) [world]
+		h: 	a HandMorph(523392256)
+	Receiver's instance variables: 
+		hands: 	an Array(a HandMorph(523392256))
+		viewBox: 	(0@0) corner: (1536@793)
+		canvas: 	a FormCanvas on: DisplayScreen(1536x793x32)
+		damageRecorder: 	a DamageRecorder
+		stepList: 	a Heap(StepMessage(#stepAt: -> a GLMSystemWindow(266259200) named: Pl...etc...
+		lastStepTime: 	10792360
+		lastStepMessage: 	nil
+		lastCycleTime: 	10792355
+		alarms: 	a Heap()
+		lastAlarmTime: 	10792360
+		menuBuilder: 	a PragmaMenuBuilder ( nil ) 
+		activeHand: 	a HandMorph(523392256)
+		currentCursor: 	((CursorWithMask
+	extent: (16@16)
+	depth: 1
+	fromArray: #(
+		2r0...etc...
+
+
+Array(SequenceableCollection)>>do:
+	Receiver: an Array(a HandMorph(523392256))
+	Arguments and temporary variables: 
+		aBlock: 	[ :h | 
+self activeHand: h.
+h processEvents.
+self activeHand: nil ]
+		index: 	1
+	Receiver's instance variables: 
+an Array(a HandMorph(523392256))
+
+WorldState>>handsDo:
+	Receiver: a WorldState
+	Arguments and temporary variables: 
+		aBlock: 	[ :h | 
+self activeHand: h.
+h processEvents.
+self activeHand: nil ]
+	Receiver's instance variables: 
+		hands: 	an Array(a HandMorph(523392256))
+		viewBox: 	(0@0) corner: (1536@793)
+		canvas: 	a FormCanvas on: DisplayScreen(1536x793x32)
+		damageRecorder: 	a DamageRecorder
+		stepList: 	a Heap(StepMessage(#stepAt: -> a GLMSystemWindow(266259200) named: Pl...etc...
+		lastStepTime: 	10792360
+		lastStepMessage: 	nil
+		lastCycleTime: 	10792355
+		alarms: 	a Heap()
+		lastAlarmTime: 	10792360
+		menuBuilder: 	a PragmaMenuBuilder ( nil ) 
+		activeHand: 	a HandMorph(523392256)
+		currentCursor: 	((CursorWithMask
+	extent: (16@16)
+	depth: 1
+	fromArray: #(
+		2r0...etc...
+
+
+WTHERE_BE_DRAGONS_HERE
+#close was sent to nil
+21 November 2022 8:15:52.163204 pm
+
+VM: Win32 - X64 - 6.2 - CoInterpreter VMMaker.oscog-eem.2509 uuid: 91e81f64-95de-4914-a960-8f842be3a194 Sep 13 2019
+StackToRegisterMappingCogit VMMaker.oscog-eem.2509 uuid: 91e81f64-95de-4914-a960-8f842be3a194 Sep 13 2019
+VM: 201907031441-pharo Guille@DESKTOP-MG6660L:projects/vm7/opensmalltalk-vm Date: Wed Jul 3 16:41:39 2019 CommitHash: 4e4c5b5a0 Plugins: 201907031441-pharo Guille@DESKTOP-MG6660L:projects/vm7/opensmalltalk-vm
+
+Image: Pharo7.0.5 [Build information: Pharo-7.0.5+build.177.sha.fd8c156d959653f52be6fd7f8c71edf8cfb8fe90 (64 Bit)]
+
+UndefinedObject(Object)>>doesNotUnderstand: #close
+	Receiver: nil
+	Arguments and temporary variables: 
+		aMessage: 	close
+		exception: 	MessageNotUnderstood: receiver of "close" is nil
+		resumeValue: 	nil
+	Receiver's instance variables: 
+nil
+
+LightsOut class>>terminarJuego
+	Receiver: LightsOut
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		superclass: 	Object
+		methodDict: 	a MethodDictionary(#initialize->LightsOut>>#initialize )
+		format: 	65537
+		layout: 	a FixedLayout
+		organization: 	a ClassOrganization
+		subclasses: 	nil
+		name: 	#LightsOut
+		classPool: 	a Dictionary(#Juego->a Partida #Table->a Tablero(215373568) )
+		sharedPools: 	an OrderedCollection()
+		environment: 	a SystemDictionary(lots of globals)
+		category: 	#'Lights Out'
+
+
+Tablero>>recorrerLuces
+	Receiver: a Tablero(215373568)
+	Arguments and temporary variables: 
+		bandera: 	true
+	Receiver's instance variables: 
+		bounds: 	(388.0@154.0) corner: (630.0@396.0)
+		owner: 	nil
+		submorphs: 	an Array(a Luz(1056370432) a Luz(788806400) a Luz(495008000) a Luz(2...etc...
+		fullBounds: 	(388.0@154.0) corner: (630.0@396.0)
+		color: 	Color black
+		extension: 	a MorphExtension (739790080) [other:  (formerPosition -> (391.0@15.0...etc...
+		borderWidth: 	1
+		borderColor: 	(Color r: 0.8230000000000001 g: 0.8230000000000001 b: 0.8230000000...etc...
+		celdas: 	(a Luz(493116672) a Luz(183933184) a Luz(795832064)
+a Luz(673046272) a ...etc...
+		tamaño: 	3
+		contadorDeClicks: 	51
+		modoJuego: 	1
+		cambiarLuz: 	nil
+
+
+Tablero>>cambiarLuzOriginal:at:
+	Receiver: a Tablero(215373568)
+	Arguments and temporary variables: 
+		i: 	3
+		j: 	2
+	Receiver's instance variables: 
+		bounds: 	(388.0@154.0) corner: (630.0@396.0)
+		owner: 	nil
+		submorphs: 	an Array(a Luz(1056370432) a Luz(788806400) a Luz(495008000) a Luz(2...etc...
+		fullBounds: 	(388.0@154.0) corner: (630.0@396.0)
+		color: 	Color black
+		extension: 	a MorphExtension (739790080) [other:  (formerPosition -> (391.0@15.0...etc...
+		borderWidth: 	1
+		borderColor: 	(Color r: 0.8230000000000001 g: 0.8230000000000001 b: 0.8230000000...etc...
+		celdas: 	(a Luz(493116672) a Luz(183933184) a Luz(795832064)
+a Luz(673046272) a ...etc...
+		tamaño: 	3
+		contadorDeClicks: 	51
+		modoJuego: 	1
+		cambiarLuz: 	nil
+
+
+Tablero>>cambiarLuz:at:
+	Receiver: a Tablero(215373568)
+	Arguments and temporary variables: 
+		i: 	3
+		j: 	2
+	Receiver's instance variables: 
+		bounds: 	(388.0@154.0) corner: (630.0@396.0)
+		owner: 	nil
+		submorphs: 	an Array(a Luz(1056370432) a Luz(788806400) a Luz(495008000) a Luz(2...etc...
+		fullBounds: 	(388.0@154.0) corner: (630.0@396.0)
+		color: 	Color black
+		extension: 	a MorphExtension (739790080) [other:  (formerPosition -> (391.0@15.0...etc...
+		borderWidth: 	1
+		borderColor: 	(Color r: 0.8230000000000001 g: 0.8230000000000001 b: 0.8230000000...etc...
+		celdas: 	(a Luz(493116672) a Luz(183933184) a Luz(795832064)
+a Luz(673046272) a ...etc...
+		tamaño: 	3
+		contadorDeClicks: 	51
+		modoJuego: 	1
+		cambiarLuz: 	nil
+
+
+[ self cambiarLuz: i at: j ] in Tablero>>nuevaluz:at:
+	Receiver: a Tablero(215373568)
+	Arguments and temporary variables: 
+		i: 	3
+		j: 	2
+		luz: 	nil
+		origen: 	nil
+	Receiver's instance variables: 
+		bounds: 	(388.0@154.0) corner: (630.0@396.0)
+		owner: 	nil
+		submorphs: 	an Array(a Luz(1056370432) a Luz(788806400) a Luz(495008000) a Luz(2...etc...
+		fullBounds: 	(388.0@154.0) corner: (630.0@396.0)
+		color: 	Color black
+		extension: 	a MorphExtension (739790080) [other:  (formerPosition -> (391.0@15.0...etc...
+		borderWidth: 	1
+		borderColor: 	(Color r: 0.8230000000000001 g: 0.8230000000000001 b: 0.8230000000...etc...
+		celdas: 	(a Luz(493116672) a Luz(183933184) a Luz(795832064)
+a Luz(673046272) a ...etc...
+		tamaño: 	3
+		contadorDeClicks: 	51
+		modoJuego: 	1
+		cambiarLuz: 	nil
+
+
+Luz>>mouseUp:
+	Receiver: a Luz(788806400)
+	Arguments and temporary variables: 
+		anEvent: 	[(589@266) mouseUp 11527000 nil]
+	Receiver's instance variables: 
+		bounds: 	(549.0@235.0) corner: (629.0@315.0)
+		owner: 	a Tablero(215373568)
+		submorphs: 	an Array(a StringMorph(1025104640)'')
+		fullBounds: 	(549.0@235.0) corner: (629.0@315.0)
+		color: 	Color veryVeryDarkGray
+		extension: 	a MorphExtension (746656000)
+		borderWidth: 	10
+		borderColor: 	#inset
+		target: 	nil
+		actionSelector: 	#flash
+		arguments: 	#()
+		actWhen: 	#buttonUp
+		oldColor: 	Color lightGreen
+		label: 	a StringMorph(1025104640)''
+		onColor: 	Color veryVeryDarkGray
+		offColor: 	Color lightGreen
+		comportamientoCursor: 	[ self cambiarLuz: i at: j ]
+
+
+Luz(Morph)>>handleMouseUp:
+	Receiver: a Luz(788806400)
+	Arguments and temporary variables: 
+		anEvent: 	[(589@266) mouseUp 11527000 nil]
+		result: 	nil
+	Receiver's instance variables: 
+		bounds: 	(549.0@235.0) corner: (629.0@315.0)
+		owner: 	a Tablero(215373568)
+		submorphs: 	an Array(a StringMorph(1025104640)'')
+		fullBounds: 	(549.0@235.0) corner: (629.0@315.0)
+		color: 	Color veryVeryDarkGray
+		extension: 	a MorphExtension (746656000)
+		borderWidth: 	10
+		borderColor: 	#inset
+		target: 	nil
+		actionSelector: 	#flash
+		arguments: 	#()
+		actWhen: 	#buttonUp
+		oldColor: 	Color lightGreen
+		label: 	a StringMorph(1025104640)''
+		onColor: 	Color veryVeryDarkGray
+		offColor: 	Color lightGreen
+		comportamientoCursor: 	[ self cambiarLuz: i at: j ]
+
+
+MouseButtonEvent>>sentTo:
+	Receiver: [(589@266) mouseUp 11527000 nil]
+	Arguments and temporary variables: 
+		anObject: 	a Luz(788806400)
+	Receiver's instance variables: 
+		timeStamp: 	11527000
+		source: 	a HandMorph(523392256)
+		windowIndex: 	nil
+		type: 	#mouseUp
+		buttons: 	0
+		position: 	(589@266)
+		handler: 	nil
+		wasHandled: 	true
+		whichButton: 	4
+
+
+Luz(Morph)>>handleEvent:
+	Receiver: a Luz(788806400)
+	Arguments and temporary variables: 
+		anEvent: 	[(589@266) mouseUp 11527000 nil]
+	Receiver's instance variables: 
+		bounds: 	(549.0@235.0) corner: (629.0@315.0)
+		owner: 	a Tablero(215373568)
+		submorphs: 	an Array(a StringMorph(1025104640)'')
+		fullBounds: 	(549.0@235.0) corner: (629.0@315.0)
+		color: 	Color veryVeryDarkGray
+		extension: 	a MorphExtension (746656000)
+		borderWidth: 	10
+		borderColor: 	#inset
+		target: 	nil
+		actionSelector: 	#flash
+		arguments: 	#()
+		actWhen: 	#buttonUp
+		oldColor: 	Color lightGreen
+		label: 	a StringMorph(1025104640)''
+		onColor: 	Color veryVeryDarkGray
+		offColor: 	Color lightGreen
+		comportamientoCursor: 	[ self cambiarLuz: i at: j ]
+
+
+Luz(Morph)>>handleFocusEvent:
+	Receiver: a Luz(788806400)
+	Arguments and temporary variables: 
+		anEvent: 	[(589@266) mouseUp 11527000 nil]
+	Receiver's instance variables: 
+		bounds: 	(549.0@235.0) corner: (629.0@315.0)
+		owner: 	a Tablero(215373568)
+		submorphs: 	an Array(a StringMorph(1025104640)'')
+		fullBounds: 	(549.0@235.0) corner: (629.0@315.0)
+		color: 	Color veryVeryDarkGray
+		extension: 	a MorphExtension (746656000)
+		borderWidth: 	10
+		borderColor: 	#inset
+		target: 	nil
+		actionSelector: 	#flash
+		arguments: 	#()
+		actWhen: 	#buttonUp
+		oldColor: 	Color lightGreen
+		label: 	a StringMorph(1025104640)''
+		onColor: 	Color veryVeryDarkGray
+		offColor: 	Color lightGreen
+		comportamientoCursor: 	[ self cambiarLuz: i at: j ]
+
+
+[ ActiveHand := self.
+ActiveEvent := anEvent.
+result := focusHolder
+	handleFocusEvent: (anEvent transformedBy: (focusHolder transformedFrom: self)) ] in HandMorph>>sendFocusEvent:to:clear:
+	Receiver: a HandMorph(523392256)
+	Arguments and temporary variables: 
+		anEvent: 	[(589@266) mouseUp 11527000 nil]
+		focusHolder: 	a Luz(788806400)
+		aBlock: 	[ self mouseFocus: nil ]
+		w: 	a WorldMorph(703126016) [world]
+		result: 	nil
+	Receiver's instance variables: 
+		bounds: 	(654@295) corner: (670@311)
+		owner: 	a WorldMorph(703126016) [world]
+		submorphs: 	#()
+		fullBounds: 	(654@295) corner: (670@311)
+		color: 	Color blue
+		extension: 	a MorphExtension (915337472)
+		mouseFocus: 	nil
+		keyboardFocus: 	a SystemWindow(699324672) named: Lights Out
+		eventListeners: 	nil
+		mouseListeners: 	nil
+		keyboardListeners: 	nil
+		mouseClickState: 	a MouseClickState[#firstClickUp]
+		mouseOverHandler: 	a MouseOverHandler
+		lastMouseEvent: 	[(654@295) mouseOver 11530234 nil]
+		targetOffset: 	(15.0@9.0)
+		damageRecorder: 	a DamageRecorder
+		cacheCanvas: 	nil
+		cachedCanvasHasHoles: 	false
+		temporaryCursor: 	nil
+		temporaryCursorOffset: 	nil
+		hardwareCursor: 	nil
+		hasChanged: 	true
+		savedPatch: 	nil
+		lastEventBuffer: 	#(1 11530234 654 295 0 0 1 1)
+		lastKeyScanCode: 	87
+		combinedChar: 	nil
+		eventSource: 	nil
+		lastSystemEvent: 	nil
+		captureBlock: 	nil
+		recentModifiers: 	0
+
+
+BlockClosure>>on:do:
+	Receiver: [ ActiveHand := self.
+ActiveEvent := anEvent.
+result := focusHolder
+	handleFocusEvent: (an...etc...
+	Arguments and temporary variables: 
+		exception: 	Error
+		handlerAction: 	[ :ex | 
+ActiveWorld := priorWorld.
+ActiveEvent := priorEvent.
+A...etc...
+	Receiver's instance variables: 
+		outerContext: 	HandMorph>>sendFocusEvent:to:clear:
+		startpc: 	111
+		numArgs: 	0
+
+
+WorldMorph(PasteUpMorph)>>becomeActiveDuring:
+	Receiver: a WorldMorph(703126016) [world]
+	Arguments and temporary variables: 
+		aBlock: 	[ ActiveHand := self.
+ActiveEvent := anEvent.
+result := focusHolder
+	ha...etc...
+		priorWorld: 	a WorldMorph(703126016) [world]
+		priorHand: 	a HandMorph(523392256)
+		priorEvent: 	[(589@266) mouseOver red 11526437 nil]
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (1536@793)
+		owner: 	nil
+		submorphs: 	an Array(a MenubarMorph(769431040) a TaskbarMorph(1025265408) a Syst...etc...
+		fullBounds: 	(0@0) corner: (1536@793)
+		color: 	(Color r: 0.9400000000000001 g: 0.9400000000000001 b: 0.9400000000000001...etc...
+		extension: 	a MorphExtension (359075072) [other:  (dragEnabled -> true) (dropEna...etc...
+		borderWidth: 	0
+		borderColor: 	(Color r: 0.06 g: 0.06 b: 0.06 alpha: 1.0)
+		backgroundMorph: 	nil
+		worldState: 	a WorldState
+		griddingOn: 	nil
+		osWindow: 	nil
+		osWindowMutex: 	nil
+		session: 	nil
+
+
+HandMorph>>sendFocusEvent:to:clear:
+	Receiver: a HandMorph(523392256)
+	Arguments and temporary variables: 
+		result: 	nil
+		anEvent: 	[(589@266) mouseUp 11527000 nil]
+		focusHolder: 	a Luz(788806400)
+		aBlock: 	[ self mouseFocus: nil ]
+		w: 	a WorldMorph(703126016) [world]
+	Receiver's instance variables: 
+		bounds: 	(654@295) corner: (670@311)
+		owner: 	a WorldMorph(703126016) [world]
+		submorphs: 	#()
+		fullBounds: 	(654@295) corner: (670@311)
+		color: 	Color blue
+		extension: 	a MorphExtension (915337472)
+		mouseFocus: 	nil
+		keyboardFocus: 	a SystemWindow(699324672) named: Lights Out
+		eventListeners: 	nil
+		mouseListeners: 	nil
+		keyboardListeners: 	nil
+		mouseClickState: 	a MouseClickState[#firstClickUp]
+		mouseOverHandler: 	a MouseOverHandler
+		lastMouseEvent: 	[(654@295) mouseOver 11530234 nil]
+		targetOffset: 	(15.0@9.0)
+		damageRecorder: 	a DamageRecorder
+		cacheCanvas: 	nil
+		cachedCanvasHasHoles: 	false
+		temporaryCursor: 	nil
+		temporaryCursorOffset: 	nil
+		hardwareCursor: 	nil
+		hasChanged: 	true
+		savedPatch: 	nil
+		lastEventBuffer: 	#(1 11530234 654 295 0 0 1 1)
+		lastKeyScanCode: 	87
+		combinedChar: 	nil
+		eventSource: 	nil
+		lastSystemEvent: 	nil
+		captureBlock: 	nil
+		recentModifiers: 	0
+
+
+HandMorph>>sendEvent:focus:clear:
+	Receiver: a HandMorph(523392256)
+	Arguments and temporary variables: 
+		anEvent: 	[(589@266) mouseUp 11527000 nil]
+		focusHolder: 	a Luz(788806400)
+		aBlock: 	[ self mouseFocus: nil ]
+		result: 	nil
+	Receiver's instance variables: 
+		bounds: 	(654@295) corner: (670@311)
+		owner: 	a WorldMorph(703126016) [world]
+		submorphs: 	#()
+		fullBounds: 	(654@295) corner: (670@311)
+		color: 	Color blue
+		extension: 	a MorphExtension (915337472)
+		mouseFocus: 	nil
+		keyboardFocus: 	a SystemWindow(699324672) named: Lights Out
+		eventListeners: 	nil
+		mouseListeners: 	nil
+		keyboardListeners: 	nil
+		mouseClickState: 	a MouseClickState[#firstClickUp]
+		mouseOverHandler: 	a MouseOverHandler
+		lastMouseEvent: 	[(654@295) mouseOver 11530234 nil]
+		targetOffset: 	(15.0@9.0)
+		damageRecorder: 	a DamageRecorder
+		cacheCanvas: 	nil
+		cachedCanvasHasHoles: 	false
+		temporaryCursor: 	nil
+		temporaryCursorOffset: 	nil
+		hardwareCursor: 	nil
+		hasChanged: 	true
+		savedPatch: 	nil
+		lastEventBuffer: 	#(1 11530234 654 295 0 0 1 1)
+		lastKeyScanCode: 	87
+		combinedChar: 	nil
+		eventSource: 	nil
+		lastSystemEvent: 	nil
+		captureBlock: 	nil
+		recentModifiers: 	0
+
+
+HandMorph>>sendMouseEvent:
+	Receiver: a HandMorph(523392256)
+	Arguments and temporary variables: 
+		anEvent: 	[(589@266) mouseUp 11527000 nil]
+	Receiver's instance variables: 
+		bounds: 	(654@295) corner: (670@311)
+		owner: 	a WorldMorph(703126016) [world]
+		submorphs: 	#()
+		fullBounds: 	(654@295) corner: (670@311)
+		color: 	Color blue
+		extension: 	a MorphExtension (915337472)
+		mouseFocus: 	nil
+		keyboardFocus: 	a SystemWindow(699324672) named: Lights Out
+		eventListeners: 	nil
+		mouseListeners: 	nil
+		keyboardListeners: 	nil
+		mouseClickState: 	a MouseClickState[#firstClickUp]
+		mouseOverHandler: 	a MouseOverHandler
+		lastMouseEvent: 	[(654@295) mouseOver 11530234 nil]
+		targetOffset: 	(15.0@9.0)
+		damageRecorder: 	a DamageRecorder
+		cacheCanvas: 	nil
+		cachedCanvasHasHoles: 	false
+		temporaryCursor: 	nil
+		temporaryCursorOffset: 	nil
+		hardwareCursor: 	nil
+		hasChanged: 	true
+		savedPatch: 	nil
+		lastEventBuffer: 	#(1 11530234 654 295 0 0 1 1)
+		lastKeyScanCode: 	87
+		combinedChar: 	nil
+		eventSource: 	nil
+		lastSystemEvent: 	nil
+		captureBlock: 	nil
+		recentModifiers: 	0
+
+
+HandMorph>>handleEvent:
+	Receiver: a HandMorph(523392256)
+	Arguments and temporary variables: 
+		anEvent: 	[(589@266) mouseUp 11527000 nil]
+		evt: 	[(589@266) mouseUp 11527000 nil]
+	Receiver's instance variables: 
+		bounds: 	(654@295) corner: (670@311)
+		owner: 	a WorldMorph(703126016) [world]
+		submorphs: 	#()
+		fullBounds: 	(654@295) corner: (670@311)
+		color: 	Color blue
+		extension: 	a MorphExtension (915337472)
+		mouseFocus: 	nil
+		keyboardFocus: 	a SystemWindow(699324672) named: Lights Out
+		eventListeners: 	nil
+		mouseListeners: 	nil
+		keyboardListeners: 	nil
+		mouseClickState: 	a MouseClickState[#firstClickUp]
+		mouseOverHandler: 	a MouseOverHandler
+		lastMouseEvent: 	[(654@295) mouseOver 11530234 nil]
+		targetOffset: 	(15.0@9.0)
+		damageRecorder: 	a DamageRecorder
+		cacheCanvas: 	nil
+		cachedCanvasHasHoles: 	false
+		temporaryCursor: 	nil
+		temporaryCursorOffset: 	nil
+		hardwareCursor: 	nil
+		hasChanged: 	true
+		savedPatch: 	nil
+		lastEventBuffer: 	#(1 11530234 654 295 0 0 1 1)
+		lastKeyScanCode: 	87
+		combinedChar: 	nil
+		eventSource: 	nil
+		lastSystemEvent: 	nil
+		captureBlock: 	nil
+		recentModifiers: 	0
+
+
+HandMorph>>processEventsFromQueue:
+	Receiver: a HandMorph(523392256)
+	Arguments and temporary variables: 
+		anEventQueue: 	an InputEventSensor
+		evt: 	[(589@266) mouseUp 11527000 nil]
+		evtBuf: 	#(1 11527000 589 266 0 0 1 1)
+		type: 	1
+		hadAny: 	false
+	Receiver's instance variables: 
+		bounds: 	(654@295) corner: (670@311)
+		owner: 	a WorldMorph(703126016) [world]
+		submorphs: 	#()
+		fullBounds: 	(654@295) corner: (670@311)
+		color: 	Color blue
+		extension: 	a MorphExtension (915337472)
+		mouseFocus: 	nil
+		keyboardFocus: 	a SystemWindow(699324672) named: Lights Out
+		eventListeners: 	nil
+		mouseListeners: 	nil
+		keyboardListeners: 	nil
+		mouseClickState: 	a MouseClickState[#firstClickUp]
+		mouseOverHandler: 	a MouseOverHandler
+		lastMouseEvent: 	[(654@295) mouseOver 11530234 nil]
+		targetOffset: 	(15.0@9.0)
+		damageRecorder: 	a DamageRecorder
+		cacheCanvas: 	nil
+		cachedCanvasHasHoles: 	false
+		temporaryCursor: 	nil
+		temporaryCursorOffset: 	nil
+		hardwareCursor: 	nil
+		hasChanged: 	true
+		savedPatch: 	nil
+		lastEventBuffer: 	#(1 11530234 654 295 0 0 1 1)
+		lastKeyScanCode: 	87
+		combinedChar: 	nil
+		eventSource: 	nil
+		lastSystemEvent: 	nil
+		captureBlock: 	nil
+		recentModifiers: 	0
+
+
+HandMorph>>processEvents
+	Receiver: a HandMorph(523392256)
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		bounds: 	(654@295) corner: (670@311)
+		owner: 	a WorldMorph(703126016) [world]
+		submorphs: 	#()
+		fullBounds: 	(654@295) corner: (670@311)
+		color: 	Color blue
+		extension: 	a MorphExtension (915337472)
+		mouseFocus: 	nil
+		keyboardFocus: 	a SystemWindow(699324672) named: Lights Out
+		eventListeners: 	nil
+		mouseListeners: 	nil
+		keyboardListeners: 	nil
+		mouseClickState: 	a MouseClickState[#firstClickUp]
+		mouseOverHandler: 	a MouseOverHandler
+		lastMouseEvent: 	[(654@295) mouseOver 11530234 nil]
+		targetOffset: 	(15.0@9.0)
+		damageRecorder: 	a DamageRecorder
+		cacheCanvas: 	nil
+		cachedCanvasHasHoles: 	false
+		temporaryCursor: 	nil
+		temporaryCursorOffset: 	nil
+		hardwareCursor: 	nil
+		hasChanged: 	true
+		savedPatch: 	nil
+		lastEventBuffer: 	#(1 11530234 654 295 0 0 1 1)
+		lastKeyScanCode: 	87
+		combinedChar: 	nil
+		eventSource: 	nil
+		lastSystemEvent: 	nil
+		captureBlock: 	nil
+		recentModifiers: 	0
+
+
+[ :h | 
+self activeHand: h.
+h processEvents.
+self activeHand: nil ] in WorldState>>doOneCycleNowFor:
+	Receiver: a WorldState
+	Arguments and temporary variables: 
+		aWorld: 	a WorldMorph(703126016) [world]
+		h: 	a HandMorph(523392256)
+	Receiver's instance variables: 
+		hands: 	an Array(a HandMorph(523392256))
+		viewBox: 	(0@0) corner: (1536@793)
+		canvas: 	a FormCanvas on: DisplayScreen(1536x793x32)
+		damageRecorder: 	a DamageRecorder
+		stepList: 	a Heap(StepMessage(#stepAt: -> a GLMSystemWindow(266259200) named: Pl...etc...
+		lastStepTime: 	10974989
+		lastStepMessage: 	nil
+		lastCycleTime: 	10974988
+		alarms: 	a Heap()
+		lastAlarmTime: 	10974989
+		menuBuilder: 	a PragmaMenuBuilder ( nil ) 
+		activeHand: 	a HandMorph(523392256)
+		currentCursor: 	((CursorWithMask
+	extent: (16@16)
+	depth: 1
+	fromArray: #(
+		2r0...etc...
+
+
+Array(SequenceableCollection)>>do:
+	Receiver: an Array(a HandMorph(523392256))
+	Arguments and temporary variables: 
+		aBlock: 	[ :h | 
+self activeHand: h.
+h processEvents.
+self activeHand: nil ]
+		index: 	1
+	Receiver's instance variables: 
+an Array(a HandMorph(523392256))
+
+WorldState>>handsDo:
+	Receiver: a WorldState
+	Arguments and temporary variables: 
+		aBlock: 	[ :h | 
+self activeHand: h.
+h processEvents.
+self activeHand: nil ]
+	Receiver's instance variables: 
+		hands: 	an Array(a HandMorph(523392256))
+		viewBox: 	(0@0) corner: (1536@793)
+		canvas: 	a FormCanvas on: DisplayScreen(1536x793x32)
+		damageRecorder: 	a DamageRecorder
+		stepList: 	a Heap(StepMessage(#stepAt: -> a GLMSystemWindow(266259200) named: Pl...etc...
+		lastStepTime: 	10974989
+		lastStepMessage: 	nil
+		lastCycleTime: 	10974988
+		alarms: 	a Heap()
+		lastAlarmTime: 	10974989
+		menuBuilder: 	a PragmaMenuBuilder ( nil ) 
+		activeHand: 	a HandMorph(523392256)
+		currentCursor: 	((CursorWithMask
+	extent: (16@16)
+	depth: 1
+	fromArray: #(
+		2r0...etc...
+
+
+WorldState>>doOneCycleNowFor:
+	Receiver: a WorldState
+	Arguments and temporary variables: 
+		aWorld: 	a WorldMorph(703126016) [world]
+	Receiver's instance variables: 
+		hands: 	an Array(a HandMorph(523392256))
+		viewBox: 	(0@0) corner: (1536@793)
+		canvas: 	a FormCanvas on: DisplayScreen(1536x793x32)
+		damageRecorder: 	a DamageRecorder
+		stepList: 	a Heap(StepMessage(#stepAt: -> a GLMSystemWindow(266259200) named: Pl...etc...
+		lastStepTime: 	10974989
+		lastStepMessage: 	nil
+		lastCycleTime: 	10974988
+		alarms: 	a Heap()
+		lastAlarmTime: 	10974989
+		menuBuilder: 	a PragmaMenuBuilder ( nil ) 
+		activeHand: 	a HandMorph(523392256)
+		currentCursor: 	((CursorWithMask
+	extent: (16@16)
+	depth: 1
+	fromArray: #(
+		2r0...etc...
+
+
+WorldState>>doOneCycleFor:
+	Receiver: a WorldState
+	Arguments and temporary variables: 
+		aWorld: 	a WorldMorph(703126016) [world]
+	Receiver's instance variables: 
+		hands: 	an Array(a HandMorph(523392256))
+		viewBox: 	(0@0) corner: (1536@793)
+		canvas: 	a FormCanvas on: DisplayScreen(1536x793x32)
+		damageRecorder: 	a DamageRecorder
+		stepList: 	a Heap(StepMessage(#stepAt: -> a GLMSystemWindow(266259200) named: Pl...etc...
+		lastStepTime: 	10974989
+		lastStepMessage: 	nil
+		lastCycleTime: 	10974988
+		alarms: 	a Heap()
+		lastAlarmTime: 	10974989
+		menuBuilder: 	a PragmaMenuBuilder ( nil ) 
+		activeHand: 	a HandMorph(523392256)
+		currentCursor: 	((CursorWithMask
+	extent: (16@16)
+	depth: 1
+	fromArray: #(
+		2r0...etc...
+
+
+WorldMorph>>doOneCycle
+	Receiver: a WorldMorph(703126016) [world]
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (1536@793)
+		owner: 	nil
+		submorphs: 	an Array(a MenubarMorph(769431040) a TaskbarMorph(1025265408) a Syst...etc...
+		fullBounds: 	(0@0) corner: (1536@793)
+		color: 	(Color r: 0.9400000000000001 g: 0.9400000000000001 b: 0.9400000000000001...etc...
+		extension: 	a MorphExtension (359075072) [other:  (dragEnabled -> true) (dropEna...etc...
+		borderWidth: 	0
+		borderColor: 	(Color r: 0.06 g: 0.06 b: 0.06 alpha: 1.0)
+		backgroundMorph: 	nil
+		worldState: 	a WorldState
+		griddingOn: 	nil
+		osWindow: 	nil
+		osWindowMutex: 	nil
+		session: 	nil
+
+
+WorldMorph class>>doOneCycle
+	Receiver: WorldMorph
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		superclass: 	PasteUpMorph
+		methodDict: 	a MethodDictionary(#acceptDroppingMorph:event:->WorldMorph>>#accept...etc...
+		format: 	65550
+		layout: 	a FixedLayout
+		organization: 	a ClassOrganization
+		subclasses: 	{AthensWorldMorph. OSWindowWorldMorph}
+		name: 	#WorldMorph
+		classPool: 	a Dictionary(#AllowDropFiles->true #CursorOwnerWorld->a WorldMorph(7...etc...
+		sharedPools: 	an OrderedCollection()
+		environment: 	a SystemDictionary(lots of globals)
+		category: 	#'Morphic-Core-Worlds'
+		announcer: 	nil
+		displayScaleFactor: 	1
+
+
+[ [ WorldMorph doOneCycle.
+Processor yield.
+false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess
+	Receiver: a MorphicUIManager
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		activeTranscript: 	nil
+
+
+[ self value.
+Processor terminateActive ] in BlockClosure>>newProcess
+	Receiver: [ [ WorldMorph doOneCycle.
+Processor yield.
+false ] whileFalse: [  ] ]
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		outerContext: 	MorphicUIManager>>spawnNewProcess
+		startpc: 	125
+		numArgs: 	0
+
+
+
+--- The full stack ---
+UndefinedObject(Object)>>doesNotUnderstand: #close
+LightsOut class>>terminarJuego
+Tablero>>recorrerLuces
+Tablero>>cambiarLuzOriginal:at:
+Tablero>>cambiarLuz:at:
+[ self cambiarLuz: i at: j ] in Tablero>>nuevaluz:at:
+Luz>>mouseUp:
+Luz(Morph)>>handleMouseUp:
+MouseButtonEvent>>sentTo:
+Luz(Morph)>>handleEvent:
+Luz(Morph)>>handleFocusEvent:
+[ ActiveHand := self.
+ActiveEvent := anEvent.
+result := focusHolder
+	handleFocusEvent: (anEvent transformedBy: (focusHolder transformedFrom: self)) ] in HandMorph>>sendFocusEvent:to:clear:
+BlockClosure>>on:do:
+WorldMorph(PasteUpMorph)>>becomeActiveDuring:
+HandMorph>>sendFocusEvent:to:clear:
+HandMorph>>sendEvent:focus:clear:
+HandMorph>>sendMouseEvent:
+HandMorph>>handleEvent:
+HandMorph>>processEventsFromQueue:
+HandMorph>>processEvents
+[ :h | 
+self activeHand: h.
+h processEvents.
+self activeHand: nil ] in WorldState>>doOneCycleNowFor:
+Array(SequenceableCollection)>>do:
+WorldState>>handsDo:
+WorldState>>doOneCycleNowFor:
+WorldState>>doOneCycleFor:
+WorldMorph>>doOneCycle
+WorldMorph class>>doOneCycle
+[ [ WorldMorph doOneCycle.
+Processor yield.
+false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess
+[ self value.
+Processor terminateActive ] in BlockClosure>>newProcess
+-------------------------------------------------------------------------------
+

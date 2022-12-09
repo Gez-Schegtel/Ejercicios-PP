@@ -1,0 +1,4 @@
+
+Recomendamos ejecutar el videojuego utilizando la imagen "Lights Out.image" ubicada bajo el directorio de este archivo de texto, dentro de la carpeta "Imagen".  
+
+El juego se inicia enviando el siguiente mensaje: LightsOut new. 
