@@ -17,7 +17,7 @@ n1:= UIManager default request: 'Ingrese el numerador: '.
 (n1 = nil) ifTrue: [ ^nil ].
 n1:= n1 asNumber.
 n2:= UIManager default request: 'Ingrese el denominador: '.
-(n2 = nil) ifTrue: [ ^nil ].
+((n2 = nil) | (n2 = '0')) ifTrue: [ ^nil ].
 n2:= n2 asNumber.
 aux1:= n1 abs.
 aux2:= n2 abs.
