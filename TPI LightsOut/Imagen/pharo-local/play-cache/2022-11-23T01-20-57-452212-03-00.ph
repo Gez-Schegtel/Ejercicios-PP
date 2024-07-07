@@ -1,1 +1,0 @@
-(ZnEasy getPng: 'http://pharo.org/web/files/pharo.png')asMorph openInWindow.(ZnEasy getPng: 'https://ghantee.com/wp-content/uploads/2018/07/messi-arg-fist-up.png') asMorph openInWindow 
